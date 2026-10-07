@@ -1,0 +1,16 @@
+{
+  "konto": "Aksjesparekonto (ASK)",
+  "sist_oppdatert": "2026-10-07",
+  "kilde": "Skjermbilde fra brukeren 2026-10-07",
+  "planlagt_holdetid_eksisterende": "1-2 år",
+  "investeringshorisont_nye_kjop": "2-3 år",
+  "avkastningskrav_aarlig": [0.15, 0.20],
+  "nytt_kapital_per_maaned_nok": 2000,
+  "kontantbeholdning_nok": null,
+  "beholdning": [
+    {"navn": "Borgestad", "ticker": "BOR", "bors": "Oslo Børs", "valuta": "NOK", "antall": 498, "gav": 16.24, "siste_kurs_ved_registrering": 17.20},
+    {"navn": "Logistea B", "ticker": "LOGI B", "bors": "Nasdaq Stockholm", "valuta": "SEK", "antall": 1306, "gav": 14.55, "siste_kurs_ved_registrering": 12.10, "merknad": "Eneste unntak fra Oslo Børs-kravet. Følges fordi den allerede eies."},
+    {"navn": "Nekkar", "ticker": "NKR", "bors": "Oslo Børs", "valuta": "NOK", "antall": 971, "gav": 10.33, "siste_kurs_ved_registrering": 14.85},
+    {"navn": "Protector Forsikring", "ticker": "PROT", "bors": "Oslo Børs", "valuta": "NOK", "antall": 18, "gav": 455.01, "siste_kurs_ved_registrering": 407.00}
+  ]
+}
