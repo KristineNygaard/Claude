@@ -11,3 +11,7 @@ Beholdning: 18 aksjer, GAV 455,01 NOK. Kurs ved oppstart 407 NOK (−10,6 %).
 - Åpne punkter: historisk CR og ROE over 15–20 år, normalisert EPS og P/E, premievekst i UK.
 
 Kilder: [Protector IR](https://investor.protectorforsikring.no/pressreleases/q2-2026-cr-815-earnings-per-share-nok-90-dividend-nok-300-per-share-mrdoao71), [Quartr](https://quartr.com/events/protector-forsikring-prot-q2-2026_3e9GuNRP)
+
+## 2026-10-07 Testrapport
+Se ukesrapporter/2026-10-07-test.md for scenarier og konklusjon.
+- EPS 2021 ca. 14,6, 2023 18,3, 2025 31,7. Normalisert EPS ca. 28, P/E ca. 14,5. Basis 2 år ca. 9 %. Konklusjon: hold til Q3, vurder salg etter.

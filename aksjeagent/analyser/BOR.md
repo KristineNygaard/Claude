@@ -9,3 +9,7 @@ Beholdning: 498 aksjer, GAV 16,24 NOK. Kurs ved oppstart 17,20 NOK (+5,9 %).
 - Åpne punkter: Q2 2026-tall, gjeld, historikk (selskapet har endret virksomhet flere ganger), om ledelsens forbedringsplan holder.
 
 Kilder: [Inderes Q1](https://www.inderes.fi/releases/borgestad-asa-interim-financial-report-for-first-quarter-2026), [Investing.com](https://il.investing.com/news/transcripts/article-93CH-856491), [Inderes Q2](https://www.inderes.fi/releases/borgestad-asa-interim-financial-report-for-second-quarter-2026)
+
+## 2026-10-07 Testrapport
+Se ukesrapporter/2026-10-07-test.md for scenarier og konklusjon.
+- Q2 2026: resultat før skatt +35,9 MNOK (justert +20,9). Höganäs Borgestad EBIT 36,8 MNOK. Netto rentebærende gjeld 374,6 MNOK. Konklusjon: hold til Q3, svakeste case.

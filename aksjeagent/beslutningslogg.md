@@ -14,3 +14,7 @@ Ved kjøp eller salg skal `portefolje.json` oppdateres i samme commit.
 - Agenten satt opp. Porteføljen registrert fra skjermbilde.
 - Preferanser: svar i Claude-appen, lang melding, søndag 20:00, hastesjekk hverdager morgen og ettermiddag.
 - Ingen handel registrert.
+
+## 2026-10-07 Testrapport levert
+- Anbefaling: kjøp Bouvet for ca. 2 000 kr (grense 46 kr). Hold alle fire. Protector og Borgestad vurderes etter Q3.
+- Kristines valg: venter på svar.

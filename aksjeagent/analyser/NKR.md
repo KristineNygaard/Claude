@@ -11,3 +11,6 @@ Beholdning: 971 aksjer, GAV 10,33 NOK. Kurs ved oppstart 14,85 NOK (+43,8 %).
 - Åpne punkter til første søndagsrapport: 15–20 års historikk (tidl. TTS/Nekkar), normalisert EPS, integrasjonsrisiko FiiZK.
 
 Kilder: [Placera](https://www.placera.se/pressmeddelanden/nekkar-nekkar-asa-second-quarter-and-half-year-2026-financial-results-20260820), [FilingReader](https://filingreader.com/news-wire/oslo/2026-08-20/nekkar-reports-q2-results-and-consolidates-fiizk)
+
+## 2026-10-07 Testrapport
+Se ukesrapporter/2026-10-07-test.md for scenarier og konklusjon.

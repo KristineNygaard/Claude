@@ -12,3 +12,6 @@ Beholdning: 1 306 aksjer, GAV 14,55 SEK. Kurs ved oppstart 12,10 SEK (−16,8 % 
 - Åpne punkter: belåningsgrad, refinansiering, rentedekningsgrad, historikk (selskapet er ungt i nåværende form).
 
 Kilder: [Placera](https://www.placera.se/pressmeddelanden/logistea-logistea-published-interim-report-for-the-second-quarter-2026-20260709), [Inderes](https://www.inderes.se/releases/logistea-published-interim-report-for-the-second-quarter-2026)
+
+## 2026-10-07 Testrapport
+Se ukesrapporter/2026-10-07-test.md for scenarier og konklusjon.
