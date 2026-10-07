@@ -24,6 +24,16 @@ Newsweb (newsweb.oslobors.no) for børsmeldinger, selskapenes IR-sider, Inderes,
 
 ## A. Søndagsrapport (søndag ca. 20:00)
 
+### Spesialoppdrag søndag 11.10.2026 (Kristines ønske)
+Grundig Bouvet-analyse:
+1. Historikk fra børsnotering (2007) til i dag: omsetning, EBIT-margin, resultat per aksje, utbytte, antall ansatte, kursutvikling. Hvordan gikk det i 2008–09, 2014–16 og 2020?
+2. AI: Hvordan har AI påvirket Bouvet og IT-konsulentbransjen så langt (kurs, etterspørsel, timepriser, ansettelser, uttalelser fra ledelsen i kvartalsrapporter)? Sammenlign med Sopra Steria, Netcompany, Knowit, Accenture.
+3. Fremtid: hvordan kan AI påvirke inntjeningen de neste 2–5 årene (trussel mot timesalg, mulighet i AI-prosjekter)?
+4. Stresstest: hvor langt ned kan kursen presses i et dårlig AI-scenario? Regn ut kurs og fall i prosent for 2–3 scenarier.
+5. Konklusjon med kjøpsnivåer.
+Medistim: følg kursen mot kjøpsgrensen ca. 222 kr, og ta med Q3-rapporten 22.10 når den kommer.
+
+
 ### Steg 1: Registrer svar fra forrige uke
 Hvis Kristine har svart i økten siden forrige rapport, og det ikke allerede er logget: før det inn i `beslutningslogg.md` og oppdater `portefolje.json` (antall, GAV, solgte aksjer fjernes eller settes til 0, nytt kapital).
 
@@ -49,40 +59,27 @@ For hver aksje i `portefolje.json`:
 - Ta hensyn til tidligere valg i `beslutningslogg.md` (f.eks. "Kristine valgte å vente på X forrige uke, X har nå falt 5 %, så caset er sterkere").
 - Posisjonsstørrelse etter Buffett: konsentrert, få gode selskaper.
 
-### Steg 5: Lagre og send
-- Lagre hele rapporten i `ukesrapporter/AAAA-MM-DD.md`.
-- Skriv HELE rapporten som svar i økten (lang melding, ikke bare lenke).
-- Send PushNotification (under 200 tegn), f.eks.: "Ukesrapport klar: 1 kjøpsforslag (X), hold alle 4 aksjer. Svar i appen med hva du velger."
-- Commit og push.
+### Steg 5: Bygg rapportsiden, lagre og send
+Rapporten leveres som en side med lenke, ikke som en lang chatmelding (Kristines ønske 7.10.2026).
+1. Oppdater `rapport/data.json` (samme struktur som før). For HVER aksje: anbefaling (KJØP / HOLD / VURDER SALG / SELG / FØLG MED), én tydelig handlingssetning, kort vurdering, kurs og kursdato, nivåer (kjop_under = pris som gir 20 % i året i basis, hold_over = pris som gir 15 %, stress = realistisk bunn i pessimistisk scenario), scenarier, nøkkeltall, Buffett-sjekk 1–5, historikk (helst 10+ år), nytt siden sist, risiko og kilder. Beregn nivåene med formelen: pris = E · PE_salg / ((1 + r − utbytte) / (1 + G))^n.
+2. Kjør `python3 aksjeagent/rapport/bygg.py`.
+3. Publiser `aksjeagent/rapport/index.html` med Artifact-verktøyet til SAMME lenke: `url` = https://claude.ai/artifact/2H6cquW25KraPVdXcnd1Pk. Les artifactet først (`action: "read"`) hvis økten ikke har publisert det selv. Ikke lag en ny lenke.
+4. Kopier `data.json` til `ukesrapporter/AAAA-MM-DD.json` som arkiv.
+5. I chatten: kort oppsummering (5–8 linjer), lenken, anbefalingen for mandag og "Hva velger du?".
+6. PushNotification (under 200 tegn) med hovedanbefalingen.
+7. Commit og push.
 
-### Rapportformat
-```
-# Ukesrapport uke NN (dato)
-
-## Kort oppsummering
-3–5 setninger: viktigste nytt og hovedanbefaling.
-
-## Din portefølje
-Tabell: Aksje | Antall | GAV | Kurs | Avkastning % | Forv. årlig avk. | Anbefaling
-Deretter ett avsnitt per aksje: nytt denne uken, vurdering, konklusjon.
-
-## Kjøpskandidater
-Tabell: Selskap | P/E | Fair P/E | G | Forv. årlig avk. (pess/basis/opt) | Status
-Ett avsnitt per ny kandidat med Buffett-vurdering og 20 år tilbake-test.
-
-## Anbefaling for mandag
-Konkret: hva, hvor mye, kursgrense, og hvorfor. Eller hvorfor ingen handling.
-
-## Hva velger du?
-Svar her i appen. Eksempel: "Kjøper 10 Protector til 405" / "Gjør ingenting" / "Selger alle Borgestad".
-```
+### Krav til grundighet
+- Hent historikk så langt tilbake som mulig (mål 15–20 år) for hver aksje du anbefaler kjøp eller salg i. Vis den i `historikk`.
+- Stresstest hver aksje: hva skjer med resultat og multippel i et realistisk dårlig scenario, og hvor mye kan kursen falle? Sammenlign med tidligere kursfall i aksjen (f.eks. 2008, 2020, 2022).
+- Skill tydelig mellom fakta fra rapporter og egne anslag. Oppgi kursdato.
 
 ---
 
 ## B. Hverdagssjekk (mandag–fredag morgen og ettermiddag)
 
 1. Hent minnet (se over). Les `varsellogg.md` for å unngå dobbeltvarsling.
-2. Sjekk Newsweb og nyheter siste 12–16 timer for hver aksje i porteføljen.
+2. Sjekk Newsweb og nyheter siste 12–16 timer for hver aksje i porteføljen. Sjekk også om en kandidat i `kandidater.md` har falt under kjøpsgrensen. I så fall: send en kort PushNotification ("Medistim er under kjøpsgrensen"), men bare én gang per kandidat per uke, og logg det i `varsellogg.md`.
 3. Hvis ingenting vesentlig: avslutt stille. Ingen melding, ingen push. Ikke commit hvis ingenting endret seg.
 4. Hvis noe vesentlig (resultatvarsel, emisjon, utbytteskutt, betydelig innsidersalg, ledelsesbytte, brutt investeringscase, kursfall > 10 % på en dag, konkurs/restrukturering, mistanke om regnskapsproblemer):
    - Gjør full salgsvurdering etter metode.md §5, inkludert hva som skjedde forrige gang noe lignende skjedde.

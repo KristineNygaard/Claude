@@ -1,0 +1,204 @@
+<title>Aksjerapport ASK</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: sticky tab strip, one stock per view, summary first then levels, figures and evidence */
+:root{
+  --bg:#F3F6F7; --surface:#FFFFFF; --ink:#13212A; --muted:#566874; --line:#D9E1E5; --accent:#1F5F8B;
+  --buy:#1C7A4C; --hold:#A8701A; --sell:#B03838; --watch:#3F6688;
+  --buy-bg:#E3F2EA; --hold-bg:#F7EEDC; --sell-bg:#F6E3E3; --watch-bg:#E3ECF4;
+  --f-display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
+  --f-body:"Instrument Sans",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-data:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0E161C; --surface:#15212A; --ink:#E4ECF0; --muted:#92A4AF; --line:#26363F; --accent:#72B2DF;
+  --buy:#4FC48C; --hold:#E2AA4E; --sell:#EA7A7A; --watch:#8FB4D6;
+  --buy-bg:#163327; --hold-bg:#3A2D14; --sell-bg:#3D1F1F; --watch-bg:#1C2D3C; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0E161C; --surface:#15212A; --ink:#E4ECF0; --muted:#92A4AF; --line:#26363F; --accent:#72B2DF;
+  --buy:#4FC48C; --hold:#E2AA4E; --sell:#EA7A7A; --watch:#8FB4D6;
+  --buy-bg:#163327; --hold-bg:#3A2D14; --sell-bg:#3D1F1F; --watch-bg:#1C2D3C; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.55}
+.wrap{max-width:860px;margin:0 auto;padding-inline:16px;padding-block:0 48px}
+header.top{padding-block:20px 8px}
+.eyebrow{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600}
+h1{font-family:var(--f-display);font-size:clamp(26px,5vw,36px);line-height:1.1;margin:4px 0 6px;text-wrap:balance}
+h2{font-family:var(--f-display);font-size:20px;margin:0 0 10px;text-wrap:balance}
+h3{font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:0 0 10px;font-weight:600}
+.note{font-size:13px;color:var(--muted);margin:0}
+nav.tabs{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line);margin-inline:-16px;padding:10px 16px}
+.tabrow{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none}
+.tabrow::-webkit-scrollbar{display:none}
+.tab{flex:0 0 auto;border:1px solid var(--line);background:var(--surface);color:var(--ink);font:inherit;font-size:14px;font-weight:500;padding:7px 12px;border-radius:999px;cursor:pointer;display:flex;gap:6px;align-items:center}
+.tab[aria-selected="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.tab:focus-visible,.row:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.dot{width:8px;height:8px;border-radius:50%;flex:0 0 auto}
+section.view{display:grid;gap:16px;padding-top:18px}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px;min-width:0}
+.badge{display:inline-block;font-weight:700;font-size:13px;letter-spacing:.06em;padding:4px 10px;border-radius:6px}
+.b-KJØP{background:var(--buy-bg);color:var(--buy)} .b-HOLD{background:var(--hold-bg);color:var(--hold)}
+.b-SELG,.b-VURDER-SALG{background:var(--sell-bg);color:var(--sell)} .b-FØLG-MED{background:var(--watch-bg);color:var(--watch)}
+.c-KJØP{background:var(--buy)} .c-HOLD{background:var(--hold)} .c-SELG,.c-VURDER-SALG{background:var(--sell)} .c-FØLG-MED{background:var(--watch)}
+.verdict{display:grid;gap:10px}
+.verdict .head{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;align-items:flex-start}
+.price{font-family:var(--f-data);font-size:26px;font-weight:600;font-variant-numeric:tabular-nums}
+.price small{font-size:13px;color:var(--muted);font-weight:400}
+.action{font-size:16px;font-weight:600;margin:0}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.stat{background:var(--surface);padding:10px 12px;min-width:0}
+.stat .k{font-size:12px;color:var(--muted)} .stat .v{font-family:var(--f-data);font-size:15px;font-variant-numeric:tabular-nums;font-weight:600;overflow-wrap:anywhere}
+.pos{color:var(--buy)} .neg{color:var(--sell)}
+/* price ladder */
+.ladder{position:relative;height:56px;margin-top:30px}
+.zones{position:absolute;left:0;right:0;top:18px;height:14px;border-radius:7px;overflow:hidden;display:flex}
+.zones div{height:100%}
+.z-buy{background:var(--buy)} .z-hold{background:var(--hold)} .z-sell{background:var(--sell)}
+.zones div{opacity:.85}
+.marker{position:absolute;top:0;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center}
+.marker .lbl{font-family:var(--f-data);font-size:12px;font-weight:600;white-space:nowrap;background:var(--ink);color:var(--bg);padding:1px 6px;border-radius:4px;transform:translateY(-22px)}
+.marker .pin{position:absolute;top:12px;width:3px;height:26px;background:var(--ink);border-radius:2px}
+.stress{position:absolute;top:36px;transform:translateX(-50%);width:0;height:0;border-left:6px solid transparent;border-right:6px solid transparent;border-bottom:9px solid var(--muted)}
+.levels{display:grid;gap:6px;margin-top:6px}
+.lv{display:flex;justify-content:space-between;gap:12px;font-size:14px;border-bottom:1px dashed var(--line);padding-block:6px}
+.lv:last-child{border-bottom:0}
+.lv b{font-family:var(--f-data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.lv span{display:flex;gap:8px;align-items:center}
+.tri{width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;border-bottom:8px solid var(--muted)}
+.scroll{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:12px;color:var(--muted);font-weight:600;letter-spacing:.04em;text-transform:uppercase}
+td.num,th.num{text-align:right;font-family:var(--f-data);font-variant-numeric:tabular-nums;white-space:nowrap}
+tr.base td{font-weight:600}
+.row{cursor:pointer} .row:hover td{background:var(--bg)}
+.score{display:grid;grid-template-columns:1fr auto;gap:2px 12px;align-items:center;font-size:14px}
+.score .why{grid-column:1/-1;font-size:13px;margin-bottom:8px}
+.pips{display:flex;gap:3px}
+.pip{width:14px;height:8px;border-radius:2px;background:var(--line)}
+.pip.on{background:var(--accent)}
+.score .why{color:var(--muted);min-width:0}
+.bars{display:flex;gap:6px;align-items:stretch;height:170px;padding-top:4px}
+.bar{flex:1;display:flex;flex-direction:column;min-width:0;text-align:center}
+.bar .up,.bar .down{display:flex;flex-direction:column}
+.bar .up{justify-content:flex-end} .bar .down{justify-content:flex-start}
+.bar .fill{background:var(--accent);border-radius:3px 3px 0 0;min-height:2px}
+.bar .down .fill{background:var(--sell);border-radius:0 0 3px 3px}
+.bar .val{font-family:var(--f-data);font-size:11px;font-variant-numeric:tabular-nums}
+.bar .yr{font-size:12px;color:var(--muted);border-top:1px solid var(--muted);padding-top:2px}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+ul.clean{margin:0;padding-left:18px;display:grid;gap:4px}
+a{color:var(--accent)}
+.callout{border-left:4px solid var(--accent);padding:12px 14px;background:var(--surface);border-radius:0 10px 10px 0;border-top:1px solid var(--line);border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
+.callout p{margin:4px 0 0}
+.lead{font-size:16px;margin:0;max-width:68ch}
+.foot{font-size:12px;color:var(--muted);margin-top:8px}
+@media (prefers-reduced-motion:no-preference){section.view{animation:fade .18s ease-out}@keyframes fade{from{opacity:.4}to{opacity:1}}}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="eyebrow" id="eyebrow"></div>
+    <h1 id="title"></h1>
+    <p class="note" id="status"></p>
+  </header>
+  <nav class="tabs" aria-label="Aksjer"><div class="tabrow" id="tabs" role="tablist"></div></nav>
+  <main id="main"></main>
+  <p class="foot">Beslutningsstøtte fra aksjeagenten, ikke finansiell rådgivning. Svar i Claude-appen med hva du velger.</p>
+</div>
+
+<script id="data" type="application/json">/*DATA*/</script>
+<script>
+(function(){
+  var D = JSON.parse(document.getElementById('data').textContent);
+  var main = document.getElementById('main'), tabs = document.getElementById('tabs');
+  function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+  function cls(a){return String(a).replace(/ /g,'-')}
+  function nf(v,d){if(v==null)return '–';return Number(v).toLocaleString('nb-NO',{minimumFractionDigits:d==null?2:d,maximumFractionDigits:d==null?2:d})}
+  function pct(v){if(v==null)return '–';return (v>0?'+':'')+nf(v,1)+' %'}
+  function sign(v){return v==null?'':(v>=0?'pos':'neg')}
+  function ret(a){if(!a.gav)return null;return (a.kurs/a.gav-1)*100}
+
+  document.getElementById('eyebrow').textContent = 'Aksjesparekonto · '+D.dato;
+  document.getElementById('title').textContent = D.tittel;
+  document.getElementById('status').textContent = D.status_note;
+
+  var views=[{id:'oversikt',navn:'Oversikt'}].concat(D.aksjer);
+  views.forEach(function(v){
+    var b=document.createElement('button');b.className='tab';b.type='button';b.setAttribute('role','tab');b.dataset.id=v.id;
+    b.innerHTML=(v.anbefaling?'<span class="dot c-'+cls(v.anbefaling)+'"></span>':'')+esc(v.id==='oversikt'?'Oversikt':v.navn);
+    b.addEventListener('click',function(){show(v.id,true)});tabs.appendChild(b);
+  });
+
+  function overview(){
+    var eier=D.aksjer.filter(function(a){return a.type==='eier'}), kand=D.aksjer.filter(function(a){return a.type!=='eier'});
+    function rows(list,own){return list.map(function(a){var r=ret(a);return '<tr class="row" tabindex="0" data-id="'+a.id+'"><td><b>'+esc(a.navn)+'</b></td><td><span class="badge b-'+cls(a.anbefaling)+'">'+esc(a.anbefaling)+'</span></td><td class="num">'+nf(a.kurs)+' '+a.valuta+'</td>'+(own?'<td class="num '+sign(r)+'">'+pct(r)+'</td>':'')+'<td class="num">'+(a.forv_avk==null?'–':nf(a.forv_avk,0)+' %')+'</td><td class="num">'+(a.nivaer?nf(a.nivaer.kjop_under)+' '+a.valuta:'–')+'</td></tr>'}).join('')}
+    var head=function(own){return '<thead><tr><th>Aksje</th><th>Råd</th><th class="num">Kurs</th>'+(own?'<th class="num">Din avk.</th>':'')+'<th class="num">Forv. avk./år</th><th class="num">Kjøp under</th></tr></thead>'};
+    return '<section class="view">'+
+      '<div class="panel"><h3>Kort oppsummert</h3><p class="lead">'+esc(D.oppsummering)+'</p></div>'+
+      '<div class="callout"><h3>Anbefaling for mandag</h3><p class="action">'+esc(D.mandag.handling)+'</p><p>'+esc(D.mandag.tekst)+'</p></div>'+
+      '<div class="panel"><h2>Din portefølje</h2><div class="scroll"><table>'+head(true)+'<tbody>'+rows(eier,true)+'</tbody></table></div></div>'+
+      '<div class="panel"><h2>Kjøpskandidater</h2><div class="scroll"><table>'+head(false)+'<tbody>'+rows(kand,false)+'</tbody></table></div></div>'+
+      '<div class="two"><div class="panel"><h3>Ditt valg sist</h3><p class="lead" style="font-size:15px">'+esc(D.valg_forrige_uke)+'</p></div><div class="panel"><h3>Neste rapport</h3><p class="lead" style="font-size:15px">'+esc(D.neste)+'</p></div></div>'+
+      '<p class="note">Forventet avkastning per år = (P/E ved salg ÷ P/E i dag)^(1/n) · (1 + G) − 1, pluss utbytte. Fair P/E = 8,5 + 2G. Trykk på en aksje for detaljer.</p>'+
+    '</section>';
+  }
+
+  function ladder(a){
+    var n=a.nivaer; if(!n) return '<div class="panel"><h2>Kursnivåer</h2><p class="note">Nivåene beregnes når resultatet kan normaliseres, tidligst etter Q3-rapporten.</p></div>';
+    var lo=Math.min(n.stress,n.kjop_under,a.kurs)*0.85, hi=Math.max(n.hold_over,a.kurs)*1.15, span=hi-lo;
+    function p(v){return ((v-lo)/span*100).toFixed(2)}
+    var w1=p(n.kjop_under), w2=(p(n.hold_over)-p(n.kjop_under)).toFixed(2), w3=(100-p(n.hold_over)).toFixed(2);
+    var zone = a.kurs<=n.kjop_under?'Kursen er i kjøpssonen.':(a.kurs<=n.hold_over?'Kursen er i holdsonen.':'Kursen er over holdgrensen, så forventet avkastning er under 15 % i året.');
+    return '<div class="panel"><h2>Kursnivåer å følge</h2><p class="note">'+esc(zone)+'</p>'+
+      '<div class="ladder" role="img" aria-label="Kurs '+nf(a.kurs)+' mot kjøpsgrense '+nf(n.kjop_under)+' og holdgrense '+nf(n.hold_over)+'">'+
+      '<div class="zones"><div class="z-buy" style="width:'+w1+'%"></div><div class="z-hold" style="width:'+w2+'%"></div><div class="z-sell" style="width:'+w3+'%"></div></div>'+
+      '<div class="stress" style="left:'+p(n.stress)+'%"></div>'+
+      '<div class="marker" style="left:'+p(a.kurs)+'%"><span class="lbl">'+nf(a.kurs)+'</span><span class="pin"></span></div></div>'+
+      '<div class="levels">'+
+      '<div class="lv"><span><i class="dot c-KJØP"></i>Kjøp / fyll på under (20 % i året)</span><b>'+nf(n.kjop_under)+' '+a.valuta+'</b></div>'+
+      '<div class="lv"><span><i class="dot c-HOLD"></i>Hold opp til (15 % i året)</span><b>'+nf(n.hold_over)+' '+a.valuta+'</b></div>'+
+      '<div class="lv"><span><i class="dot c-SELG"></i>Over dette: vurder salg</span><b>'+nf(n.hold_over)+' '+a.valuta+'</b></div>'+
+      '<div class="lv"><span><i class="tri"></i>Stresstest, mulig bunn</span><b>'+nf(n.stress)+' '+a.valuta+' ('+pct((n.stress/a.kurs-1)*100)+')</b></div>'+
+      '</div><p class="note" style="margin-top:8px">'+esc(n.merknad)+'</p></div>';
+  }
+
+  function bars(h){
+    var vals=h.data.map(function(d){return d[1]}), pmax=Math.max(0,Math.max.apply(null,vals)), nmax=Math.max(0,-Math.min.apply(null,vals)), tot=pmax+nmax||1;
+    var upH=(pmax/tot*130), dnH=(nmax/tot*130);
+    return '<div class="panel"><h2>'+esc(h.tittel)+'</h2><div class="bars">'+h.data.map(function(d){var v=d[1];
+      return '<div class="bar"><div class="up" style="height:'+upH+'px">'+(v>=0?'<span class="val">'+nf(v,Math.abs(v)<10&&v%1?2:(v%1?1:0))+'</span><div class="fill" style="height:'+(pmax?v/pmax*(upH-18):0)+'px"></div>':'')+'</div>'+
+      '<div class="yr">'+esc(d[0])+'</div>'+
+      '<div class="down" style="height:'+dnH+'px">'+(v<0?'<div class="fill" style="height:'+(-v/nmax*(dnH-18))+'px"></div><span class="val neg">'+nf(v,1)+'</span>':'')+'</div></div>'}).join('')+'</div></div>';
+  }
+
+  function stock(a){
+    var r=ret(a), own=a.type==='eier';
+    var st=[['Kurs ('+a.kursdato+')',nf(a.kurs)+' '+a.valuta]];
+    if(own){st.push(['Antall',nf(a.antall,0)]);st.push(['GAV',nf(a.gav)+' '+a.valuta]);st.push(['Verdi',nf(a.kurs*a.antall,0)+' '+a.valuta]);st.push(['Din avkastning','<span class="'+sign(r)+'">'+pct(r)+'</span>'])}
+    st.push(['Forventet avkastning/år ('+a.horisont+')',a.forv_avk==null?'Ikke beregnet':'<span class="'+sign(a.forv_avk-15)+'">'+nf(a.forv_avk,0)+' %</span>']);
+    var html='<section class="view">'+
+      '<div class="panel verdict"><div class="head"><div><div class="eyebrow">'+(own?'Du eier':'Kjøpskandidat')+' · '+esc(a.id)+'</div><h2 style="margin:2px 0 0;font-size:26px">'+esc(a.navn)+'</h2></div><span class="badge b-'+cls(a.anbefaling)+'" style="font-size:15px">'+esc(a.anbefaling)+'</span></div>'+
+      '<p class="action">'+esc(a.anbefaling_tekst)+'</p><p class="lead" style="font-size:15px;color:var(--muted)">'+esc(a.kort)+'</p>'+
+      '<div class="stats">'+st.map(function(s){return '<div class="stat"><div class="k">'+esc(s[0])+'</div><div class="v">'+s[1]+'</div></div>'}).join('')+'</div></div>'+
+      ladder(a);
+    if(a.scenarier&&a.scenarier.length){html+='<div class="panel"><h2>Scenarier</h2><div class="scroll"><table><thead><tr><th>Scenario</th><th>Vekst</th><th>Ved salg</th><th class="num">Avk./år</th></tr></thead><tbody>'+
+      a.scenarier.map(function(s){return '<tr class="'+(s[0]==='Basis'?'base':'')+'"><td>'+esc(s[0])+'</td><td>'+esc(s[1])+'</td><td>'+esc(s[2])+'</td><td class="num '+sign(s[3]-15)+'">'+pct(s[3])+'</td></tr>'}).join('')+'</tbody></table></div><p class="note" style="margin-top:8px">Grønt betyr over kravet ditt på 15 %.</p></div>';}
+    html+='<div class="panel"><h2>Nøkkeltall</h2><div class="stats">'+a.nokkeltall.map(function(s){return '<div class="stat"><div class="k">'+esc(s[0])+'</div><div class="v">'+esc(s[1])+'</div></div>'}).join('')+'</div></div>';
+    html+='<div class="two">'+bars(a.historikk)+'<div class="panel"><h2>Buffett-sjekk</h2><div class="score">'+a.buffett.map(function(b){var p='';for(var i=1;i<=5;i++)p+='<span class="pip'+(i<=b[1]?' on':'')+'"></span>';return '<span>'+esc(b[0])+'</span><span class="pips" aria-label="'+b[1]+' av 5">'+p+'</span><span class="why">'+esc(b[2])+'</span>'}).join('')+'</div></div></div>';
+    html+='<div class="two"><div class="panel"><h2>Nytt siden sist</h2><ul class="clean">'+a.nytt.map(function(x){return '<li>'+esc(x)+'</li>'}).join('')+'</ul></div><div class="panel"><h2>Risiko</h2><ul class="clean">'+a.risiko.map(function(x){return '<li>'+esc(x)+'</li>'}).join('')+'</ul></div></div>';
+    html+='<div class="panel"><h3>Kilder</h3><ul class="clean">'+a.kilder.map(function(k){return '<li><a href="'+esc(k[1])+'" target="_blank" rel="noopener">'+esc(k[0])+'</a></li>'}).join('')+'</ul></div>';
+    return html+'</section>';
+  }
+
+  function show(id,push){
+    var v=views.filter(function(x){return x.id===id})[0]||views[0];
+    main.innerHTML = v.id==='oversikt'?overview():stock(v);
+    Array.prototype.forEach.call(tabs.children,function(b){var on=b.dataset.id===v.id;b.setAttribute('aria-selected',on);if(on&&push)b.scrollIntoView({block:'nearest',inline:'center'})});
+    main.querySelectorAll('.row').forEach(function(r){r.addEventListener('click',function(){show(r.dataset.id,true);window.scrollTo(0,0)});r.addEventListener('keydown',function(e){if(e.key==='Enter')r.click()})});
+    if(push){try{history.replaceState(null,'','#'+v.id)}catch(e){}}
+  }
+  show((location.hash||'').slice(1)||'oversikt',false);
+})();
+</script>
