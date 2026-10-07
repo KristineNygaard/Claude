@@ -94,6 +94,13 @@ a{color:var(--accent)}
 .callout p{margin:4px 0 0}
 .lead{font-size:16px;margin:0;max-width:68ch}
 .foot{font-size:12px;color:var(--muted);margin-top:8px}
+.sens td,.sens th{text-align:center;font-family:var(--f-data);font-variant-numeric:tabular-nums;padding:6px}
+.sens td.hi{background:var(--buy-bg);color:var(--buy);font-weight:600}
+.sens td.lo{background:var(--sell-bg);color:var(--sell)}
+.sens td.mid{outline:2px solid var(--ink);outline-offset:-2px;font-weight:700}
+.aiscale{display:flex;gap:4px;margin:6px 0 10px}
+.aiscale span{flex:1;text-align:center;font-family:var(--f-data);font-size:12px;padding:4px 0;border-radius:4px;background:var(--bg);color:var(--muted)}
+.aiscale span.on{background:var(--ink);color:var(--bg);font-weight:700}
 @media (prefers-reduced-motion:no-preference){section.view{animation:fade .18s ease-out}@keyframes fade{from{opacity:.4}to{opacity:1}}}
 </style>
 
@@ -173,6 +180,23 @@ a{color:var(--accent)}
       '<div class="down" style="height:'+dnH+'px">'+(v<0?'<div class="fill" style="height:'+(-v/nmax*(dnH-18))+'px"></div><span class="val neg">'+nf(v,1)+'</span>':'')+'</div></div>'}).join('')+'</div></div>';
   }
 
+  function dcf(a){var d=a.dcf; if(!d) return '';
+    var rows=d.scenarier.map(function(x){return '<tr class="'+(x[0]==='Basis'?'base':'')+'"><td>'+esc(x[0])+(x[3]?' <span class="note">('+Math.round(x[3]*100)+' %)</span>':'')+'<div class="note">'+esc(x[4])+'</div></td><td class="num">'+nf(x[1])+'</td><td class="num '+sign(x[2])+'">'+pct(x[2])+'</td></tr>'}).join('');
+    var sens='<table class="sens"><thead><tr><th>g \\ WACC</th>'+d.sens.wacc.map(function(w){return '<th>'+nf(w,1)+' %</th>'}).join('')+'</tr></thead><tbody>'+d.sens.g.map(function(g,i){return '<tr><th>'+nf(g,1)+' %</th>'+d.sens.verdi[i].map(function(v,j){var c=(i===1&&j===2)?'mid':(v>d.kurs*1.2?'hi':(v<d.kurs?'lo':''));return '<td class="'+c+'">'+nf(v,0)+'</td>'}).join('')+'</tr>'}).join('')+'</tbody></table>';
+    return '<div class="panel"><h2>DCF-modell</h2><div class="stats" style="margin-bottom:12px">'+
+      '<div class="stat"><div class="k">Vektet verdi per aksje</div><div class="v">'+nf(d.vektet)+' '+a.valuta+'</div></div>'+
+      '<div class="stat"><div class="k">Oppside fra '+nf(d.kurs)+'</div><div class="v '+sign(d.oppside)+'">'+pct(d.oppside)+'</div></div>'+
+      '<div class="stat"><div class="k">Kjøp med '+d.mos+' % sikkerhetsmargin</div><div class="v">'+nf(d.mos_kjop)+' '+a.valuta+'</div></div>'+
+      '<div class="stat"><div class="k">WACC</div><div class="v">'+nf(d.wacc,1)+' %</div></div>'+
+      '<div class="stat"><div class="k">Omvendt DCF: vekst kursen priser inn</div><div class="v">'+nf(d.omvendt,1)+' % i året</div></div></div>'+
+      '<div class="scroll"><table><thead><tr><th>Scenario (sannsynlighet)</th><th class="num">Verdi</th><th class="num">Oppside</th></tr></thead><tbody>'+rows+'</tbody></table></div>'+
+      '<h3 style="margin-top:14px">Sensitivitet: verdi per aksje ved ulik WACC og evig vekst (g)</h3><div class="scroll">'+sens+'</div>'+
+      '<p class="note" style="margin-top:8px">Grønt er over 20 % oppside, rødt er under dagens kurs. Rammen markerer basis.</p></div>';
+  }
+  function ai(a){if(!a.ai)return '';var sc='';for(var i=-2;i<=2;i++)sc+='<span class="'+(i===a.ai.score?'on':'')+'">'+(i>0?'+':'')+i+'</span>';
+    return '<div class="panel"><h2>Digitalisering og AI</h2><div class="aiscale" aria-label="AI-vurdering '+a.ai.score+'">'+sc+'</div><p class="lead" style="font-size:15px">'+esc(a.ai.tekst)+'</p><p class="note">Skala fra −2 (stor trussel) til +2 (klar vinner).</p></div>';
+  }
+
   function stock(a){
     var r=ret(a), own=a.type==='eier';
     var st=[['Kurs ('+a.kursdato+')',nf(a.kurs)+' '+a.valuta]];
@@ -182,7 +206,7 @@ a{color:var(--accent)}
       '<div class="panel verdict"><div class="head"><div><div class="eyebrow">'+(own?'Du eier':'Kjøpskandidat')+' · '+esc(a.id)+'</div><h2 style="margin:2px 0 0;font-size:26px">'+esc(a.navn)+'</h2></div><span class="badge b-'+cls(a.anbefaling)+'" style="font-size:15px">'+esc(a.anbefaling)+'</span></div>'+
       '<p class="action">'+esc(a.anbefaling_tekst)+'</p><p class="lead" style="font-size:15px;color:var(--muted)">'+esc(a.kort)+'</p>'+
       '<div class="stats">'+st.map(function(s){return '<div class="stat"><div class="k">'+esc(s[0])+'</div><div class="v">'+s[1]+'</div></div>'}).join('')+'</div></div>'+
-      ladder(a);
+      ladder(a)+dcf(a)+ai(a);
     if(a.scenarier&&a.scenarier.length){html+='<div class="panel"><h2>Scenarier</h2><div class="scroll"><table><thead><tr><th>Scenario</th><th>Vekst</th><th>Ved salg</th><th class="num">Avk./år</th></tr></thead><tbody>'+
       a.scenarier.map(function(s){return '<tr class="'+(s[0]==='Basis'?'base':'')+'"><td>'+esc(s[0])+'</td><td>'+esc(s[1])+'</td><td>'+esc(s[2])+'</td><td class="num '+sign(s[3]-15)+'">'+pct(s[3])+'</td></tr>'}).join('')+'</tbody></table></div><p class="note" style="margin-top:8px">Grønt betyr over kravet ditt på 15 %.</p></div>';}
     html+='<div class="panel"><h2>Nøkkeltall</h2><div class="stats">'+a.nokkeltall.map(function(s){return '<div class="stat"><div class="k">'+esc(s[0])+'</div><div class="v">'+esc(s[1])+'</div></div>'}).join('')+'</div></div>';

@@ -31,7 +31,9 @@ Grundig Bouvet-analyse:
 3. Fremtid: hvordan kan AI påvirke inntjeningen de neste 2–5 årene (trussel mot timesalg, mulighet i AI-prosjekter)?
 4. Stresstest: hvor langt ned kan kursen presses i et dårlig AI-scenario? Regn ut kurs og fall i prosent for 2–3 scenarier.
 5. Konklusjon med kjøpsnivåer.
-Medistim: følg kursen mot kjøpsgrensen ca. 222 kr, og ta med Q3-rapporten 22.10 når den kommer.
+6. Bouvet oppfyller kriteriene for dypdykk (vektet DCF-oppside ca. 28 %). Gjør hele metode.md §10, og oppdater `modeller/BOUV.json` med verifiserte tall (netto kontanter, aksjeantall, dagens kurs, norsk 10-års rente).
+7. Lag modeller for de andre aksjene: Nekkar (DCF), Protector (P/B = (ROE − g)/(ROE − kE)), Logistea (NAV og rentesensitivitet), Borgestad (sum av delene).
+Medistim: følg kursen mot kjøpsgrensen ca. 220 kr (sterkt kjøp under ca. 190 kr), og ta med Q3-rapporten 22.10 når den kommer.
 
 
 ### Steg 1: Registrer svar fra forrige uke
@@ -70,6 +72,11 @@ Rapporten leveres som en side med lenke, ikke som en lang chatmelding (Kristines
 7. Commit og push.
 
 ### Krav til grundighet
+- Følg `metode.md` §7–10 (Damodaran, verdsettelsesmodeller, AI og dypdykk) i tillegg til Buffett.
+- Hver aksje skal ha en verdsettelsesmodell etter selskapstype (metode.md §8). For driftsselskaper: lag/oppdater `modeller/<id>.json` og kjør `python3 aksjeagent/modeller/dcf.py aksjeagent/modeller/<id>.json`. `bygg.py` henter resultatet inn i rapporten automatisk. Forsikring, eiendom og holding får sin modell beskrevet i `nokkeltall` og `scenarier`.
+- Hver aksje skal ha AI-vurdering (`ai`: score −2 til +2 og tekst). AI-effekten skal ligge i DCF-scenariene.
+- Kjør Grahams ti screens (metode.md §7.1) i screeningen og vis antall bestått.
+- Utløs dypdykk (metode.md §10) når kriteriene er oppfylt. Lagre i `analyser/<ticker>-dypdykk.md` og nevn det i oppsummeringen.
 - Hent historikk så langt tilbake som mulig (mål 15–20 år) for hver aksje du anbefaler kjøp eller salg i. Vis den i `historikk`.
 - Stresstest hver aksje: hva skjer med resultat og multippel i et realistisk dårlig scenario, og hvor mye kan kursen falle? Sammenlign med tidligere kursfall i aksjen (f.eks. 2008, 2020, 2022).
 - Skill tydelig mellom fakta fra rapporter og egne anslag. Oppgi kursdato.

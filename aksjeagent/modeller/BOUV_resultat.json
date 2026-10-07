@@ -1,0 +1,287 @@
+{
+ "ticker": "BOUV",
+ "kurs": 44.3,
+ "wacc": 9.2,
+ "ke": 9.2,
+ "scenarier": {
+  "AI-svak": {
+   "per_aksje": 33.3,
+   "oppside_pct": -24.8,
+   "sannsynlighet": 0.25,
+   "andel_terminal_pct": 44,
+   "beskrivelse": "AI tar timer fra konsulentene. Omsetningen faller i to år, prispress gir lavere margin.",
+   "rader": [
+    {
+     "aar": 1,
+     "omsetning": 3686,
+     "vekst": -5.0,
+     "margin": 11.1,
+     "fcff": 359
+    },
+    {
+     "aar": 2,
+     "omsetning": 3539,
+     "vekst": -4.0,
+     "margin": 10.1,
+     "fcff": 307
+    },
+    {
+     "aar": 3,
+     "omsetning": 3539,
+     "vekst": 0.0,
+     "margin": 9.0,
+     "fcff": 248
+    },
+    {
+     "aar": 4,
+     "omsetning": 3609,
+     "vekst": 2.0,
+     "margin": 9.0,
+     "fcff": 239
+    },
+    {
+     "aar": 5,
+     "omsetning": 3682,
+     "vekst": 2.0,
+     "margin": 9.0,
+     "fcff": 244
+    },
+    {
+     "aar": 6,
+     "omsetning": 3751,
+     "vekst": 1.9,
+     "margin": 9.0,
+     "fcff": 249
+    },
+    {
+     "aar": 7,
+     "omsetning": 3819,
+     "vekst": 1.8,
+     "margin": 9.0,
+     "fcff": 255
+    },
+    {
+     "aar": 8,
+     "omsetning": 3884,
+     "vekst": 1.7,
+     "margin": 9.0,
+     "fcff": 260
+    },
+    {
+     "aar": 9,
+     "omsetning": 3946,
+     "vekst": 1.6,
+     "margin": 9.0,
+     "fcff": 265
+    },
+    {
+     "aar": 10,
+     "omsetning": 4005,
+     "vekst": 1.5,
+     "margin": 9.0,
+     "fcff": 269
+    }
+   ]
+  },
+  "Basis": {
+   "per_aksje": 59.4,
+   "oppside_pct": 34.0,
+   "sannsynlighet": 0.55,
+   "andel_terminal_pct": 54,
+   "beskrivelse": "Flatt i 2026, deretter moderat vekst. AI erstatter noen timer, men skaper nye prosjekter.",
+   "rader": [
+    {
+     "aar": 1,
+     "omsetning": 3880,
+     "vekst": 0.0,
+     "margin": 12.3,
+     "fcff": 372
+    },
+    {
+     "aar": 2,
+     "omsetning": 4035,
+     "vekst": 4.0,
+     "margin": 12.4,
+     "fcff": 359
+    },
+    {
+     "aar": 3,
+     "omsetning": 4277,
+     "vekst": 6.0,
+     "margin": 12.5,
+     "fcff": 369
+    },
+    {
+     "aar": 4,
+     "omsetning": 4534,
+     "vekst": 6.0,
+     "margin": 12.5,
+     "fcff": 391
+    },
+    {
+     "aar": 5,
+     "omsetning": 4761,
+     "vekst": 5.0,
+     "margin": 12.5,
+     "fcff": 419
+    },
+    {
+     "aar": 6,
+     "omsetning": 4975,
+     "vekst": 4.5,
+     "margin": 12.5,
+     "fcff": 442
+    },
+    {
+     "aar": 7,
+     "omsetning": 5174,
+     "vekst": 4.0,
+     "margin": 12.5,
+     "fcff": 465
+    },
+    {
+     "aar": 8,
+     "omsetning": 5355,
+     "vekst": 3.5,
+     "margin": 12.5,
+     "fcff": 486
+    },
+    {
+     "aar": 9,
+     "omsetning": 5516,
+     "vekst": 3.0,
+     "margin": 12.5,
+     "fcff": 506
+    },
+    {
+     "aar": 10,
+     "omsetning": 5653,
+     "vekst": 2.5,
+     "margin": 12.5,
+     "fcff": 524
+    }
+   ]
+  },
+  "AI-sterk": {
+   "per_aksje": 77.9,
+   "oppside_pct": 75.9,
+   "sannsynlighet": 0.2,
+   "andel_terminal_pct": 58,
+   "beskrivelse": "Bouvet vinner AI- og dataprosjekter i offentlig sektor og energi. Høyere timepris og margin.",
+   "rader": [
+    {
+     "aar": 1,
+     "omsetning": 3996,
+     "vekst": 3.0,
+     "margin": 12.7,
+     "fcff": 371
+    },
+    {
+     "aar": 2,
+     "omsetning": 4316,
+     "vekst": 8.0,
+     "margin": 13.1,
+     "fcff": 377
+    },
+    {
+     "aar": 3,
+     "omsetning": 4705,
+     "vekst": 9.0,
+     "margin": 13.6,
+     "fcff": 420
+    },
+    {
+     "aar": 4,
+     "omsetning": 5081,
+     "vekst": 8.0,
+     "margin": 14.0,
+     "fcff": 480
+    },
+    {
+     "aar": 5,
+     "omsetning": 5437,
+     "vekst": 7.0,
+     "margin": 14.0,
+     "fcff": 523
+    },
+    {
+     "aar": 6,
+     "omsetning": 5774,
+     "vekst": 6.2,
+     "margin": 14.0,
+     "fcff": 563
+    },
+    {
+     "aar": 7,
+     "omsetning": 6085,
+     "vekst": 5.4,
+     "margin": 14.0,
+     "fcff": 602
+    },
+    {
+     "aar": 8,
+     "omsetning": 6365,
+     "vekst": 4.6,
+     "margin": 14.0,
+     "fcff": 639
+    },
+    {
+     "aar": 9,
+     "omsetning": 6607,
+     "vekst": 3.8,
+     "margin": 14.0,
+     "fcff": 673
+    },
+    {
+     "aar": 10,
+     "omsetning": 6805,
+     "vekst": 3.0,
+     "margin": 14.0,
+     "fcff": 704
+    }
+   ]
+  }
+ },
+ "vektet_verdi": 56.6,
+ "vektet_oppside_pct": 27.7,
+ "kjop_under_mos": 42.4,
+ "sikkerhetsmargin_pct": 25,
+ "sensitivitet": {
+  "wacc": [
+   8.2,
+   8.7,
+   9.2,
+   9.7,
+   10.2
+  ],
+  "g": [
+   1.5,
+   2.5,
+   3.5
+  ],
+  "verdi": [
+   [
+    64.7,
+    60.2,
+    56.3,
+    52.9,
+    49.9
+   ],
+   [
+    69.5,
+    64.0,
+    59.4,
+    55.4,
+    51.9
+   ],
+   [
+    76.2,
+    69.2,
+    63.5,
+    58.7,
+    54.6
+   ]
+  ]
+ },
+ "omvendt_dcf_vekst_pct": -2.2
+}

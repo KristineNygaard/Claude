@@ -1,0 +1,13 @@
+{
+ "ticker": "MEDI", "kurs": 258, "kursdato": "28.08.2026",
+ "kilde": "Omsetning 2025 699,8 MNOK, H1 2026 403,7 MNOK. EBIT 2025 196,2 MNOK. Kontanter 100 MNOK etter utbytte, ingen rentebærende gjeld. 18,3 mill. aksjer.",
+ "omsetning": 753, "margin_naa": 0.29, "skatt": 0.22, "sales_to_capital": 2.5, "roic_terminal": 0.30,
+ "aar": 10, "netto_kontanter": 100, "aksjer": 18.3,
+ "rente": 0.042, "beta": 0.9, "markedspremie": 0.05, "gjeldsandel": 0,
+ "sikkerhetsmargin": 0.20,
+ "scenarier": {
+  "Svak": {"beskrivelse": "Tollkostnader og konkurranse bremser veksten. Marginen holder seg rundt dagens nivå.", "vekst": [0.07, 0.07, 0.06, 0.06, 0.05], "terminal_vekst": 0.025, "margin_maal": 0.27, "margin_aar": 3, "sannsynlighet": 0.25},
+  "Basis": {"beskrivelse": "Fortsatt vekst i USA og Asia, nær 1 mrd. NOK i omsetning innen 2029.", "vekst": [0.13, 0.12, 0.11, 0.10, 0.09], "terminal_vekst": 0.03, "margin_maal": 0.31, "margin_aar": 4, "sannsynlighet": 0.55},
+  "Sterk": {"beskrivelse": "Gjennombrudd for kirurgisk veiledning med ultralyd i USA og AI-assistert bildebehandling.", "vekst": [0.17, 0.16, 0.14, 0.12, 0.10], "terminal_vekst": 0.03, "margin_maal": 0.33, "margin_aar": 4, "sannsynlighet": 0.20}
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "ticker": "BOUV", "kurs": 44.30, "kursdato": "24.07.2026",
+ "kilde": "Årsresultat 2025 (13.02.2026), Q2 2026 (19.08.2026). Netto kontanter anslått: 672 MNOK ved årsskiftet minus utbytte ca. 310 MNOK og tilbakekjøp ca. 50 MNOK.",
+ "omsetning": 3880, "margin_naa": 0.122, "skatt": 0.22, "sales_to_capital": 5.0, "roic_terminal": 0.25,
+ "aar": 10, "netto_kontanter": 300, "aksjer": 103,
+ "rente": 0.042, "beta": 1.0, "markedspremie": 0.05, "gjeldsandel": 0,
+ "sikkerhetsmargin": 0.25,
+ "scenarier": {
+  "AI-svak": {"beskrivelse": "AI tar timer fra konsulentene. Omsetningen faller i to år, prispress gir lavere margin.", "vekst": [-0.05, -0.04, 0.0, 0.02, 0.02], "terminal_vekst": 0.015, "margin_maal": 0.09, "margin_aar": 3, "roic_terminal": 0.15, "sannsynlighet": 0.25},
+  "Basis": {"beskrivelse": "Flatt i 2026, deretter moderat vekst. AI erstatter noen timer, men skaper nye prosjekter.", "vekst": [0.0, 0.04, 0.06, 0.06, 0.05], "terminal_vekst": 0.025, "margin_maal": 0.125, "margin_aar": 3, "sannsynlighet": 0.55},
+  "AI-sterk": {"beskrivelse": "Bouvet vinner AI- og dataprosjekter i offentlig sektor og energi. Høyere timepris og margin.", "vekst": [0.03, 0.08, 0.09, 0.08, 0.07], "terminal_vekst": 0.03, "margin_maal": 0.14, "margin_aar": 4, "sannsynlighet": 0.20}
+ }
+}

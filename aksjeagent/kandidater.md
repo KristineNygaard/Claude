@@ -5,5 +5,5 @@ Format per kandidat: navn, ticker, dato første analyse, fair P/E, forventet år
 
 | Ticker | Selskap | Først analysert | Fair P/E | Nå P/E | Forv. årlig avk. | Status | Sist oppdatert |
 |---|---|---|---|---|---|---|---|
-| BOUV | Bouvet | 2026-10-07 | 22,5 (bruker 18 ved salg) | ca. 13,5 | 2 / 18 / 30 % + utbytte | Aktiv, kjøpsforslag (grense 46 kr) | 2026-10-07 |
-| MEDI | Medistim | 2026-10-07 | 32,5 (bruker 28 ved salg) | ca. 28,7 | 2 / 14 / 23 % inkl. utbytte | Aktiv, følg med (kjøp under ca. 215 kr) | 2026-10-07 |
+| BOUV | Bouvet | 2026-10-07 | 22,5. DCF vektet 56,6 kr | ca. 13,5 | 9 / 25 / 36 % inkl. utbytte | Aktiv, kjøp under ca. 45 kr. Dypdykk søndag | 2026-10-07 |
+| MEDI | Medistim | 2026-10-07 | 32,5. DCF vektet 239 kr | ca. 28,7 | 2 / 14 / 23 % inkl. utbytte | Følg med. Kjøp under ca. 220 kr, sterkt kjøp under ca. 190 kr | 2026-10-07 |
