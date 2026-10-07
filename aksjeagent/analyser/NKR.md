@@ -7,7 +7,7 @@ Beholdning: 971 aksjer, GAV 10,33 NOK. Kurs ved oppstart 14,85 NOK (+43,8 %).
 - H1 2026: omsetning 259 MNOK, EBITDA 12 MNOK, nettoresultat 4 MNOK. Kontanter 167 MNOK, egenkapitalandel 47 %, ubenyttet kreditt 200 MNOK.
 - FiiZK (ca. 96 % eid) konsolideres i resultatet fra Q3 2026.
 - P/E er ikke meningsfull på dagens lave resultat. Caset hviler på at ordrereserven og Intellilift SaaS (2 → 5 rigger) løfter marginene.
-- Etikk: Syncrolift har marinebaser blant kundene. Gråsone, andel skal kartlegges.
-- Åpne punkter til første søndagsrapport: 15–20 års historikk (tidl. TTS/Nekkar), normalisert EPS, integrasjonsrisiko FiiZK, militær andel.
+- Etikk: godkjent av Kristine 2026-10-07.
+- Åpne punkter til første søndagsrapport: 15–20 års historikk (tidl. TTS/Nekkar), normalisert EPS, integrasjonsrisiko FiiZK.
 
 Kilder: [Placera](https://www.placera.se/pressmeddelanden/nekkar-nekkar-asa-second-quarter-and-half-year-2026-financial-results-20260820), [FilingReader](https://filingreader.com/news-wire/oslo/2026-08-20/nekkar-reports-q2-results-and-consolidates-fiizk)
