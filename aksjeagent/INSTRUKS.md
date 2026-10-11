@@ -24,7 +24,12 @@ Newsweb (newsweb.oslobors.no) for børsmeldinger, selskapenes IR-sider, Inderes,
 
 ## A. Søndagsrapport (søndag ca. 20:00)
 
-### Spesialoppdrag søndag 11.10.2026 (Kristines ønske)
+### Neste uke (18.10)
+- Full analyse av Kid ASA og Europris. Screen sparebankene.
+- Verifiser FiiZK-omsetning og Nekkars historiske marginer, og kjør NKR-modellen på nytt.
+- Finn antall aksjer og segmentgjeld for Borgestad og lag sum av delene.
+
+### Spesialoppdrag søndag 11.10.2026 (UTFØRT, se analyser/BOUV-dypdykk.md)
 Grundig Bouvet-analyse:
 1. Historikk fra børsnotering (2007) til i dag: omsetning, EBIT-margin, resultat per aksje, utbytte, antall ansatte, kursutvikling. Hvordan gikk det i 2008–09, 2014–16 og 2020?
 2. AI: Hvordan har AI påvirket Bouvet og IT-konsulentbransjen så langt (kurs, etterspørsel, timepriser, ansettelser, uttalelser fra ledelsen i kvartalsrapporter)? Sammenlign med Sopra Steria, Netcompany, Knowit, Accenture.
@@ -33,7 +38,7 @@ Grundig Bouvet-analyse:
 5. Konklusjon med kjøpsnivåer.
 6. Bouvet oppfyller kriteriene for dypdykk (vektet DCF-oppside ca. 28 %). Gjør hele metode.md §10, og oppdater `modeller/BOUV.json` med verifiserte tall (netto kontanter, aksjeantall, dagens kurs, norsk 10-års rente).
 7. Lag modeller for de andre aksjene: Nekkar (DCF), Protector (P/B = (ROE − g)/(ROE − kE)), Logistea (NAV og rentesensitivitet), Borgestad (sum av delene).
-Medistim: følg kursen mot kjøpsgrensen ca. 220 kr (sterkt kjøp under ca. 190 kr), og ta med Q3-rapporten 22.10 når den kommer.
+Medistim: varsle hvis kursen går under 220 kr (20 %-nivå). Kjøpsgrense etter DCF er 191,50 kr, og ta med Q3-rapporten 22.10 når den kommer.
 
 
 ### Steg 1: Registrer svar fra forrige uke

@@ -1,12 +1,12 @@
 {
  "ticker": "MEDI",
- "kurs": 258,
+ "kurs": 248,
  "wacc": 8.7,
  "ke": 8.7,
  "scenarier": {
   "Svak": {
    "per_aksje": 165.3,
-   "oppside_pct": -35.9,
+   "oppside_pct": -33.3,
    "sannsynlighet": 0.25,
    "andel_terminal_pct": 57,
    "beskrivelse": "Tollkostnader og konkurranse bremser veksten. Marginen holder seg rundt dagens nivå.",
@@ -85,7 +85,7 @@
   },
   "Basis": {
    "per_aksje": 250.6,
-   "oppside_pct": -2.9,
+   "oppside_pct": 1.0,
    "sannsynlighet": 0.55,
    "andel_terminal_pct": 63,
    "beskrivelse": "Fortsatt vekst i USA og Asia, nær 1 mrd. NOK i omsetning innen 2029.",
@@ -164,7 +164,7 @@
   },
   "Sterk": {
    "per_aksje": 300.8,
-   "oppside_pct": 16.6,
+   "oppside_pct": 21.3,
    "sannsynlighet": 0.2,
    "andel_terminal_pct": 64,
    "beskrivelse": "Gjennombrudd for kirurgisk veiledning med ultralyd i USA og AI-assistert bildebehandling.",
@@ -243,7 +243,7 @@
   }
  },
  "vektet_verdi": 239.3,
- "vektet_oppside_pct": -7.2,
+ "vektet_oppside_pct": -3.5,
  "kjop_under_mos": 191.5,
  "sikkerhetsmargin_pct": 20,
  "sensitivitet": {
@@ -283,5 +283,5 @@
    ]
   ]
  },
- "omvendt_dcf_vekst_pct": 11.1
+ "omvendt_dcf_vekst_pct": 10.3
 }

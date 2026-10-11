@@ -6,6 +6,11 @@ Ved kjøp eller salg skal `portefolje.json` oppdateres i samme commit.
 
 ---
 
+## 2026-10-11 Ukesrapport uke 41
+- Ingen nye svar fra Kristine siden 7.10.
+- Anbefaling: selg halvparten av Nekkar (ca. 485 aksjer, grense 14,50 kr). Kjøp Logistea for ca. 4 000 kr (grense 11,90 SEK). Kjøpsordre Bouvet med grense 45 kr. Hold Protector og Borgestad til Q3.
+- Kristines valg: venter på svar.
+
 ## 2026-10-07 Svar på testrapport
 - Valg: **Venter**. Kjøper ikke Bouvet nå.
 - Medistim virker interessant, men er for dyr. Følg kursen mot kjøpsgrensen.

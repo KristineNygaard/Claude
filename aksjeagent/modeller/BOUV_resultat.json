@@ -1,12 +1,12 @@
 {
  "ticker": "BOUV",
- "kurs": 44.3,
+ "kurs": 47.55,
  "wacc": 9.2,
  "ke": 9.2,
  "scenarier": {
   "AI-svak": {
    "per_aksje": 33.3,
-   "oppside_pct": -24.8,
+   "oppside_pct": -30.0,
    "sannsynlighet": 0.25,
    "andel_terminal_pct": 44,
    "beskrivelse": "AI tar timer fra konsulentene. Omsetningen faller i to år, prispress gir lavere margin.",
@@ -85,7 +85,7 @@
   },
   "Basis": {
    "per_aksje": 59.4,
-   "oppside_pct": 34.0,
+   "oppside_pct": 24.9,
    "sannsynlighet": 0.55,
    "andel_terminal_pct": 54,
    "beskrivelse": "Flatt i 2026, deretter moderat vekst. AI erstatter noen timer, men skaper nye prosjekter.",
@@ -164,7 +164,7 @@
   },
   "AI-sterk": {
    "per_aksje": 77.9,
-   "oppside_pct": 75.9,
+   "oppside_pct": 63.9,
    "sannsynlighet": 0.2,
    "andel_terminal_pct": 58,
    "beskrivelse": "Bouvet vinner AI- og dataprosjekter i offentlig sektor og energi. Høyere timepris og margin.",
@@ -243,7 +243,7 @@
   }
  },
  "vektet_verdi": 56.6,
- "vektet_oppside_pct": 27.7,
+ "vektet_oppside_pct": 19.0,
  "kjop_under_mos": 42.4,
  "sikkerhetsmargin_pct": 25,
  "sensitivitet": {
@@ -283,5 +283,5 @@
    ]
   ]
  },
- "omvendt_dcf_vekst_pct": -2.2
+ "omvendt_dcf_vekst_pct": -0.6
 }

@@ -1,0 +1,63 @@
+{
+ "ticker": "NKR",
+ "kurs": 14.85,
+ "kursdato": "07.10.2026",
+ "kilde": "H1 2026 omsetning 259 MNOK (ekskl. FiiZK). FiiZK konsolideres fra Q3, omsetning anslått til ca. 150 MNOK i året (ikke verifisert). Kontanter 167 MNOK, ingen vesentlig gjeld. Ca. 102 mill. aksjer utenom egne aksjer. Marginmål bygger på at Syncrolift historisk har hatt to-sifrede marginer i år med mange nybygg (ikke verifisert år for år).",
+ "omsetning": 670,
+ "margin_naa": 0.02,
+ "skatt": 0.22,
+ "sales_to_capital": 2.5,
+ "roic_terminal": 0.12,
+ "aar": 10,
+ "netto_kontanter": 167,
+ "aksjer": 102,
+ "rente": 0.042,
+ "beta": 1.2,
+ "markedspremie": 0.05,
+ "gjeldsandel": 0,
+ "sikkerhetsmargin": 0.3,
+ "scenarier": {
+  "Svak": {
+   "beskrivelse": "Få nye skipsløft og FiiZK skuffer. EBIT-margin bare 6 %.",
+   "vekst": [
+    0.03,
+    0.03,
+    0.03,
+    0.03,
+    0.03
+   ],
+   "terminal_vekst": 0.02,
+   "margin_maal": 0.06,
+   "margin_aar": 4,
+   "sannsynlighet": 0.3
+  },
+  "Basis": {
+   "beskrivelse": "Ordrereserven gir vekst, Syncrolift tilbake til to-sifret margin og Intellilift-SaaS bidrar. EBIT-margin 12 %.",
+   "vekst": [
+    0.12,
+    0.1,
+    0.08,
+    0.06,
+    0.05
+   ],
+   "terminal_vekst": 0.025,
+   "margin_maal": 0.12,
+   "margin_aar": 4,
+   "sannsynlighet": 0.5
+  },
+  "Sterk": {
+   "beskrivelse": "Syncrolift vinner flere nybygg, FiiZK og SaaS skalerer. EBIT-margin 16 %.",
+   "vekst": [
+    0.18,
+    0.15,
+    0.12,
+    0.08,
+    0.06
+   ],
+   "terminal_vekst": 0.03,
+   "margin_maal": 0.16,
+   "margin_aar": 4,
+   "sannsynlighet": 0.2
+  }
+ }
+}

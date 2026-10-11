@@ -148,6 +148,7 @@ a{color:var(--accent)}
       '<div class="panel"><h2>Din portefølje</h2><div class="scroll"><table>'+head(true)+'<tbody>'+rows(eier,true)+'</tbody></table></div></div>'+
       '<div class="panel"><h2>Kjøpskandidater</h2><div class="scroll"><table>'+head(false)+'<tbody>'+rows(kand,false)+'</tbody></table></div></div>'+
       '<div class="two"><div class="panel"><h3>Ditt valg sist</h3><p class="lead" style="font-size:15px">'+esc(D.valg_forrige_uke)+'</p></div><div class="panel"><h3>Neste rapport</h3><p class="lead" style="font-size:15px">'+esc(D.neste)+'</p></div></div>'+
+      (D.screening?'<div class="panel"><h2>Screening denne uken</h2><ul class="clean">'+D.screening.map(function(x){return '<li>'+esc(x)+'</li>'}).join('')+'</ul></div>':'')+
       '<p class="note">Forventet avkastning per år = (P/E ved salg ÷ P/E i dag)^(1/n) · (1 + G) − 1, pluss utbytte. Fair P/E = 8,5 + 2G. Trykk på en aksje for detaljer.</p>'+
     '</section>';
   }
@@ -197,6 +198,9 @@ a{color:var(--accent)}
     return '<div class="panel"><h2>Digitalisering og AI</h2><div class="aiscale" aria-label="AI-vurdering '+a.ai.score+'">'+sc+'</div><p class="lead" style="font-size:15px">'+esc(a.ai.tekst)+'</p><p class="note">Skala fra −2 (stor trussel) til +2 (klar vinner).</p></div>';
   }
 
+  function dyp(a){if(!a.dypdykk)return '';
+    return '<div class="panel"><div class="eyebrow">Dypdykk</div><h2>'+esc(a.navn)+' fra børsnotering til i dag</h2><div style="display:grid;gap:14px">'+a.dypdykk.map(function(x){return '<div><h3>'+esc(x[0])+'</h3><p class="lead" style="font-size:15px">'+esc(x[1])+'</p></div>'}).join('')+'</div></div>';
+  }
   function stock(a){
     var r=ret(a), own=a.type==='eier';
     var st=[['Kurs ('+a.kursdato+')',nf(a.kurs)+' '+a.valuta]];
@@ -206,7 +210,7 @@ a{color:var(--accent)}
       '<div class="panel verdict"><div class="head"><div><div class="eyebrow">'+(own?'Du eier':'Kjøpskandidat')+' · '+esc(a.id)+'</div><h2 style="margin:2px 0 0;font-size:26px">'+esc(a.navn)+'</h2></div><span class="badge b-'+cls(a.anbefaling)+'" style="font-size:15px">'+esc(a.anbefaling)+'</span></div>'+
       '<p class="action">'+esc(a.anbefaling_tekst)+'</p><p class="lead" style="font-size:15px;color:var(--muted)">'+esc(a.kort)+'</p>'+
       '<div class="stats">'+st.map(function(s){return '<div class="stat"><div class="k">'+esc(s[0])+'</div><div class="v">'+s[1]+'</div></div>'}).join('')+'</div></div>'+
-      ladder(a)+dcf(a)+ai(a);
+      ladder(a)+dcf(a)+ai(a)+dyp(a);
     if(a.scenarier&&a.scenarier.length){html+='<div class="panel"><h2>Scenarier</h2><div class="scroll"><table><thead><tr><th>Scenario</th><th>Vekst</th><th>Ved salg</th><th class="num">Avk./år</th></tr></thead><tbody>'+
       a.scenarier.map(function(s){return '<tr class="'+(s[0]==='Basis'?'base':'')+'"><td>'+esc(s[0])+'</td><td>'+esc(s[1])+'</td><td>'+esc(s[2])+'</td><td class="num '+sign(s[3]-15)+'">'+pct(s[3])+'</td></tr>'}).join('')+'</tbody></table></div><p class="note" style="margin-top:8px">Grønt betyr over kravet ditt på 15 %.</p></div>';}
     html+='<div class="panel"><h2>Nøkkeltall</h2><div class="stats">'+a.nokkeltall.map(function(s){return '<div class="stat"><div class="k">'+esc(s[0])+'</div><div class="v">'+esc(s[1])+'</div></div>'}).join('')+'</div></div>';
