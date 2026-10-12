@@ -1,0 +1,13 @@
+periode,omsetning_mnok,ebit_mnok,nettoresultat_mnok,faktureringsgrad_pct,endring_fakt_pp,kilde
+2013,,,69,,,Simply Wall St (TTM)
+2016,1300,106,,,,Alpha Spread (avrundet)
+2017,1600,144,,,,Alpha Spread
+2018,1800,192,118,,,Alpha Spread / Simply Wall St
+2019,2100,262,,,,Alpha Spread
+2020,2400,315,,,,Alpha Spread
+2023,3526,407,,,,Bouvet Q4 2024-rapport
+2024,3921,490,,,,Bouvet Q4 2024-rapport
+2025,3912,473,359,,,Bouvet Q4 2025
+Q4 2025,998,103,72,,-2.3,Q4 2025 earnings call
+Q1 2026,1037,127,,77.9,-1.8,Finansavisen 13.05.2026
+Q2 2026,975,122,93,,stigende gjennom kvartalet,CW / Finansavisen 19.08.2026

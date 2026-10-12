@@ -77,6 +77,10 @@ Rapporten leveres som en side med lenke, ikke som en lang chatmelding (Kristines
 7. Commit og push.
 
 ### Krav til grundighet
+- **Kurser:** bruk alltid kurs fra samme dag eller siste handelsdag. Oppgi kilde og dato for hver kurs. Hvis Kristine har sendt skjermbilde eller kurs i chatten, har det forrang. Hvis kursen er eldre enn 3 handelsdager, skriv det med rødt i rapporten og ikke beregn kjøps- eller salgsordre ut fra den.
+- **Selskapsspesifikt:** start hver aksjeanalyse med KPI-ene i `verdidrivere.md`. Vis utviklingen over tid, og forklar hvordan hver KPI påvirker verdien. Generiske nøkkeltall kommer etterpå.
+- **Lang historikk:** ikke stopp ved siste kvartalsrapport. Hent årsrapporter så langt tilbake som mulig (mål 10–20 år), og bygg `data/<ticker>_historikk.csv` gradvis. Minst to nye historiske år per aksje per uke til seriene er komplette.
+- **Modellantakelser:** marginer og vekst i scenariene skal forankres i selskapets egen historikk (snitt, topp og bunn), ikke i antakelser alene.
 - Følg `metode.md` §7–10 (Damodaran, verdsettelsesmodeller, AI og dypdykk) i tillegg til Buffett.
 - Hver aksje skal ha en verdsettelsesmodell etter selskapstype (metode.md §8). For driftsselskaper: lag/oppdater `modeller/<id>.json` og kjør `python3 aksjeagent/modeller/dcf.py aksjeagent/modeller/<id>.json`. `bygg.py` henter resultatet inn i rapporten automatisk. Forsikring, eiendom og holding får sin modell beskrevet i `nokkeltall` og `scenarier`.
 - Hver aksje skal ha AI-vurdering (`ai`: score −2 til +2 og tekst). AI-effekten skal ligge i DCF-scenariene.

@@ -1,258 +1,258 @@
 {
  "ticker": "NKR",
- "kurs": 14.85,
- "wacc": 10.2,
- "ke": 10.2,
+ "kurs": 16.45,
+ "wacc": 9.7,
+ "ke": 9.7,
  "scenarier": {
   "Svak": {
-   "per_aksje": 4.6,
-   "oppside_pct": -69.1,
+   "per_aksje": 6.1,
+   "oppside_pct": -62.8,
    "sannsynlighet": 0.3,
-   "andel_terminal_pct": 53,
-   "beskrivelse": "Få nye skipsløft og FiiZK skuffer. EBIT-margin bare 6 %.",
+   "andel_terminal_pct": 54,
+   "beskrivelse": "Syncrolift-nybygg uteblir, Techano og FiiZK går i null. EBIT-margin 8 %.",
    "rader": [
     {
      "aar": 1,
-     "omsetning": 690,
+     "omsetning": 711,
      "vekst": 3.0,
-     "margin": 3.0,
-     "fcff": 8
+     "margin": 3.5,
+     "fcff": 11
     },
     {
      "aar": 2,
-     "omsetning": 711,
-     "vekst": 3.0,
-     "margin": 4.0,
-     "fcff": 14
-    },
-    {
-     "aar": 3,
      "omsetning": 732,
      "vekst": 3.0,
      "margin": 5.0,
      "fcff": 20
     },
     {
-     "aar": 4,
+     "aar": 3,
      "omsetning": 754,
      "vekst": 3.0,
-     "margin": 6.0,
-     "fcff": 27
-    },
-    {
-     "aar": 5,
-     "omsetning": 777,
-     "vekst": 3.0,
-     "margin": 6.0,
-     "fcff": 27
-    },
-    {
-     "aar": 6,
-     "omsetning": 798,
-     "vekst": 2.8,
-     "margin": 6.0,
+     "margin": 6.5,
      "fcff": 29
     },
     {
+     "aar": 4,
+     "omsetning": 777,
+     "vekst": 3.0,
+     "margin": 8.0,
+     "fcff": 39
+    },
+    {
+     "aar": 5,
+     "omsetning": 800,
+     "vekst": 3.0,
+     "margin": 8.0,
+     "fcff": 41
+    },
+    {
+     "aar": 6,
+     "omsetning": 822,
+     "vekst": 2.8,
+     "margin": 8.0,
+     "fcff": 42
+    },
+    {
      "aar": 7,
-     "omsetning": 819,
+     "omsetning": 844,
      "vekst": 2.6,
-     "margin": 6.0,
-     "fcff": 30
+     "margin": 8.0,
+     "fcff": 44
     },
     {
      "aar": 8,
-     "omsetning": 839,
+     "omsetning": 864,
      "vekst": 2.4,
-     "margin": 6.0,
-     "fcff": 31
+     "margin": 8.0,
+     "fcff": 46
     },
     {
      "aar": 9,
-     "omsetning": 857,
+     "omsetning": 883,
      "vekst": 2.2,
-     "margin": 6.0,
-     "fcff": 33
+     "margin": 8.0,
+     "fcff": 47
     },
     {
      "aar": 10,
-     "omsetning": 874,
+     "omsetning": 901,
      "vekst": 2.0,
-     "margin": 6.0,
-     "fcff": 34
+     "margin": 8.0,
+     "fcff": 49
     }
    ]
   },
   "Basis": {
-   "per_aksje": 9.2,
-   "oppside_pct": -38.0,
+   "per_aksje": 11.7,
+   "oppside_pct": -29.0,
    "sannsynlighet": 0.5,
-   "andel_terminal_pct": 57,
-   "beskrivelse": "Ordrereserven gir vekst, Syncrolift tilbake til to-sifret margin og Intellilift-SaaS bidrar. EBIT-margin 12 %.",
+   "andel_terminal_pct": 58,
+   "beskrivelse": "Tilbake til 2023–2024-nivå: EBIT-margin ca. 14 % (EBITDA 17–18 %). Ordrereserven gir vekst.",
    "rader": [
     {
      "aar": 1,
-     "omsetning": 750,
+     "omsetning": 773,
      "vekst": 12.0,
-     "margin": 4.5,
-     "fcff": -6
+     "margin": 5.0,
+     "fcff": -3
     },
     {
      "aar": 2,
-     "omsetning": 825,
+     "omsetning": 850,
      "vekst": 10.0,
-     "margin": 7.0,
-     "fcff": 15
+     "margin": 8.0,
+     "fcff": 22
     },
     {
      "aar": 3,
-     "omsetning": 891,
+     "omsetning": 918,
      "vekst": 8.0,
-     "margin": 9.5,
-     "fcff": 40
+     "margin": 11.0,
+     "fcff": 52
     },
     {
      "aar": 4,
-     "omsetning": 945,
+     "omsetning": 973,
      "vekst": 6.0,
-     "margin": 12.0,
-     "fcff": 67
-    },
-    {
-     "aar": 5,
-     "omsetning": 992,
-     "vekst": 5.0,
-     "margin": 12.0,
-     "fcff": 74
-    },
-    {
-     "aar": 6,
-     "omsetning": 1037,
-     "vekst": 4.5,
-     "margin": 12.0,
-     "fcff": 79
-    },
-    {
-     "aar": 7,
-     "omsetning": 1078,
-     "vekst": 4.0,
-     "margin": 12.0,
+     "margin": 14.0,
      "fcff": 84
     },
     {
+     "aar": 5,
+     "omsetning": 1022,
+     "vekst": 5.0,
+     "margin": 14.0,
+     "fcff": 92
+    },
+    {
+     "aar": 6,
+     "omsetning": 1068,
+     "vekst": 4.5,
+     "margin": 14.0,
+     "fcff": 98
+    },
+    {
+     "aar": 7,
+     "omsetning": 1111,
+     "vekst": 4.0,
+     "margin": 14.0,
+     "fcff": 104
+    },
+    {
      "aar": 8,
-     "omsetning": 1116,
+     "omsetning": 1149,
      "vekst": 3.5,
-     "margin": 12.0,
-     "fcff": 89
+     "margin": 14.0,
+     "fcff": 110
     },
     {
      "aar": 9,
-     "omsetning": 1150,
+     "omsetning": 1184,
      "vekst": 3.0,
-     "margin": 12.0,
-     "fcff": 94
+     "margin": 14.0,
+     "fcff": 115
     },
     {
      "aar": 10,
-     "omsetning": 1178,
+     "omsetning": 1213,
      "vekst": 2.5,
-     "margin": 12.0,
-     "fcff": 99
+     "margin": 14.0,
+     "fcff": 121
     }
    ]
   },
   "Sterk": {
-   "per_aksje": 13.9,
-   "oppside_pct": -6.7,
+   "per_aksje": 19.6,
+   "oppside_pct": 19.0,
    "sannsynlighet": 0.2,
-   "andel_terminal_pct": 58,
-   "beskrivelse": "Syncrolift vinner flere nybygg, FiiZK og SaaS skalerer. EBIT-margin 16 %.",
+   "andel_terminal_pct": 59,
+   "beskrivelse": "Ny toppsyklus for Syncrolift som i de beste årene (EBITDA ca. 25–30 %). EBIT-margin 20 %.",
    "rader": [
     {
      "aar": 1,
-     "omsetning": 791,
-     "vekst": 18.0,
-     "margin": 5.5,
-     "fcff": -14
+     "omsetning": 828,
+     "vekst": 20.0,
+     "margin": 6.5,
+     "fcff": -13
     },
     {
      "aar": 2,
-     "omsetning": 909,
-     "vekst": 15.0,
-     "margin": 9.0,
-     "fcff": 16
+     "omsetning": 960,
+     "vekst": 16.0,
+     "margin": 11.0,
+     "fcff": 29
     },
     {
      "aar": 3,
-     "omsetning": 1018,
+     "omsetning": 1076,
      "vekst": 12.0,
-     "margin": 12.5,
-     "fcff": 56
+     "margin": 15.5,
+     "fcff": 84
     },
     {
      "aar": 4,
-     "omsetning": 1100,
+     "omsetning": 1162,
      "vekst": 8.0,
-     "margin": 16.0,
-     "fcff": 105
+     "margin": 20.0,
+     "fcff": 147
     },
     {
      "aar": 5,
-     "omsetning": 1166,
+     "omsetning": 1232,
      "vekst": 6.0,
-     "margin": 16.0,
-     "fcff": 119
+     "margin": 20.0,
+     "fcff": 164
     },
     {
      "aar": 6,
-     "omsetning": 1229,
+     "omsetning": 1298,
      "vekst": 5.4,
-     "margin": 16.0,
-     "fcff": 128
+     "margin": 20.0,
+     "fcff": 176
     },
     {
      "aar": 7,
-     "omsetning": 1288,
+     "omsetning": 1360,
      "vekst": 4.8,
-     "margin": 16.0,
-     "fcff": 137
+     "margin": 20.0,
+     "fcff": 187
     },
     {
      "aar": 8,
-     "omsetning": 1342,
+     "omsetning": 1417,
      "vekst": 4.2,
-     "margin": 16.0,
-     "fcff": 146
+     "margin": 20.0,
+     "fcff": 198
     },
     {
      "aar": 9,
-     "omsetning": 1390,
+     "omsetning": 1468,
      "vekst": 3.6,
-     "margin": 16.0,
-     "fcff": 154
+     "margin": 20.0,
+     "fcff": 209
     },
     {
      "aar": 10,
-     "omsetning": 1432,
+     "omsetning": 1513,
      "vekst": 3.0,
-     "margin": 16.0,
-     "fcff": 162
+     "margin": 20.0,
+     "fcff": 218
     }
    ]
   }
  },
- "vektet_verdi": 8.8,
- "vektet_oppside_pct": -41.0,
- "kjop_under_mos": 6.1,
+ "vektet_verdi": 11.6,
+ "vektet_oppside_pct": -29.5,
+ "kjop_under_mos": 8.1,
  "sikkerhetsmargin_pct": 30,
  "sensitivitet": {
   "wacc": [
+   8.7,
    9.2,
    9.7,
    10.2,
-   10.7,
-   11.2
+   10.7
   ],
   "g": [
    1.5,
@@ -261,27 +261,27 @@
   ],
   "verdi": [
    [
-    10.3,
-    9.6,
-    9.1,
-    8.6,
-    8.1
+    13.1,
+    12.2,
+    11.4,
+    10.8,
+    10.2
    ],
    [
-    10.5,
-    9.8,
-    9.2,
-    8.7,
-    8.2
-   ],
-   [
+    13.5,
+    12.5,
+    11.7,
     10.9,
-    10.1,
-    9.4,
-    8.8,
-    8.3
+    10.3
+   ],
+   [
+    14.1,
+    12.9,
+    12.0,
+    11.1,
+    10.4
    ]
   ]
  },
- "omvendt_dcf_vekst_pct": 20.5
+ "omvendt_dcf_vekst_pct": 16.0
 }

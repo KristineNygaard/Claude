@@ -6,6 +6,14 @@ Ved kjøp eller salg skal `portefolje.json` oppdateres i samme commit.
 
 ---
 
+## 2026-10-12 Tilbakemelding fra Kristine
+- Analysene må ha lengre historikk enn siste kvartalsrapport. Kursene var delvis feil eller utdaterte.
+- Synes analysen er interessant (selge Nekkar for å kjøpe Logistea), men mener agenten er for streng med Nekkar.
+- Bouvet: kom til samme konklusjon som henne selv, men manglet faktureringsgraden og utviklingen i den.
+- Analysene er for lite selskapsspesifikke. Borgestad: Bjuv-tomten (nettopp gjennomført) og kjøpesenteret i Polen er sentrale.
+- Tiltak: `verdidrivere.md`, nye krav i INSTRUKS (kurser, KPI-er, historikk), Nekkar-modell med historiske marginer, Borgestad sum av delene.
+- Kurs Nekkar 12.10: 16,45 kr (fra Kristine).
+
 ## 2026-10-11 Ukesrapport uke 41
 - Ingen nye svar fra Kristine siden 7.10.
 - Anbefaling: selg halvparten av Nekkar (ca. 485 aksjer, grense 14,50 kr). Kjøp Logistea for ca. 4 000 kr (grense 11,90 SEK). Kjøpsordre Bouvet med grense 45 kr. Hold Protector og Borgestad til Q3.
