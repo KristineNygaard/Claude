@@ -1,12 +1,12 @@
 {
- "tittel": "Ukesrapport uke 41",
+ "tittel": "Ukesrapport uke 41 (oppdatert 12.10)",
  "dato": "11. oktober 2026",
  "neste": "Søndag 18. oktober kl. 20:00. Protector og Medistim legger fram Q3 22.–23. oktober, Bouvet 4. november.",
- "status_note": "Kursene på aksjene du eier er fra appen din 7. oktober. Bouvet er fra 9. oktober, Medistim fra 23. september. Sjekk dagens kurs før du handler.",
- "oppsummering": "Ingen av aksjene dine har hatt nye børsmeldinger denne uken. Den viktigste endringen kommer fra de nye verdsettelsesmodellene. Nekkar ser klart overpriset ut: dagens kurs forutsetter rundt 20 % årlig vekst i fem år, og selv det sterke scenarioet gir lavere verdi enn kursen. Logistea er billigst i porteføljen, med vektet verdi rundt 14,70 SEK mot kurs 12,10. Bouvet-dypdykket bekrefter et solid selskap, men kursen har steget til 47,55 kr og ligger nå over kjøpsgrensen.",
+ "status_note": "Oppdatert mandag 12.10 etter tilbakemeldingen din: Nekkar med historiske marginer, Borgestad med Bjuv-salget og sum av delene, Bouvet med faktureringsgrad. Nekkar-kurs fra deg, Borgestad og Bouvet fra 9.10.",
+ "oppsummering": "Etter tilbakemeldingen din har jeg forankret modellene i selskapenes egen historikk. Nekkar ser mindre dyr ut med marginer fra 2023–2024: vektet verdi er rundt 11,60 kr, og en ny toppsyklus gir 19,60 kr. Kursen på 16,45 kr priser inn mye av toppsyklusen, så delvis gevinstsikring er fortsatt fornuftig, men mindre enn halvparten. Borgestad har fått et klart løft: Bjuv-salget er signert og gir rundt 4 kr per aksje i kontanter. Bouvet sin faktureringsgrad falt gjennom 2025 og Q1 2026, men steg gjennom Q2. Det er det viktigste å følge i Q3-rapporten 4. november.",
  "mandag": {
-  "handling": "Selg halvparten av Nekkar. Legg inn kjøpsordrer på Logistea og Bouvet.",
-  "tekst": "1) Selg ca. 485 Nekkar-aksjer med kursgrense 14,50 kr (ca. 7 000 kr). Du sikrer gevinst på en aksje modellene sier er dyr, men beholder halvparten i tilfelle Q3 overrasker. 2) Kjøp Logistea for ca. 4 000 kr med kursgrense 11,90 SEK. 3) Legg inn kjøpsordre på Bouvet for resten med kursgrense 45 kr. I en ASK utløser salget ingen skatt."
+  "handling": "Selg ca. en tredjedel av Nekkar. Kjøp Logistea under 11,90 SEK.",
+  "tekst": "1) Selg ca. 325 Nekkar-aksjer med kursgrense 16,00 kr (ca. 5 200 kr), og behold resten til Q3. 2) Kjøp Logistea for ca. 4 000 kr med kursgrense 11,90 SEK. 3) Kjøpsordre på Bouvet med kursgrense 45 kr for resten. Hold Borgestad og Protector."
  },
  "valg_forrige_uke": "Testrapport 7. oktober: du valgte å vente. Ingen nye svar siden.",
  "aksjer": [
@@ -15,20 +15,20 @@
    "navn": "Nekkar",
    "type": "eier",
    "anbefaling": "VURDER SALG",
-   "anbefaling_tekst": "Selg halvparten (ca. 485 aksjer) med kursgrense 14,50 kr. Behold resten til neste kvartalsrapport, der FiiZK vises i resultatet for første gang.",
-   "kurs": 14.85,
+   "anbefaling_tekst": "Ta delvis gevinst: selg ca. 325 aksjer (en tredjedel) med kursgrense 16,00 kr. Behold resten til Q3, der FiiZK vises i resultatet for første gang.",
+   "kurs": 16.45,
    "valuta": "NOK",
-   "kursdato": "7.10.2026",
+   "kursdato": "12.10.2026 (fra deg)",
    "antall": 971,
    "gav": 10.33,
-   "forv_avk": -20,
+   "forv_avk": -15,
    "horisont": "2 år",
-   "kort": "Nekkar har snudd driften, og ordrereserven har økt kraftig. Kursen har derimot steget mer enn resultatene. DCF-modellen gir en vektet verdi rundt 8,80 kr, og selv det sterke scenarioet (16 % margin) gir 13,90 kr. Dagens kurs forutsetter rundt 20 % årlig vekst i fem år. Gevinsten din er 44 %, og i en ASK koster det ingen skatt å realisere den.",
+   "kort": "Jeg var for streng forrige uke fordi marginene i modellen lå under Nekkars egen historikk. Konsernet hadde EBITDA-margin på 18,9 % i 2023 og 14,8 % i 2024, og Syncrolift har tidligere hatt rundt 22 % i snitt. Med det som basis er vektet verdi rundt 11,60 kr. Sterkt scenario (ny toppsyklus, EBIT-margin 20 %) gir 19,60 kr. Kursen på 16,45 kr ligger mellom basis og topp, så markedet priser inn mye av en ny oppgang. Gevinsten din er 59 %.",
    "nivaer": {
-    "kjop_under": 6.1,
-    "hold_over": 12.7,
-    "stress": 4.6,
-    "merknad": "Kjøp under: DCF minus 30 % sikkerhetsmargin. Hold opp til kursen som gir 15 % årlig avkastning. Usikkerheten er stor fordi FiiZK-omsetningen (ca. 150 MNOK) og marginmålene er mine anslag."
+    "kjop_under": 8.1,
+    "hold_over": 11.6,
+    "stress": 6.1,
+    "merknad": "Kjøp under: vektet DCF minus 30 % sikkerhetsmargin. Hold opp til vektet DCF-verdi. Toppsyklus-scenarioet gir 19,60 kr. FiiZK-omsetningen (ca. 150 MNOK) er fortsatt mitt anslag."
    },
    "nokkeltall": [
     [
@@ -89,15 +89,23 @@
     ]
    ],
    "historikk": {
-    "tittel": "Ordrereserve (MNOK)",
+    "tittel": "EBITDA-margin (%)",
     "data": [
      [
-      "Q2 25",
-      753
+      "2023",
+      18.9
      ],
      [
-      "Q2 26",
-      1199
+      "2024",
+      14.8
+     ],
+     [
+      "2025",
+      0.3
+     ],
+     [
+      "H1 26",
+      4.6
      ]
     ]
    },
@@ -404,43 +412,67 @@
    "navn": "Borgestad",
    "type": "eier",
    "anbefaling": "HOLD",
-   "anbefaling_tekst": "Hold til Q3. Sum av delene kunne ikke beregnes fordi antall aksjer og segmentgjeld mangler i kildene.",
-   "kurs": 17.2,
+   "anbefaling_tekst": "Hold. Bjuv-salget er signert og gir ca. 4 kr per aksje i kontanter. Sum av delene gir ca. 18,70 kr. Fyll på under 15 kr.",
+   "kurs": 17.15,
    "valuta": "NOK",
-   "kursdato": "7.10.2026",
+   "kursdato": "9.10.2026",
    "antall": 498,
    "gav": 16.24,
-   "forv_avk": null,
+   "forv_avk": 9,
    "horisont": "2 år",
-   "kort": "Kostnadskuttene virker, og Q2 ga et resultat før skatt på 35,9 MNOK. Q1 var derimot negativ, og virksomheten svinger med sesong og konjunkturer. Selskapet er svakest i porteføljen målt mot Buffetts krav.",
-   "nivaer": null,
+   "kort": "Borgestad er et holdingselskap med to ben: Höganäs Borgestad (ildfaste materialer) og kjøpesenteret Agora Bytom i Polen. Den viktigste nyheten er at Bjuv-salget endelig er signert etter tre år med rettstvist. Netto kontanteffekt er ca. 141 MSEK, rundt 23 % av markedsverdien, mot en bokført verdi på bare 14,8 MNOK. Det gir en stor regnskapsmessig gevinst, lavere gjeld og rom for utbytte eller tilbakekjøp.",
+   "nivaer": {
+    "kjop_under": 15.0,
+    "hold_over": 18.7,
+    "stress": 12.9,
+    "merknad": "Sum av delene: Agora Bytom verdsatt til EBITDA ÷ 8,5 % yield, Höganäs Borgestad til 7 × EBIT, minus netto gjeld, pluss Bjuv-kontanter, med 10 % holdingrabatt. Svakt scenario: yield 10 % og EBIT 50 MNOK. Grove anslag."
+   },
    "nokkeltall": [
     [
-     "Resultat før skatt Q2",
-     "+35,9 MNOK (justert +20,9)"
+     "Markedsverdi",
+     "ca. 598 MNOK (34,9 mill. aksjer)"
     ],
     [
-     "Resultat før skatt Q1",
-     "−28,0 MNOK"
-    ],
-    [
-     "Höganäs Borgestad EBIT Q2",
-     "36,8 MNOK"
+     "Bjuv netto kontanter",
+     "ca. 141 MSEK (≈ 4 kr per aksje)"
     ],
     [
      "Netto rentebærende gjeld",
-     "375 MNOK"
+     "375 MNOK (før Bjuv)"
     ],
     [
-     "Belegg Agora Bytom",
+     "Agora Bytom belegg",
      "97,4 %"
     ],
     [
-     "P/E",
-     "Ikke beregnet"
+     "Höganäs EBIT Q2",
+     "36,8 MNOK"
+    ],
+    [
+     "Sum av delene (vektet)",
+     "ca. 18,70 kr"
     ]
    ],
-   "scenarier": [],
+   "scenarier": [
+    [
+     "Svak",
+     "Agora yield 10 %, HB EBIT 50",
+     "6 × EBIT",
+     -25
+    ],
+    [
+     "Basis",
+     "Agora yield 8,5 %, HB EBIT 65",
+     "7 × EBIT",
+     10
+    ],
+    [
+     "Sterk",
+     "Agora yield 7,5 %, HB EBIT 80",
+     "8 × EBIT",
+     48
+    ]
+   ],
    "buffett": [
     [
      "Forståelig",
@@ -455,7 +487,7 @@
     [
      "Stabil inntjening",
      1,
-     "Sesongsvingninger og tap i Q1"
+     "Sesongsvingninger, men kostnadsprogrammet har løftet marginene"
     ],
     [
      "Balanse",
@@ -482,9 +514,9 @@
     ]
    },
    "nytt": [
-    "Solgte 50 % av Istrail Invest for 18,3 MNOK (mai 2026)",
-    "Tilbakekjøpstilbud til 17 kr per aksje",
-    "Ingen nye børsmeldinger denne uken"
+    "Bjuv sale-leaseback signert 7.10, gjennomføring i oktober. Ca. 141 MSEK netto",
+    "45 MNOK pantegjeld nedbetales",
+    "Ingen bekreftet salgsprosess for Agora Bytom i kildene jeg fant"
    ],
    "risiko": [
     "Svak industrietterspørsel i Norden",
@@ -504,7 +536,21 @@
    "ai": {
     "score": 0,
     "tekst": "Ildfaste materialer og kjøpesenter påvirkes lite. Netthandel er en langsiktig trussel mot kjøpesenteret i Polen."
-   }
+   },
+   "dypdykk": [
+    [
+     "Bjuv-salget",
+     "Avtalen ble inngått i 2023, men stoppet av en klage. Høyeste forvaltningsdomstol avviste anke 1.9.2026, og aksjekjøpsavtalen ble signert 7.10.2026. Netto kontanteffekt ca. 141 MSEK (ca. 4 kr per aksje). Höganäs Borgestad leier tilbake fabrikken gratis i 24 måneder, deretter 200 SEK per m². Arealet krymper fra 52 000 til 35 000 m² etter to år."
+    ],
+    [
+     "Agora Bytom",
+     "Kjøpesenteret utgjør over halvparten av balansen. Belegget er rekordhøyt (97,4 %), og EBITDA er rundt 11 MNOK per kvartal. Ledelsen sier hovedprioriteten er å maksimere verdien av eierskapene. Et salg til en yield rundt 8 % ville frigjort verdier som markedet i dag priser med rabatt. Jeg fant ingen bekreftet salgsprosess. Har du en kilde, legger jeg den inn."
+    ],
+    [
+     "Höganäs Borgestad",
+     "Kostnadsprogrammet fra 2025 virker: EBIT i Q2 2026 ble 36,8 MNOK mot justert 22,1. Q1 er sesongmessig svak. Ordrereserven vokser ifølge Q2-presentasjonen."
+    ]
+   ]
   },
   {
    "id": "BOUV",
@@ -527,6 +573,14 @@
     "merknad": "Kjøpsgrense = lavest av DCF minus 25 % sikkerhetsmargin (42,40 kr) og kursen som gir 20 % årlig avkastning (49,40 kr). Hold opp til vektet DCF-verdi. Stresstest: AI-svak-scenarioet gir 33,30 kr (−30 %). Med P/E 11 på stresset resultat kan kursen gå ned mot 26,50 kr (−44 %)."
    },
    "nokkeltall": [
+    [
+     "Faktureringsgrad Q1 2026",
+     "77,9 % (−1,8 pp)"
+    ],
+    [
+     "Effekt av 1 pp faktureringsgrad",
+     "ca. 12 MNOK i EBIT"
+    ],
     [
      "Omsetning 2025",
      "3 912 MNOK (flat)"
@@ -661,6 +715,10 @@
     [
      "Historikk 2013–2025",
      "Overskuddet økte fra ca. 69 MNOK (2013) til 118 MNOK (2018) og 359 MNOK (2025), rundt 15 % i året. Omsetningen vokste fra ca. 1,3 mrd. (2016) til 3,9 mrd. kr (2024), og EBIT fra 106 til 490 MNOK. Antall aksjer har vært nesten uendret, med en splitt 1:10 i 2021. 2025 var første år uten vekst: omsetningen var flat, og EBIT falt 3,5 % til 473 MNOK."
+    ],
+    [
+     "Faktureringsgraden (viktigste KPI)",
+     "Faktureringsgraden falt 2,3 prosentpoeng i Q4 2025, noe som kostet ca. 28 MNOK i EBIT. I Q1 2026 var den 77,9 %, 1,8 pp lavere enn året før. Ifølge CEO steg den gjennom Q2. Hvert prosentpoeng utgjør ca. 12 MNOK i EBIT, eller rundt 2,5 % av årsresultatet. Hvis faktureringsgraden kommer tilbake til 2024-nivå, løftes EBIT med 25–30 MNOK uten at det trengs flere ansatte. Fortsetter den å falle mens timeprisene holder, er det det tydeligste tegnet på at AI tar timer."
     ],
     [
      "Hvordan Bouvet taklet kriser",
