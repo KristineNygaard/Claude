@@ -6,6 +6,11 @@ Ved kjøp eller salg skal `portefolje.json` oppdateres i samme commit.
 
 ---
 
+## 2026-10-12 Handel
+- **Solgt:** 325 Nekkar til 16,40 kr (ca. 5 330 kr). Gevinst ca. 1 970 kr mot GAV 10,33. Beholder 646 aksjer til Q3.
+- **Kjøpsordre:** Logistea B for ca. 4 000 kr med kursgrense 11,90 SEK. Ikke bekreftet utført. Oppdater antall og GAV når Kristine bekrefter.
+- Bouvet-ordre (45 kr) ikke nevnt.
+
 ## 2026-10-12 Tilbakemelding fra Kristine
 - Analysene må ha lengre historikk enn siste kvartalsrapport. Kursene var delvis feil eller utdaterte.
 - Synes analysen er interessant (selge Nekkar for å kjøpe Logistea), men mener agenten er for streng med Nekkar.

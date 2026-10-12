@@ -1,16 +1,76 @@
 {
-  "konto": "Aksjesparekonto (ASK)",
-  "sist_oppdatert": "2026-10-07",
-  "kilde": "Skjermbilde fra brukeren 2026-10-07",
-  "planlagt_holdetid_eksisterende": "1-2 år",
-  "investeringshorisont_nye_kjop": "2-3 år",
-  "avkastningskrav_aarlig": [0.15, 0.20],
-  "nytt_kapital_per_maaned_nok": 2000,
-  "kontantbeholdning_nok": null,
-  "beholdning": [
-    {"navn": "Borgestad", "ticker": "BOR", "bors": "Oslo Børs", "valuta": "NOK", "antall": 498, "gav": 16.24, "siste_kurs_ved_registrering": 17.20},
-    {"navn": "Logistea B", "ticker": "LOGI B", "bors": "Nasdaq Stockholm", "valuta": "SEK", "antall": 1306, "gav": 14.55, "siste_kurs_ved_registrering": 12.10, "merknad": "Eneste unntak fra Oslo Børs-kravet. Følges fordi den allerede eies."},
-    {"navn": "Nekkar", "ticker": "NKR", "bors": "Oslo Børs", "valuta": "NOK", "antall": 971, "gav": 10.33, "siste_kurs_ved_registrering": 14.85},
-    {"navn": "Protector Forsikring", "ticker": "PROT", "bors": "Oslo Børs", "valuta": "NOK", "antall": 18, "gav": 455.01, "siste_kurs_ved_registrering": 407.00}
-  ]
+ "konto": "Aksjesparekonto (ASK)",
+ "sist_oppdatert": "2026-10-12",
+ "kilde": "Skjermbilde fra brukeren 2026-10-07",
+ "planlagt_holdetid_eksisterende": "1-2 år",
+ "investeringshorisont_nye_kjop": "2-3 år",
+ "avkastningskrav_aarlig": [
+  0.15,
+  0.2
+ ],
+ "nytt_kapital_per_maaned_nok": 2000,
+ "kontantbeholdning_nok": null,
+ "beholdning": [
+  {
+   "navn": "Borgestad",
+   "ticker": "BOR",
+   "bors": "Oslo Børs",
+   "valuta": "NOK",
+   "antall": 498,
+   "gav": 16.24,
+   "siste_kurs_ved_registrering": 17.2
+  },
+  {
+   "navn": "Logistea B",
+   "ticker": "LOGI B",
+   "bors": "Nasdaq Stockholm",
+   "valuta": "SEK",
+   "antall": 1306,
+   "gav": 14.55,
+   "siste_kurs_ved_registrering": 12.1,
+   "merknad": "Eneste unntak fra Oslo Børs-kravet. Følges fordi den allerede eies."
+  },
+  {
+   "navn": "Nekkar",
+   "ticker": "NKR",
+   "bors": "Oslo Børs",
+   "valuta": "NOK",
+   "antall": 646,
+   "gav": 10.33,
+   "siste_kurs_ved_registrering": 14.85,
+   "merknad": "Solgte 325 aksjer til 16,40 kr 12.10.2026 (ca. 5 330 kr, gevinst ca. 1 970 kr). GAV uendret."
+  },
+  {
+   "navn": "Protector Forsikring",
+   "ticker": "PROT",
+   "bors": "Oslo Børs",
+   "valuta": "NOK",
+   "antall": 18,
+   "gav": 455.01,
+   "siste_kurs_ved_registrering": 407.0
+  }
+ ],
+ "realiserte_handler": [
+  {
+   "dato": "2026-10-12",
+   "type": "salg",
+   "ticker": "NKR",
+   "antall": 325,
+   "kurs": 16.4,
+   "valuta": "NOK",
+   "belop": 5330,
+   "gevinst_ca": 1973
+  }
+ ],
+ "ventende_ordrer": [
+  {
+   "dato": "2026-10-12",
+   "type": "kjøp",
+   "ticker": "LOGI B",
+   "kursgrense": 11.9,
+   "valuta": "SEK",
+   "belop_nok": 4000,
+   "status": "lagt inn, ikke bekreftet utført"
+  }
+ ]
 }
