@@ -1,7 +1,7 @@
 {
  "konto": "Aksjesparekonto (ASK)",
- "sist_oppdatert": "2026-10-12",
- "kilde": "Skjermbilde fra brukeren 2026-10-07",
+ "sist_oppdatert": "2026-10-13",
+ "kilde": "Skjermbilde transaksjoner 13.10.2026",
  "planlagt_holdetid_eksisterende": "1-2 år",
  "investeringshorisont_nye_kjop": "2-3 år",
  "avkastningskrav_aarlig": [
@@ -9,7 +9,7 @@
   0.2
  ],
  "nytt_kapital_per_maaned_nok": 2000,
- "kontantbeholdning_nok": null,
+ "kontantbeholdning_nok": 1298.78,
  "beholdning": [
   {
    "navn": "Borgestad",
@@ -25,10 +25,10 @@
    "ticker": "LOGI B",
    "bors": "Nasdaq Stockholm",
    "valuta": "SEK",
-   "antall": 1306,
-   "gav": 14.55,
+   "antall": 1657,
+   "gav": 13.99,
    "siste_kurs_ved_registrering": 12.1,
-   "merknad": "Eneste unntak fra Oslo Børs-kravet. Følges fordi den allerede eies."
+   "merknad": "Kjøpte 351 aksjer til 11,90 SEK 12.10.2026 (4 007 NOK inkl. kurtasje). Ny GAV vektet."
   },
   {
    "navn": "Nekkar",
@@ -38,7 +38,7 @@
    "antall": 646,
    "gav": 10.33,
    "siste_kurs_ved_registrering": 14.85,
-   "merknad": "Solgte 325 aksjer til 16,40 kr 12.10.2026 (ca. 5 330 kr, gevinst ca. 1 970 kr). GAV uendret."
+   "merknad": "Solgte 325 aksjer til 16,35 kr 12.10.2026 (netto 5 305,78 kr, gevinst ca. 1 949 kr). GAV uendret."
   },
   {
    "navn": "Protector Forsikring",
@@ -56,21 +56,20 @@
    "type": "salg",
    "ticker": "NKR",
    "antall": 325,
-   "kurs": 16.4,
+   "kurs": 16.35,
    "valuta": "NOK",
-   "belop": 5330,
-   "gevinst_ca": 1973
-  }
- ],
- "ventende_ordrer": [
+   "netto_nok": 5305.78,
+   "gevinst_nok": 1948.53
+  },
   {
    "dato": "2026-10-12",
    "type": "kjøp",
    "ticker": "LOGI B",
-   "kursgrense": 11.9,
+   "antall": 351,
+   "kurs": 11.9,
    "valuta": "SEK",
-   "belop_nok": 4000,
-   "status": "lagt inn, ikke bekreftet utført"
+   "belop_nok": 4007
   }
- ]
+ ],
+ "ventende_ordrer": []
 }
