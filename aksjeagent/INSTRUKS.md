@@ -61,7 +61,7 @@ For hver aksje i `portefolje.json`:
 - Full Buffett-analyse etter metode.md §1–4, inkludert "20 år tilbake"-testen. Lagre i `analyser/<ticker>.md`.
 - Oppdater alle eksisterende aktive kandidater i `kandidater.md` med ny kurs og ny forventet avkastning. Analyser beholdes og bygges videre på, de lages ikke på nytt.
 
-### Steg 4: Anbefaling
+### Steg 4: Anbefaling (følg metode.md §11, standard er ingen handling)
 - Rangér: beste kjøp for månedens ca. 2 000 kr (eller anbefal å spare kapitalen til en bedre pris).
 - Ta hensyn til tidligere valg i `beslutningslogg.md` (f.eks. "Kristine valgte å vente på X forrige uke, X har nå falt 5 %, så caset er sterkere").
 - Posisjonsstørrelse etter Buffett: konsentrert, få gode selskaper.

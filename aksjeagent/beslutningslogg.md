@@ -6,6 +6,9 @@ Ved kjøp eller salg skal `portefolje.json` oppdateres i samme commit.
 
 ---
 
+## 2026-10-13 Føring fra Kristine
+- Langsiktig investor (ca. 3 år). Vil ikke handle hver uke eller preges av kurtasje. Standard er ingen handling. Se metode.md §11.
+
 ## 2026-10-12 Handel (bekreftet med skjermbilde 13.10)
 - **Solgt:** 325 Nekkar til 16,35 kr, netto 5 305,78 kr. Gevinst ca. 1 949 kr mot GAV 10,33. Beholder 646 aksjer til Q3.
 - **Kjøpt:** 351 Logistea B til 11,90 SEK, 4 007 NOK. Ny beholdning 1 657 aksjer, ny GAV ca. 13,99 SEK.

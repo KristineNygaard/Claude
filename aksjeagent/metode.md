@@ -150,3 +150,12 @@ Utløses når et selskap har vektet DCF-oppside over 25 %, består minst 6 av Gr
 6. **Modeller:** DCF med scenarier, omvendt DCF, fair P/E, Graham-verdi, P/B-modell der relevant, Graham-screens.
 7. **Digitalisering og AI** etter §9.
 8. **Konklusjon:** verdi per aksje, sikkerhetsmargin, kjøpsnivåer og hva som må skje for at caset brytes.
+
+## 11. Handelsdisiplin (Kristines føring 13.10.2026)
+
+Kristine er langsiktig investor (ca. 3 år) og vil ikke handle hver uke eller betale unødvendig kurtasje.
+- **Standardanbefalingen er «ingen handling».** Ukesrapporten er en statusrapport, ikke en handleliste.
+- **Salg** anbefales bare når (a) investeringscaset er brutt, eller (b) forventet årlig avkastning er klart under 15 % OG et konkret alternativ gir minst 10 prosentpoeng mer per år, eller (c) aksjen er priset over det sterke scenarioet.
+- **Kjøp** anbefales bare under kjøpsgrensen, og bare når det er minst ca. 5 000 kr å investere (månedssparing samles opp). Da utgjør kurtasje og valutapåslag under ca. 0,5 %.
+- **Svenske aksjer** (Logistea) har valutapåslag i tillegg til kurtasje. Ta med dette i vurderingen.
+- Rapporten skal alltid si hvor mange handler som er anbefalt siste 3 måneder. Mål: få handler per år.
