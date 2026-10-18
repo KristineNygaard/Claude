@@ -1,25 +1,25 @@
 {
- "tittel": "Ukesrapport uke 41 (oppdatert 12.10)",
- "dato": "11. oktober 2026",
- "neste": "Søndag 18. oktober kl. 20:00. Protector og Medistim legger fram Q3 22.–23. oktober, Bouvet 4. november.",
- "status_note": "Oppdatert mandag 12.10 etter tilbakemeldingen din: Nekkar med historiske marginer, Borgestad med Bjuv-salget og sum av delene, Bouvet med faktureringsgrad. Nekkar-kurs fra deg, Borgestad og Bouvet fra 9.10.",
- "oppsummering": "Etter tilbakemeldingen din har jeg forankret modellene i selskapenes egen historikk. Nekkar ser mindre dyr ut med marginer fra 2023–2024: vektet verdi er rundt 11,60 kr, og en ny toppsyklus gir 19,60 kr. Kursen på 16,45 kr priser inn mye av toppsyklusen, så delvis gevinstsikring er fortsatt fornuftig, men mindre enn halvparten. Borgestad har fått et klart løft: Bjuv-salget er signert og gir rundt 4 kr per aksje i kontanter. Bouvet sin faktureringsgrad falt gjennom 2025 og Q1 2026, men steg gjennom Q2. Det er det viktigste å følge i Q3-rapporten 4. november.",
+ "tittel": "Ukesrapport uke 42",
+ "dato": "18. oktober 2026",
+ "neste": "Søndag 25. oktober kl. 20:00. Protector 22.10 og Medistim 23.10 legger fram Q3. Bouvet 3.–4. november.",
+ "status_note": "Kursene er uendret fra forrige uke (Nekkar 16,45 fra deg 12.10, Logistea 11,90 SEK ved kjøpet ditt, Bouvet 48,10 per 16.10). Jeg fant ikke nyere kurser, så ingen kjøps- eller salgsordre bygger på dem.",
+ "oppsummering": "Rolig uke. Ingen nye børsmeldinger for aksjene dine, og ingenting tilsier handling. Den viktigste nyheten er detaljene i Borgestads Bjuv-avtale: eiendommene er verdsatt til 145 MSEK, og selskapet bokfører en gevinst på rundt 102 MSEK når salget gjennomføres i oktober. Neste uke kommer Q3 fra Protector og Medistim. Det er de første virkelige testene av casene våre. Handler siste 3 måneder: 2 (Nekkar-salg og Logistea-kjøp 12.10).",
  "mandag": {
-  "handling": "Selg ca. en tredjedel av Nekkar. Kjøp Logistea under 11,90 SEK.",
-  "tekst": "1) Selg ca. 325 Nekkar-aksjer med kursgrense 16,00 kr (ca. 5 200 kr), og behold resten til Q3. 2) Kjøp Logistea for ca. 4 000 kr med kursgrense 11,90 SEK. 3) Kjøpsordre på Bouvet med kursgrense 45 kr for resten. Hold Borgestad og Protector."
+  "handling": "Ingen handling",
+  "tekst": "Porteføljen står som den skal. Kontantene på ca. 1 300 kr venter til de sammen med sparingen er rundt 5 000 kr. Vi vurderer Protector og Medistim på nytt etter Q3-tallene neste uke."
  },
- "valg_forrige_uke": "Testrapport 7. oktober: du valgte å vente. Ingen nye svar siden.",
+ "valg_forrige_uke": "12.10: solgte 325 Nekkar til 16,35 kr og kjøpte 351 Logistea til 11,90 SEK. 13.10: ønsket langsiktig strategi med få handler.",
  "aksjer": [
   {
    "id": "NKR",
    "navn": "Nekkar",
    "type": "eier",
-   "anbefaling": "VURDER SALG",
-   "anbefaling_tekst": "Ta delvis gevinst: selg ca. 325 aksjer (en tredjedel) med kursgrense 16,00 kr. Behold resten til Q3, der FiiZK vises i resultatet for første gang.",
+   "anbefaling": "HOLD",
+   "anbefaling_tekst": "Hold de resterende 646 aksjene til Q3. Ingen ny handling med mindre kursen går over toppscenarioet (ca. 19,60 kr) eller Q3 viser svake marginer.",
    "kurs": 16.45,
    "valuta": "NOK",
    "kursdato": "12.10.2026 (fra deg)",
-   "antall": 971,
+   "antall": 646,
    "gav": 10.33,
    "forv_avk": -15,
    "horisont": "2 år",
@@ -110,9 +110,9 @@
     ]
    },
    "nytt": [
-    "Ingen nye børsmeldinger",
-    "Egne aksjer over 5 % gjennom tilbakekjøp (3. september)",
-    "FiiZK konsolideres i resultatet fra Q3"
+    "Ingen nye børsmeldinger denne uken",
+    "Du solgte 325 aksjer til 16,35 kr 12.10",
+    "Viktig å avklare i Q3: hvordan FiiZK regnskapsføres og hva FiiZK omsetter for"
    ],
    "risiko": [
     "Modellen er følsom for FiiZK-omsetningen, som ikke er oppgitt",
@@ -138,13 +138,13 @@
    "id": "LOGI",
    "navn": "Logistea B",
    "type": "eier",
-   "anbefaling": "KJØP",
-   "anbefaling_tekst": "Billigst i porteføljen. Kjøp mer under 11,90 SEK. Vektet verdi ca. 14,70 SEK.",
-   "kurs": 12.1,
+   "anbefaling": "HOLD",
+   "anbefaling_tekst": "Hold. Du kjøpte mer til 11,90 SEK. Ingen nye kjøp før kursen er under ca. 11,70 SEK og du har samlet minst 5 000 kr.",
+   "kurs": 11.9,
    "valuta": "SEK",
-   "kursdato": "7.10.2026",
-   "antall": 1306,
-   "gav": 14.55,
+   "kursdato": "12.10.2026 (ditt kjøp)",
+   "antall": 1657,
+   "gav": 13.99,
    "forv_avk": 21,
    "horisont": "2 år",
    "kort": "Driften vokser godt, men aksjen handles 32 % under verdien av eiendommene. Kursfallet skyldes renter og stemning, ikke svakere drift. En del av tapet ditt kommer fra svakere SEK mot NOK.",
@@ -384,8 +384,7 @@
     ]
    },
    "nytt": [
-    "Ingen nye børsmeldinger",
-    "Q3-rapport 22. oktober"
+    "Q3-rapport 22.10. Følg premievekst i lokal valuta og combined ratio"
    ],
    "risiko": [
     "Premieveksten kan bremse videre",
@@ -433,8 +432,8 @@
      "ca. 598 MNOK (34,9 mill. aksjer)"
     ],
     [
-     "Bjuv netto kontanter",
-     "ca. 141 MSEK (≈ 4 kr per aksje)"
+     "Bjuv-avtalen",
+     "145 MSEK (gevinst ca. 102 MSEK)"
     ],
     [
      "Netto rentebærende gjeld",
@@ -514,9 +513,9 @@
     ]
    },
    "nytt": [
-    "Bjuv sale-leaseback signert 7.10, gjennomføring i oktober. Ca. 141 MSEK netto",
-    "45 MNOK pantegjeld nedbetales",
-    "Ingen bekreftet salgsprosess for Agora Bytom i kildene jeg fant"
+    "Bjuv: eiendommene verdsatt til 145 MSEK. 60 % betales ved gjennomføring, 20 % etter 12 mnd og 20 % etter 24 mnd",
+    "Regnskapsmessig gevinst ca. 102 MSEK bokføres ved gjennomføring i oktober",
+    "Ingen bekreftelse på gjennomføring ennå"
    ],
    "risiko": [
     "Svak industrietterspørsel i Norden",
@@ -558,9 +557,9 @@
    "type": "kandidat",
    "anbefaling": "FØLG MED",
    "anbefaling_tekst": "Solid selskap, men kursen har steget til 47,55 kr. Kjøp under 42,40 kr (DCF med 25 % sikkerhetsmargin), eller med kursgrense 45 kr hvis du vil starte en liten posisjon.",
-   "kurs": 47.55,
+   "kurs": 48.1,
    "valuta": "NOK",
-   "kursdato": "9.10.2026",
+   "kursdato": "16.10.2026",
    "antall": null,
    "gav": null,
    "forv_avk": 19,
@@ -680,9 +679,8 @@
     ]
    },
    "nytt": [
-    "Kursen opp fra 44,30 (juli) til 47,55 kr (9. oktober)",
-    "Q3-rapport 4. november",
-    "Ingen nye børsmeldinger denne uken"
+    "Kurs ca. 48,10 kr 16.10 (−22 % hittil i år)",
+    "Q3-rapport 3.–4. november. Følg faktureringsgraden"
    ],
    "risiko": [
     "AI kan presse prisen på konsulenttimer",
@@ -873,8 +871,7 @@
     ]
    },
    "nytt": [
-    "Kurs 248 kr (23. september)",
-    "Q3-rapport ca. 22.–23. oktober"
+    "Q3-rapport 23.10. Sammenligningstall Q3 2025: omsetning 166,8 MNOK, EBIT 40,6 MNOK"
    ],
    "risiko": [
     "Høy prising gir lite rom for skuffelser",
@@ -898,9 +895,8 @@
   }
  ],
  "screening": [
-  "Grahams ti screens er strenge. Bouvet består rundt 5 av 10 (utbytte, lav gjeld og 10 års resultatvekst over 7 %, men ikke P/E- eller bokverdi-kravene).",
-  "Kid ASA: Q2 2026 omsetning +6,8 %, EBITDA +15 %, sterk kontantstrøm. Kandidat for full analyse neste uke.",
-  "Europris: Q2 2026 under forventning (EPS 1,50 mot ventet 1,73), men H1 EBIT +21 %. Følges.",
-  "Begrensning: flere datakilder for kurser var sperret denne uken, så screeningen dekket få selskaper. Neste uke prioriteres Kid, Europris og sparebankene."
+  "Kid ASA: P/E ca. 19 (TTM), egenkapitalavkastning rundt 29 %, utbytte 5 kr i året. Utbyttet er høyere enn resultatet (utdelingsgrad over 100 %), så det må sjekkes om det er bærekraftig. Ikke kjøpskandidat ennå, full analyse når årsrapportene er hentet.",
+  "Europris: følges, ingen endring.",
+  "Sparebankene er ikke screenet ennå. Det er satt opp til neste uke."
  ]
 }

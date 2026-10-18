@@ -6,6 +6,10 @@ Ved kjøp eller salg skal `portefolje.json` oppdateres i samme commit.
 
 ---
 
+## 2026-10-18 Ukesrapport uke 42
+- Anbefaling: ingen handling. Protector og Medistim vurderes etter Q3 (22. og 23.10).
+- Kristines valg: venter på svar.
+
 ## 2026-10-13 Føring fra Kristine
 - Langsiktig investor (ca. 3 år). Vil ikke handle hver uke eller preges av kurtasje. Standard er ingen handling. Se metode.md §11.
 

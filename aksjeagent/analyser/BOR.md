@@ -13,3 +13,6 @@ Kilder: [Inderes Q1](https://www.inderes.fi/releases/borgestad-asa-interim-finan
 ## 2026-10-07 Testrapport
 Se ukesrapporter/2026-10-07-test.md for scenarier og konklusjon.
 - Q2 2026: resultat før skatt +35,9 MNOK (justert +20,9). Höganäs Borgestad EBIT 36,8 MNOK. Netto rentebærende gjeld 374,6 MNOK. Konklusjon: hold til Q3, svakeste case.
+
+## 2026-10-18
+- Bjuv: eiendomsverdi 145 MSEK (60/20/20 % over 24 mnd), regnskapsmessig gevinst ca. 102 MSEK ved gjennomføring i oktober.
