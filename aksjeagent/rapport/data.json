@@ -287,7 +287,7 @@
     "kjop_under": 311,
     "hold_over": 389,
     "stress": 269,
-    "merknad": "P/B = (ROE − g)/(ROE − kE) med bokført verdi ca. 96 kr per aksje, g 4 % og kE 9 %. Kjøp under: vektet verdi minus 20 % sikkerhetsmargin. Stresstest: ROE 18 %."
+    "merknad": "P/B = (ROE − g)/(kE − g) med bokført verdi ca. 96 kr per aksje, g 4 % og kE 9 %. Kjøp under: vektet verdi minus 20 % sikkerhetsmargin. Stresstest: ROE 18 %."
    },
    "nokkeltall": [
     [

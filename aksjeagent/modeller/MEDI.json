@@ -1,15 +1,15 @@
 {
  "ticker": "MEDI",
- "kurs": 248,
- "kursdato": "23.09.2026",
- "kilde": "Omsetning 2025 699,8 MNOK, H1 2026 403,7 MNOK. EBIT 2025 196,2 MNOK. Kontanter 100 MNOK etter utbytte, ingen rentebærende gjeld. 18,3 mill. aksjer.",
- "omsetning": 753,
- "margin_naa": 0.29,
+ "kurs": 300,
+ "kursdato": "23.10.2026",
+ "kilde": "Omsetning 2025 699,8 MNOK, 9M 2026 613,7 (517,5). LTM ca. 796 MNOK. EBIT 9M 185,5 (30,2 %), Q3 63,1 (30,1 %). Kontanter 175,6 MNOK før kvartalsutbytte 2,50 kr (ca. 46 MNOK). Ingen rentebærende gjeld. 18,3 mill. aksjer. Kurs 300 kr 23.10 (Yahoo).",
+ "omsetning": 796,
+ "margin_naa": 0.3,
  "skatt": 0.22,
  "sales_to_capital": 2.5,
  "roic_terminal": 0.3,
  "aar": 10,
- "netto_kontanter": 100,
+ "netto_kontanter": 130,
  "aksjer": 18.3,
  "rente": 0.042,
  "beta": 0.9,
@@ -20,9 +20,9 @@
   "Svak": {
    "beskrivelse": "Tollkostnader og konkurranse bremser veksten. Marginen holder seg rundt dagens nivå.",
    "vekst": [
+    0.09,
+    0.08,
     0.07,
-    0.07,
-    0.06,
     0.06,
     0.05
    ],
@@ -32,10 +32,10 @@
    "sannsynlighet": 0.25
   },
   "Basis": {
-   "beskrivelse": "Fortsatt vekst i USA og Asia, nær 1 mrd. NOK i omsetning innen 2029.",
+   "beskrivelse": "Veksten fra 2026 (ca. 19 % i 9M) avtar mot historisk snitt. Rundt 1 mrd. NOK i omsetning i 2028.",
    "vekst": [
+    0.16,
     0.13,
-    0.12,
     0.11,
     0.1,
     0.09
@@ -48,9 +48,9 @@
   "Sterk": {
    "beskrivelse": "Gjennombrudd for kirurgisk veiledning med ultralyd i USA og AI-assistert bildebehandling.",
    "vekst": [
-    0.17,
-    0.16,
-    0.14,
+    0.22,
+    0.18,
+    0.15,
     0.12,
     0.1
    ],

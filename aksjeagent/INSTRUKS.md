@@ -37,7 +37,7 @@ Grundig Bouvet-analyse:
 4. Stresstest: hvor langt ned kan kursen presses i et dårlig AI-scenario? Regn ut kurs og fall i prosent for 2–3 scenarier.
 5. Konklusjon med kjøpsnivåer.
 6. Bouvet oppfyller kriteriene for dypdykk (vektet DCF-oppside ca. 28 %). Gjør hele metode.md §10, og oppdater `modeller/BOUV.json` med verifiserte tall (netto kontanter, aksjeantall, dagens kurs, norsk 10-års rente).
-7. Lag modeller for de andre aksjene: Nekkar (DCF), Protector (P/B = (ROE − g)/(ROE − kE)), Logistea (NAV og rentesensitivitet), Borgestad (sum av delene).
+7. Lag modeller for de andre aksjene: Nekkar (DCF), Protector (P/B = (ROE − g)/(kE − g)), Logistea (NAV og rentesensitivitet), Borgestad (sum av delene).
 Medistim: varsle hvis kursen går under 220 kr (20 %-nivå). Kjøpsgrense etter DCF er 191,50 kr, og ta med Q3-rapporten 22.10 når den kommer.
 
 

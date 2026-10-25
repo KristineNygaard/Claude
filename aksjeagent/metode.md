@@ -98,7 +98,7 @@ Grahams verdiformel justert for rentenivå: **Verdi = E · (8,5 + 2g) · (4,4 / 
 ### 7.2 Sjekk at «billig» ikke er en verdifelle
 Damodaran viser at lave multipler ofte er fortjent. Før en aksje kalles billig skal agenten sjekke:
 - **Lav P/E:** er resultatet risikabelt, engangspreget eller toppsyklisk? Bruk normalisert resultat (snitt 5–10 år) og eierresultat (owner earnings = resultat + avskrivninger − vedlikeholdsinvesteringer).
-- **Lav P/B:** P/B = (ROE − g) / (ROE − kE). Lav P/B er bare et kjøpssignal når ROE er over avkastningskravet og gjelden er lav.
+- **Lav P/B:** P/B = (ROE − g) / (kE − g). Lav P/B er bare et kjøpssignal når ROE er over avkastningskravet og gjelden er lav.
 - **Lav P/S:** sjekk margin og gjeld. Bruk EV/omsetning.
 - **Lav EV/EBITDA:** sjekk reinvesteringsbehov og ROIC.
 - **Høyt utbytte:** er det bærekraftig? Hvor mye blir igjen til vekst?
@@ -119,7 +119,7 @@ Damodaran viser at lave multipler ofte er fortjent. Før en aksje kalles billig 
 | Selskapstype | Hovedmodell | Kontroll |
 |---|---|---|
 | Vanlige driftsselskaper (Bouvet, Medistim, Nekkar) | FCFF-DCF (`modeller/dcf.py`) med tre scenarier og sannsynligheter | Fair P/E, Graham-verdi, omvendt DCF |
-| Forsikring og bank (Protector) | Egenkapitalmodell: P/B = (ROE − g)/(ROE − kE), og utbyttemodell | P/E normalisert |
+| Forsikring og bank (Protector) | Egenkapitalmodell: P/B = (ROE − g)/(kE − g), og utbyttemodell | P/E normalisert |
 | Eiendom (Logistea) | Substansverdi (NAV) og forvaltningsresultat-multippel | Rentesensitivitet |
 | Konglomerat og holding (Borgestad) | Sum av delene (SOTP), med 5–10 % konglomeratrabatt | Netto gjeld |
 

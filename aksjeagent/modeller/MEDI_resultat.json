@@ -1,250 +1,250 @@
 {
  "ticker": "MEDI",
- "kurs": 248,
+ "kurs": 300,
  "wacc": 8.7,
  "ke": 8.7,
  "scenarier": {
   "Svak": {
-   "per_aksje": 165.3,
-   "oppside_pct": -33.3,
+   "per_aksje": 182.0,
+   "oppside_pct": -39.3,
    "sannsynlighet": 0.25,
    "andel_terminal_pct": 57,
    "beskrivelse": "Tollkostnader og konkurranse bremser veksten. Marginen holder seg rundt dagens nivå.",
    "rader": [
     {
      "aar": 1,
-     "omsetning": 806,
-     "vekst": 7.0,
-     "margin": 28.3,
-     "fcff": 157
+     "omsetning": 868,
+     "vekst": 9.0,
+     "margin": 29.0,
+     "fcff": 168
     },
     {
      "aar": 2,
-     "omsetning": 862,
-     "vekst": 7.0,
-     "margin": 27.7,
-     "fcff": 163
+     "omsetning": 937,
+     "vekst": 8.0,
+     "margin": 28.0,
+     "fcff": 177
     },
     {
      "aar": 3,
-     "omsetning": 914,
-     "vekst": 6.0,
+     "omsetning": 1003,
+     "vekst": 7.0,
      "margin": 27.0,
-     "fcff": 172
+     "fcff": 185
     },
     {
      "aar": 4,
-     "omsetning": 969,
+     "omsetning": 1063,
      "vekst": 6.0,
      "margin": 27.0,
-     "fcff": 182
+     "fcff": 200
     },
     {
      "aar": 5,
-     "omsetning": 1017,
+     "omsetning": 1116,
      "vekst": 5.0,
      "margin": 27.0,
-     "fcff": 195
+     "fcff": 214
     },
     {
      "aar": 6,
-     "omsetning": 1063,
+     "omsetning": 1166,
      "vekst": 4.5,
      "margin": 27.0,
-     "fcff": 206
+     "fcff": 226
     },
     {
      "aar": 7,
-     "omsetning": 1105,
+     "omsetning": 1213,
      "vekst": 4.0,
      "margin": 27.0,
-     "fcff": 216
+     "fcff": 237
     },
     {
      "aar": 8,
-     "omsetning": 1144,
+     "omsetning": 1255,
      "vekst": 3.5,
      "margin": 27.0,
-     "fcff": 225
+     "fcff": 247
     },
     {
      "aar": 9,
-     "omsetning": 1178,
+     "omsetning": 1293,
      "vekst": 3.0,
      "margin": 27.0,
-     "fcff": 234
+     "fcff": 257
     },
     {
      "aar": 10,
-     "omsetning": 1208,
+     "omsetning": 1325,
      "vekst": 2.5,
      "margin": 27.0,
-     "fcff": 243
+     "fcff": 266
     }
    ]
   },
   "Basis": {
-   "per_aksje": 250.6,
-   "oppside_pct": 1.0,
+   "per_aksje": 275.3,
+   "oppside_pct": -8.2,
    "sannsynlighet": 0.55,
    "andel_terminal_pct": 63,
-   "beskrivelse": "Fortsatt vekst i USA og Asia, nær 1 mrd. NOK i omsetning innen 2029.",
+   "beskrivelse": "Veksten fra 2026 (ca. 19 % i 9M) avtar mot historisk snitt. Rundt 1 mrd. NOK i omsetning i 2028.",
    "rader": [
     {
      "aar": 1,
-     "omsetning": 851,
-     "vekst": 13.0,
-     "margin": 29.5,
-     "fcff": 157
+     "omsetning": 923,
+     "vekst": 16.0,
+     "margin": 30.2,
+     "fcff": 167
     },
     {
      "aar": 2,
-     "omsetning": 953,
-     "vekst": 12.0,
-     "margin": 30.0,
-     "fcff": 182
+     "omsetning": 1043,
+     "vekst": 13.0,
+     "margin": 30.5,
+     "fcff": 200
     },
     {
      "aar": 3,
-     "omsetning": 1058,
+     "omsetning": 1158,
      "vekst": 11.0,
-     "margin": 30.5,
-     "fcff": 210
+     "margin": 30.8,
+     "fcff": 232
     },
     {
      "aar": 4,
-     "omsetning": 1164,
+     "omsetning": 1274,
      "vekst": 10.0,
      "margin": 31.0,
-     "fcff": 239
+     "fcff": 262
     },
     {
      "aar": 5,
-     "omsetning": 1268,
+     "omsetning": 1389,
      "vekst": 9.0,
      "margin": 31.0,
-     "fcff": 265
+     "fcff": 290
     },
     {
      "aar": 6,
-     "omsetning": 1367,
+     "omsetning": 1497,
      "vekst": 7.8,
      "margin": 31.0,
-     "fcff": 291
+     "fcff": 319
     },
     {
      "aar": 7,
-     "omsetning": 1458,
+     "omsetning": 1596,
      "vekst": 6.6,
      "margin": 31.0,
-     "fcff": 316
+     "fcff": 346
     },
     {
      "aar": 8,
-     "omsetning": 1536,
+     "omsetning": 1682,
      "vekst": 5.4,
      "margin": 31.0,
-     "fcff": 340
+     "fcff": 372
     },
     {
      "aar": 9,
-     "omsetning": 1601,
+     "omsetning": 1753,
      "vekst": 4.2,
      "margin": 31.0,
-     "fcff": 361
+     "fcff": 396
     },
     {
      "aar": 10,
-     "omsetning": 1649,
+     "omsetning": 1805,
      "vekst": 3.0,
      "margin": 31.0,
-     "fcff": 379
+     "fcff": 415
     }
    ]
   },
   "Sterk": {
-   "per_aksje": 300.8,
-   "oppside_pct": 21.3,
+   "per_aksje": 340.3,
+   "oppside_pct": 13.4,
    "sannsynlighet": 0.2,
    "andel_terminal_pct": 64,
    "beskrivelse": "Gjennombrudd for kirurgisk veiledning med ultralyd i USA og AI-assistert bildebehandling.",
    "rader": [
     {
      "aar": 1,
-     "omsetning": 881,
-     "vekst": 17.0,
-     "margin": 30.0,
-     "fcff": 155
+     "omsetning": 971,
+     "vekst": 22.0,
+     "margin": 30.8,
+     "fcff": 163
     },
     {
      "aar": 2,
-     "omsetning": 1022,
-     "vekst": 16.0,
-     "margin": 31.0,
-     "fcff": 191
+     "omsetning": 1146,
+     "vekst": 18.0,
+     "margin": 31.5,
+     "fcff": 212
     },
     {
      "aar": 3,
-     "omsetning": 1165,
-     "vekst": 14.0,
-     "margin": 32.0,
-     "fcff": 234
+     "omsetning": 1318,
+     "vekst": 15.0,
+     "margin": 32.2,
+     "fcff": 263
     },
     {
      "aar": 4,
-     "omsetning": 1305,
+     "omsetning": 1476,
      "vekst": 12.0,
-     "margin": 33.0,
-     "fcff": 280
-    },
-    {
-     "aar": 5,
-     "omsetning": 1435,
-     "vekst": 10.0,
      "margin": 33.0,
      "fcff": 317
     },
     {
+     "aar": 5,
+     "omsetning": 1624,
+     "vekst": 10.0,
+     "margin": 33.0,
+     "fcff": 359
+    },
+    {
      "aar": 6,
-     "omsetning": 1559,
+     "omsetning": 1763,
      "vekst": 8.6,
      "margin": 33.0,
-     "fcff": 352
+     "fcff": 398
     },
     {
      "aar": 7,
-     "omsetning": 1671,
+     "omsetning": 1890,
      "vekst": 7.2,
      "margin": 33.0,
-     "fcff": 385
+     "fcff": 436
     },
     {
      "aar": 8,
-     "omsetning": 1768,
+     "omsetning": 2000,
      "vekst": 5.8,
      "margin": 33.0,
-     "fcff": 416
+     "fcff": 471
     },
     {
      "aar": 9,
-     "omsetning": 1846,
+     "omsetning": 2088,
      "vekst": 4.4,
      "margin": 33.0,
-     "fcff": 444
+     "fcff": 502
     },
     {
      "aar": 10,
-     "omsetning": 1901,
+     "omsetning": 2150,
      "vekst": 3.0,
      "margin": 33.0,
-     "fcff": 467
+     "fcff": 528
     }
    ]
   }
  },
- "vektet_verdi": 239.3,
- "vektet_oppside_pct": -3.5,
- "kjop_under_mos": 191.5,
+ "vektet_verdi": 265.0,
+ "vektet_oppside_pct": -11.7,
+ "kjop_under_mos": 212.0,
  "sikkerhetsmargin_pct": 20,
  "sensitivitet": {
   "wacc": [
@@ -261,27 +261,27 @@
   ],
   "verdi": [
    [
-    274.9,
-    251.2,
-    231.1,
-    213.9,
-    198.9
+    302.0,
+    276.1,
+    254.1,
+    235.2,
+    218.8
    ],
    [
-    306.2,
-    275.7,
-    250.6,
-    229.5,
-    211.6
+    336.3,
+    302.9,
+    275.3,
+    252.3,
+    232.7
    ],
    [
-    354.3,
-    311.7,
-    278.1,
-    251.0,
-    228.7
+    389.0,
+    342.3,
+    305.5,
+    275.8,
+    251.4
    ]
   ]
  },
- "omvendt_dcf_vekst_pct": 10.3
+ "omvendt_dcf_vekst_pct": 12.8
 }
