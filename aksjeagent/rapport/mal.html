@@ -203,7 +203,7 @@ a{color:var(--accent)}
   }
   function stock(a){
     var r=ret(a), own=a.type==='eier';
-    var st=[['Kurs ('+a.kursdato+')',nf(a.kurs)+' '+a.valuta]];
+    var st=[['Kurs ('+a.kursdato+')',nf(a.kurs)+' '+a.valuta+(a.kurs_gammel?'<div class="neg" style="font-size:13px;font-weight:600">Gammel kurs. Ingen ordre bygger på den.</div>':'')]];
     if(own){st.push(['Antall',nf(a.antall,0)]);st.push(['GAV',nf(a.gav)+' '+a.valuta]);st.push(['Verdi',nf(a.kurs*a.antall,0)+' '+a.valuta]);st.push(['Din avkastning','<span class="'+sign(r)+'">'+pct(r)+'</span>'])}
     st.push(['Forventet avkastning/år ('+a.horisont+')',a.forv_avk==null?'Ikke beregnet':'<span class="'+sign(a.forv_avk-15)+'">'+nf(a.forv_avk,0)+' %</span>']);
     var html='<section class="view">'+

@@ -6,9 +6,14 @@ Ved kjøp eller salg skal `portefolje.json` oppdateres i samme commit.
 
 ---
 
+## 2026-10-25 Ukesrapport uke 43
+- Ingen svar fra Kristine på rapporten 18.10. Tolket som ingen handling.
+- Anbefaling: ingen handling. Protector Q3 sterkt (EPS 10,2, premier +41 % i lokal valuta), forventet ca. 12 % i året, hold. Medistim steg til 300 kr, ny kjøpsgrense 212 kr. Kid og Europris analysert, begge for dyre (8–9 % i året). Ingen sparebank gir 15 %.
+- Kristines valg: venter på svar.
+
 ## 2026-10-18 Ukesrapport uke 42
 - Anbefaling: ingen handling. Protector og Medistim vurderes etter Q3 (22. og 23.10).
-- Kristines valg: venter på svar.
+- Kristines valg: ingen svar (ingen handling).
 
 ## 2026-10-13 Føring fra Kristine
 - Langsiktig investor (ca. 3 år). Vil ikke handle hver uke eller preges av kurtasje. Standard er ingen handling. Se metode.md §11.

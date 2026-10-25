@@ -1,14 +1,14 @@
 {
- "tittel": "Ukesrapport uke 42",
- "dato": "18. oktober 2026",
- "neste": "Søndag 25. oktober kl. 20:00. Protector 22.10 og Medistim 23.10 legger fram Q3. Bouvet 3.–4. november.",
- "status_note": "Kursene er uendret fra forrige uke (Nekkar 16,45 fra deg 12.10, Logistea 11,90 SEK ved kjøpet ditt, Bouvet 48,10 per 16.10). Jeg fant ikke nyere kurser, så ingen kjøps- eller salgsordre bygger på dem.",
- "oppsummering": "Rolig uke. Ingen nye børsmeldinger for aksjene dine, og ingenting tilsier handling. Den viktigste nyheten er detaljene i Borgestads Bjuv-avtale: eiendommene er verdsatt til 145 MSEK, og selskapet bokfører en gevinst på rundt 102 MSEK når salget gjennomføres i oktober. Neste uke kommer Q3 fra Protector og Medistim. Det er de første virkelige testene av casene våre. Handler siste 3 måneder: 2 (Nekkar-salg og Logistea-kjøp 12.10).",
+ "tittel": "Ukesrapport uke 43",
+ "dato": "25. oktober 2026",
+ "neste": "Søndag 1. november kl. 20:00. Europris og sparebankene legger fram Q3 29.10. Bouvet 4.11, Nekkar og Kid 5.11.",
+ "status_note": "Kurser per 23.10 for Protector, Medistim, Bouvet og Europris, og per 21.10 for Borgestad og Kid. For Nekkar (16,45 kr fra deg 12.10) og Logistea (12,92 SEK 14.10) fant jeg ikke nyere kurser. De er merket med rødt, og ingen ordre bygger på dem.",
+ "oppsummering": "Uken ga to sterke rapporter. Protector tjente 10,20 kr per aksje i Q3 mot 5,60 i fjor og vokste premiene med 41 % i lokal valuta etter den største kontrakten i selskapets historie. Medistim økte driftsresultatet med 56 %, og aksjen steg til 300 kr. Logistea leverte rekordinntekter, og Borgestad har gjennomført Bjuv-salget. Ingenting i porteføljen tilsier handling. Kid og Europris er analysert, men begge er for dyre til å gi 15 % i året. Handler siste 3 måneder: 2 (12.10).",
  "mandag": {
   "handling": "Ingen handling",
-  "tekst": "Porteføljen står som den skal. Kontantene på ca. 1 300 kr venter til de sammen med sparingen er rundt 5 000 kr. Vi vurderer Protector og Medistim på nytt etter Q3-tallene neste uke."
+  "tekst": "Porteføljen står seg, og ingen aksjer bryter salgsreglene. Protector betaler 5 kr per aksje i utbytte (ex-dato 27.10), som gir deg 90 kr. Kontantene på ca. 1 300 kr venter til de sammen med sparingen er rundt 5 000 kr. Da er Bouvet under 42,40 kr eller Medistim under 212 kr de beste kjøpene."
  },
- "valg_forrige_uke": "12.10: solgte 325 Nekkar til 16,35 kr og kjøpte 351 Logistea til 11,90 SEK. 13.10: ønsket langsiktig strategi med få handler.",
+ "valg_forrige_uke": "Ingen svar på rapporten 18.10. Jeg tolker det som at du følger anbefalingen om ingen handling.",
  "aksjer": [
   {
    "id": "NKR",
@@ -18,17 +18,17 @@
    "anbefaling_tekst": "Hold de resterende 646 aksjene til Q3. Ingen ny handling med mindre kursen går over toppscenarioet (ca. 19,60 kr) eller Q3 viser svake marginer.",
    "kurs": 16.45,
    "valuta": "NOK",
-   "kursdato": "12.10.2026 (fra deg)",
+   "kursdato": "12.10.2026 (fra deg, gammel)",
    "antall": 646,
    "gav": 10.33,
    "forv_avk": -15,
    "horisont": "2 år",
-   "kort": "Jeg var for streng forrige uke fordi marginene i modellen lå under Nekkars egen historikk. Konsernet hadde EBITDA-margin på 18,9 % i 2023 og 14,8 % i 2024, og Syncrolift har tidligere hatt rundt 22 % i snitt. Med det som basis er vektet verdi rundt 11,60 kr. Sterkt scenario (ny toppsyklus, EBIT-margin 20 %) gir 19,60 kr. Kursen på 16,45 kr ligger mellom basis og topp, så markedet priser inn mye av en ny oppgang. Gevinsten din er 59 %.",
+   "kort": "Ny historikk fra 2016 viser at Nekkar er sterkt syklisk. EBITDA-marginen har svingt fra 5 % i 2017 til 29 % i 2021 og ned til 0,3 % i 2025, mens snittet 2019–2024 er 17,5 %. Modellen bygger på dette snittet og gir en vektet verdi rundt 11,60 kr. Kursen på 16,45 kr ligger mellom basis og toppscenarioet på 19,60 kr, så markedet priser inn en ny oppgang. Gevinsten din er 59 %. Q3 5. november viser om marginene er på vei opp.",
    "nivaer": {
     "kjop_under": 8.1,
     "hold_over": 11.6,
     "stress": 6.1,
-    "merknad": "Kjøp under: vektet DCF minus 30 % sikkerhetsmargin. Hold opp til vektet DCF-verdi. Toppsyklus-scenarioet gir 19,60 kr. FiiZK-omsetningen (ca. 150 MNOK) er fortsatt mitt anslag."
+    "merknad": "Kjøp under: vektet DCF minus 30 % sikkerhetsmargin. Hold opp til vektet DCF-verdi. Toppsyklus-scenarioet gir 19,60 kr. Snittmarginen 2019–2024 er 17,5 %, med topp 29 % i 2021."
    },
    "nokkeltall": [
     [
@@ -92,6 +92,30 @@
     "tittel": "EBITDA-margin (%)",
     "data": [
      [
+      "2017",
+      5.2
+     ],
+     [
+      "2018",
+      7.7
+     ],
+     [
+      "2019",
+      13.5
+     ],
+     [
+      "2020",
+      21.4
+     ],
+     [
+      "2021",
+      29.1
+     ],
+     [
+      "2022",
+      16.0
+     ],
+     [
       "2023",
       18.9
      ],
@@ -110,9 +134,9 @@
     ]
    },
    "nytt": [
-    "Ingen nye børsmeldinger denne uken",
-    "Du solgte 325 aksjer til 16,35 kr 12.10",
-    "Viktig å avklare i Q3: hvordan FiiZK regnskapsføres og hva FiiZK omsetter for"
+    "Ingen nye børsmeldinger",
+    "Q3-rapport torsdag 5. november kl. 07:00",
+    "FiiZK: Nekkar eier 39 % og bokfører bare sin andel av resultatet (egenkapitalmetoden). FiiZK-omsetningen er derfor ikke med i Nekkars tall"
    ],
    "risiko": [
     "Modellen er følsom for FiiZK-omsetningen, som ikke er oppgitt",
@@ -132,20 +156,21 @@
    "ai": {
     "score": 1,
     "tekst": "Intellilift (automatisering av borerigger) selges som SaaS, og antall rigger økte fra 2 til 5. Digitalisering er en mulighet, ikke en trussel."
-   }
+   },
+   "kurs_gammel": true
   },
   {
    "id": "LOGI",
    "navn": "Logistea B",
    "type": "eier",
    "anbefaling": "HOLD",
-   "anbefaling_tekst": "Hold. Du kjøpte mer til 11,90 SEK. Ingen nye kjøp før kursen er under ca. 11,70 SEK og du har samlet minst 5 000 kr.",
-   "kurs": 11.9,
+   "anbefaling_tekst": "Hold. Q3 viste rekordinntekter og 23 % vekst i forvaltningsresultat per aksje. Ingen nye kjøp før du har ca. 5 000 kr og kursen er under 11,70 SEK.",
+   "kurs": 12.92,
    "valuta": "SEK",
-   "kursdato": "12.10.2026 (ditt kjøp)",
+   "kursdato": "14.10.2026 (Placera, gammel)",
    "antall": 1657,
    "gav": 13.99,
-   "forv_avk": 21,
+   "forv_avk": 16,
    "horisont": "2 år",
    "kort": "Driften vokser godt, men aksjen handles 32 % under verdien av eiendommene. Kursfallet skyldes renter og stemning, ikke svakere drift. En del av tapet ditt kommer fra svakere SEK mot NOK.",
    "nivaer": {
@@ -156,12 +181,12 @@
    },
    "nokkeltall": [
     [
-     "Leieinntekter H1",
-     "622 MSEK (+22 %)"
+     "Leieinntekter Q3",
+     "327 MSEK (288)"
     ],
     [
-     "Forvaltningsresultat/aksje H1",
-     "0,61 SEK (+20 %)"
+     "Forvaltningsresultat/aksje 9M",
+     "0,95 SEK (+23 %)"
     ],
     [
      "Substansverdi (NAV)",
@@ -235,8 +260,24 @@
     "tittel": "Substansverdi per aksje (SEK)",
     "data": [
      [
-      "H1 25",
-      16.6
+      "2021",
+      11.8
+     ],
+     [
+      "2022",
+      16.9
+     ],
+     [
+      "2023",
+      13.2
+     ],
+     [
+      "2024",
+      15.33
+     ],
+     [
+      "2025",
+      16.59
      ],
      [
       "H1 26",
@@ -245,9 +286,9 @@
     ]
    },
    "nytt": [
-    "Ingen nye meldinger",
-    "Kåret til «Årets Börsbolag 2026» (27. august)",
-    "Ny 6-årig leiekontrakt med leietaker i forsvarsindustrien (mars). Etisk OK, siden Logistea er utleier og ikke produsent."
+    "Q3 22.10: leieinntekter 327 MSEK (+14 %), forvaltningsresultat 173 MSEK (130), litt under forventet 176",
+    "Eiendomsporteføljen passerte 20 mrd. SEK etter Velux-avtalen",
+    "Nordea hevet kursmålet til 17 SEK. Pareto og SB1 har 18 SEK"
    ],
    "risiko": [
     "Høyere renter og refinansiering",
@@ -256,67 +297,76 @@
    ],
    "kilder": [
     [
-     "Logistea Q2 2026",
-     "https://www.placera.se/pressmeddelanden/logistea-logistea-published-interim-report-for-the-second-quarter-2026-20260709"
+     "Logistea Q3 2026",
+     "https://www.inderes.fi/en/releases/logistea-published-interim-report-for-the-third-quarter-2026"
     ],
     [
-     "Quartr Q2",
-     "https://quartr.com/events/logistea-logi-q2-2026_oq9LddNU"
+     "Privata Affärer",
+     "https://www.privataaffarer.se/placeringar/aktier/hogre-forvaltningsresultat-for-logistea/"
+    ],
+    [
+     "Nordea kursmål",
+     "https://www.placera.se/telegram/nordea-hojer-riktkursen-for-logistea-till-17-kronor-16-upprepar-kop-20261023"
     ]
    ],
    "ai": {
     "score": 1,
     "tekst": "Netthandel og digitale forsyningskjeder øker behovet for moderne lager. AI påvirker leietakerne mer enn eiendommene."
-   }
+   },
+   "kurs_gammel": true
   },
   {
    "id": "PROT",
    "navn": "Protector Forsikring",
    "type": "eier",
    "anbefaling": "HOLD",
-   "anbefaling_tekst": "Hold til Q3-rapporten 22. oktober. P/B-modellen gir en vektet verdi rundt 389 kr, litt under kursen. Selg hvis premieveksten fortsatt er svak i Q3.",
-   "kurs": 407,
+   "anbefaling_tekst": "Hold. Q3 var sterkt, men kursen på 442,60 kr gir rundt 12 % i året. Det er under kravet, men ikke svakt nok til å selge med kurtasje og tap mot GAV. Kjøp mer bare under 383 kr.",
+   "kurs": 442.6,
    "valuta": "NOK",
-   "kursdato": "7.10.2026",
+   "kursdato": "23.10.2026",
    "antall": 18,
    "gav": 455.01,
-   "forv_avk": 9,
+   "forv_avk": 12,
    "horisont": "2 år",
-   "kort": "Protector har et reelt kostnadsfortrinn og leverer combined ratio godt under målet. Kursen har falt fordi premieveksten har bremset og finansavkastningen var lavere. Selskapet er godt, men prisen gir under kravet ditt.",
+   "kort": "Protector leverte combined ratio på 82,7 % og resultat per aksje på 10,20 kr, nesten dobbelt så mye som i Q3 i fjor. Premieveksten tok seg kraftig opp til 41 % i lokal valuta, drevet av en stor britisk bilforsikringskontrakt. Det svarer på bekymringen vår fra forrige uke om svak vekst. Kursen har likevel bare steget litt, til 442,60 kr. Med P/E rundt 14 på årets ventede resultat og et utbytte på rundt 5 % gir aksjen ca. 12 % i året. Caset er styrket, men prisen er fortsatt nær full.",
    "nivaer": {
-    "kjop_under": 311,
-    "hold_over": 389,
-    "stress": 269,
-    "merknad": "P/B = (ROE − g)/(kE − g) med bokført verdi ca. 96 kr per aksje, g 4 % og kE 9 %. Kjøp under: vektet verdi minus 20 % sikkerhetsmargin. Stresstest: ROE 18 %."
+    "kjop_under": 383,
+    "hold_over": 418,
+    "stress": 258,
+    "merknad": "Nivåer fra formelen pris = E · PE_salg / ((1 + r − utbytte)/(1 + G))^n med E 31 kr, P/E 14, G 8 %, utbytte 5 % og n = 2. 383 kr gir 20 %, 418 kr gir 15 %. P/B-modellen (ROE − g)/(kE − g) med bokført verdi ca. 92 kr, kE 9 % og g 4 % gir vektet 428 kr. Stresstest: ROE 18 % gir P/B 2,8 og 258 kr."
    },
    "nokkeltall": [
     [
-     "Combined ratio Q2",
-     "81,5 % (mål < 91 %)"
+     "Combined ratio Q3",
+     "82,7 % (83,1 %)"
     ],
     [
-     "Resultat per aksje 2025",
-     "31,7 kr"
+     "Resultat per aksje Q3",
+     "10,20 kr (5,60)"
     ],
     [
-     "Normalisert P/E",
-     "ca. 14,5"
+     "Premievekst Q3",
+     "+41 % i lokal valuta"
     ],
     [
-     "Premievekst",
-     "+6 % i lokal valuta"
+     "Fornyelsesgrad",
+     "90 % (96 %)"
     ],
     [
      "Solvens",
-     "221 %"
+     "231 %"
     ],
     [
      "Utbytte",
-     "3,00 kr per kvartal"
+     "5,00 kr (ex 27.10)"
     ],
     [
-     "P/B-modell (vektet)",
-     "ca. 389 kr (−4,5 %)"
+     "P/E (2026E ca. 31 kr)",
+     "ca. 14,3"
+    ],
+    [
+     "Innsidesalg",
+     "Salg til 444,82 kr 22.10"
     ]
    ],
    "scenarier": [
@@ -324,19 +374,19 @@
      "Svak",
      "ROE 18 %",
      "P/B 2,8",
-     -34
+     -14
     ],
     [
      "Basis",
-     "ROE 25 %",
-     "P/B 4,2",
-     -1
+     "ROE 28 %",
+     "P/B 4,8",
+     12
     ],
     [
      "Sterk",
-     "ROE 30 %",
-     "P/B 5,2",
-     23
+     "ROE 35 %",
+     "P/B 6,2",
+     26
     ]
    ],
    "buffett": [
@@ -367,38 +417,75 @@
     ]
    ],
    "historikk": {
-    "tittel": "Resultat per aksje (kr)",
+    "tittel": "Combined ratio (%), lavere er bedre",
     "data": [
      [
-      "2021",
-      14.6
+      "2013",
+      86.7
      ],
      [
-      "2023",
-      18.3
+      "2014",
+      84.5
+     ],
+     [
+      "2015",
+      88.7
+     ],
+     [
+      "2016",
+      97.0
+     ],
+     [
+      "2017",
+      93.1
+     ],
+     [
+      "2018",
+      98.6
+     ],
+     [
+      "2019",
+      103.8
      ],
      [
       "2025",
-      31.7
+      84.7
+     ],
+     [
+      "9M 26",
+      83.0
      ]
     ]
    },
    "nytt": [
-    "Q3-rapport 22.10. Følg premievekst i lokal valuta og combined ratio"
+    "Q3: combined ratio 82,7 %, resultat 853 MNOK (468), premier 2 168 MNOK (+29 % i NOK)",
+    "Største enkeltkontrakt i selskapets historie (britisk bilforsikring fra 1. juli)",
+    "Utbytte 5 kr per aksje, ex-dato 27.10. Det gir deg 90 kr",
+    "Fornyelsesgraden falt til 90 %, fordi Protector går fra ulønnsomme britiske kontrakter",
+    "Innsidesalg til 444,82 kr 22.10"
    ],
    "risiko": [
-    "Premieveksten kan bremse videre",
+    "Fornyelsesgraden faller når selskapet sier nei til dårlige kontrakter",
+    "Den store britiske kontrakten må være riktig priset",
     "Svingninger i finansavkastning",
-    "Storskader og reserveusikkerhet"
+    "2018–19 viser at combined ratio kan gå over 100 %"
    ],
    "kilder": [
     [
-     "Protector Q2 2026",
-     "https://investor.protectorforsikring.no/pressreleases/q2-2026-cr-815-earnings-per-share-nok-90-dividend-nok-300-per-share-mrdoao71"
+     "Protector Q3 2026",
+     "https://investor.protectorforsikring.no/pressreleases/q3-2026-cr-827-earnings-per-share-nok-102-dividend-nok-500-per-share-mviclalu"
     ],
     [
-     "Protector 2025",
-     "https://investor.protectorforsikring.no/pressreleases/2025-cr-847-earnings-per-share-nok-317"
+     "Kvartalsrapport Q3",
+     "https://storage.mfn.se/7937a5b0-adf2-4dda-a1fb-1861db8e9d47/interim-report-q3-2026-prot.pdf"
+    ],
+    [
+     "E24 om kontrakten",
+     "https://e24.no/bors/nyheter/a/305949"
+    ],
+    [
+     "Kurs (DN)",
+     "https://www.dn.no/investor/aksje/S97/PROT/PROTECTOR%20FORSIKRING/"
     ]
    ],
    "ai": {
@@ -411,13 +498,13 @@
    "navn": "Borgestad",
    "type": "eier",
    "anbefaling": "HOLD",
-   "anbefaling_tekst": "Hold. Bjuv-salget er signert og gir ca. 4 kr per aksje i kontanter. Sum av delene gir ca. 18,70 kr. Fyll på under 15 kr.",
-   "kurs": 17.15,
+   "anbefaling_tekst": "Hold. Bjuv-salget er gjennomført og gir ca. 4 kr per aksje over to år. Sum av delene gir ca. 18,70 kr. Fyll på under 15 kr.",
+   "kurs": 16.85,
    "valuta": "NOK",
-   "kursdato": "9.10.2026",
+   "kursdato": "21.10.2026",
    "antall": 498,
    "gav": 16.24,
-   "forv_avk": 9,
+   "forv_avk": 11,
    "horisont": "2 år",
    "kort": "Borgestad er et holdingselskap med to ben: Höganäs Borgestad (ildfaste materialer) og kjøpesenteret Agora Bytom i Polen. Den viktigste nyheten er at Bjuv-salget endelig er signert etter tre år med rettstvist. Netto kontanteffekt er ca. 141 MSEK, rundt 23 % av markedsverdien, mot en bokført verdi på bare 14,8 MNOK. Det gir en stor regnskapsmessig gevinst, lavere gjeld og rom for utbytte eller tilbakekjøp.",
    "nivaer": {
@@ -500,22 +587,46 @@
     ]
    ],
    "historikk": {
-    "tittel": "Resultat før skatt per kvartal (MNOK)",
+    "tittel": "Resultat før skatt (MNOK)",
     "data": [
      [
-      "Q1 26",
-      -28.0
+      "2017",
+      28.7
      ],
      [
-      "Q2 26",
-      35.9
+      "2018",
+      -28.7
+     ],
+     [
+      "2020",
+      -162.2
+     ],
+     [
+      "2021",
+      -40.0
+     ],
+     [
+      "2022",
+      -124.3
+     ],
+     [
+      "2023",
+      -37.3
+     ],
+     [
+      "2024",
+      82.3
+     ],
+     [
+      "2025",
+      23.9
      ]
     ]
    },
    "nytt": [
-    "Bjuv: eiendommene verdsatt til 145 MSEK. 60 % betales ved gjennomføring, 20 % etter 12 mnd og 20 % etter 24 mnd",
-    "Regnskapsmessig gevinst ca. 102 MSEK bokføres ved gjennomføring i oktober",
-    "Ingen bekreftelse på gjennomføring ennå"
+    "Bjuv-salget ble gjennomført i oktober (melding 14.10). 60 % av 145 MSEK betales nå, resten etter 12 og 24 måneder",
+    "Gevinst ca. 102 MSEK bokføres i Q4",
+    "Leiefritt i 24 måneder, deretter 200 SEK per kvm i inntil fem år"
    ],
    "risiko": [
     "Svak industrietterspørsel i Norden",
@@ -530,6 +641,10 @@
     [
      "Quartr Q2",
      "https://quartr.com/events/borgestad-bor-q2-2026_oSAlq2EP"
+    ],
+    [
+     "Gjennomføring Bjuv",
+     "https://www.inderes.fi/en/releases/borgestad-asa-completion-of-sale-leaseback-transaction-for-production-facilities-in-sweden"
     ]
    ],
    "ai": {
@@ -556,13 +671,13 @@
    "navn": "Bouvet",
    "type": "kandidat",
    "anbefaling": "FØLG MED",
-   "anbefaling_tekst": "Solid selskap, men kursen har steget til 47,55 kr. Kjøp under 42,40 kr (DCF med 25 % sikkerhetsmargin), eller med kursgrense 45 kr hvis du vil starte en liten posisjon.",
-   "kurs": 48.1,
+   "anbefaling_tekst": "Kursen steg 7 % til 51,90 kr fredag uten nyheter. Kjøp fortsatt bare under 42,40 kr. Q3 kommer 4. november, og faktureringsgraden avgjør.",
+   "kurs": 51.9,
    "valuta": "NOK",
-   "kursdato": "16.10.2026",
+   "kursdato": "23.10.2026",
    "antall": null,
    "gav": null,
-   "forv_avk": 19,
+   "forv_avk": 16,
    "horisont": "3 år",
    "kort": "Bouvet har vokst omsetningen fra 1,3 til 3,9 mrd. kr siden 2016 og har ingen gjeld. Veksten stoppet i 2025, og AI-frykt har presset hele konsulentbransjen. Dagens kurs priser inn omtrent null vekst de neste fem årene. Hvis Bouvet bare holder dagens nivå, er aksjen rimelig priset. Hvis veksten kommer tilbake, er den billig.",
    "nivaer": {
@@ -679,8 +794,8 @@
     ]
    },
    "nytt": [
-    "Kurs ca. 48,10 kr 16.10 (−22 % hittil i år)",
-    "Q3-rapport 3.–4. november. Følg faktureringsgraden"
+    "Kurs 51,90 kr 23.10 (+7,2 % på dagen, ingen børsmelding)",
+    "Q3-rapport 4. november kl. 06:00. Følg faktureringsgraden mot 77,9 % i Q1"
    ],
    "risiko": [
     "AI kan presse prisen på konsulenttimer",
@@ -698,7 +813,7 @@
     ],
     [
      "Kurs",
-     "https://aktien.guide/aktien/Bouvet-NO0010360266"
+     "https://stockanalysis.com/quote/osl/BOUV/"
     ]
    ],
    "ai": {
@@ -757,45 +872,49 @@
    "navn": "Medistim",
    "type": "kandidat",
    "anbefaling": "FØLG MED",
-   "anbefaling_tekst": "For dyr nå. Kjøp under 191,50 kr (DCF med 20 % sikkerhetsmargin). 220 kr gir 20 % årlig avkastning.",
-   "kurs": 248,
+   "anbefaling_tekst": "For dyr etter kurshoppet. Kjøp under 212 kr (DCF med 20 % sikkerhetsmargin). Formelen din gir ca. 17 % i året, men DCF-modellen gir en verdi på 265 kr.",
+   "kurs": 300,
    "valuta": "NOK",
-   "kursdato": "23.9.2026",
+   "kursdato": "23.10.2026",
    "antall": null,
    "gav": null,
-   "forv_avk": 14,
+   "forv_avk": 17,
    "horisont": "3 år",
-   "kort": "Utmerket selskap med nisjemonopol, over 30 % driftsmargin og ingen gjeld. Damodaran advarer likevel mot å betale for mye for kvalitet. Omvendt DCF viser at kursen allerede priser inn 11 % årlig vekst, så aksjen er fullt priset. Neste rapport kommer 22. oktober.",
+   "kort": "Q3 var svært sterkt. Omsetningen økte 31,5 % i lokal valuta, Amerika vokste 52 %, og driftsmarginen steg til 30,1 % til tross for amerikansk toll. Selskapet innfører kvartalsvis utbytte. Aksjen steg 7 % til 300 kr. Selskapet blir bedre, men prisen har steget mer enn verdien. Omvendt DCF viser at kursen priser inn ca. 13 % årlig vekst i ti år, som er mer enn snittet på 11 % siden 2015.",
    "nivaer": {
-    "kjop_under": 191.5,
-    "hold_over": 239.3,
-    "stress": 165,
-    "merknad": "Kjøpsgrense = lavest av DCF minus 20 % (191,50 kr) og 20 %-nivået (220 kr). Hold opp til vektet DCF-verdi. Stresstest = svakt scenario."
+    "kjop_under": 212,
+    "hold_over": 265,
+    "stress": 182,
+    "merknad": "Kjøpsgrense = lavest av DCF minus 20 % (212 kr) og 20 %-nivået fra formelen (275 kr). Hold opp til vektet DCF-verdi. Stresstest = svakt scenario i DCF."
    },
    "nokkeltall": [
     [
-     "Omsetning Q2",
-     "202 MNOK (+19,5 %)"
+     "Omsetning Q3",
+     "210 MNOK (+31,5 % i lokal valuta)"
     ],
     [
-     "EBIT-margin Q2",
-     "32,3 %"
+     "EBIT-margin Q3",
+     "30,1 % (24,3 %)"
     ],
     [
-     "P/E",
-     "ca. 28,7"
+     "Bruttomargin",
+     "84,5 % (81,5 %)"
     ],
     [
-     "Gjentakende salg",
-     "67 %"
+     "Resultat per aksje Q3",
+     "2,61 kr"
+    ],
+    [
+     "P/E (2026E ca. 10,80 kr)",
+     "ca. 28"
+    ],
+    [
+     "Kontanter",
+     "176 MNOK, ingen gjeld"
     ],
     [
      "Utbytte",
-     "8,00 kr"
-    ],
-    [
-     "Gjeld",
-     "Ingen rentebærende"
+     "2,50 kr per kvartal (ex 27.10)"
     ]
    ],
    "scenarier": [
@@ -803,19 +922,19 @@
      "Pessimistisk",
      "G 8 %",
      "P/E 22",
-     2
+     3
     ],
     [
      "Basis",
-     "G 12 %",
+     "G 13 %",
      "P/E 28",
-     14
+     17
     ],
     [
      "Optimistisk",
-     "G 15 %",
+     "G 16 %",
      "P/E 32,5",
-     23
+     25
     ]
    ],
    "buffett": [
@@ -846,32 +965,39 @@
     ]
    ],
    "historikk": {
-    "tittel": "Resultat per aksje (kr)",
+    "tittel": "Omsetning (MNOK)",
     "data": [
      [
+      "2018",
+      325.9
+     ],
+     [
+      "2019",
+      363.7
+     ],
+     [
+      "2020",
+      363.1
+     ],
+     [
       "2021",
-      4.98
-     ],
-     [
-      "2022",
-      6.24
-     ],
-     [
-      "2023",
-      5.67
-     ],
-     [
-      "2024",
-      5.67
+      427.3
      ],
      [
       "2025",
-      8.71
+      699.8
+     ],
+     [
+      "LTM Q3 26",
+      796
      ]
     ]
    },
    "nytt": [
-    "Q3-rapport 23.10. Sammenligningstall Q3 2025: omsetning 166,8 MNOK, EBIT 40,6 MNOK"
+    "Q3: omsetning 210 MNOK (166,8), EBIT 63,1 MNOK (+56 %)",
+    "Amerika +52 %, Asia +45 %, Europa +5,5 % i lokal valuta",
+    "Kvartalsvis utbytte på 2,50 kr innført",
+    "Kursen steg 6,8 % til 300 kr 23.10, ny 52-ukers topp 315 kr"
    ],
    "risiko": [
     "Høy prising gir lite rom for skuffelser",
@@ -880,23 +1006,366 @@
    ],
    "kilder": [
     [
-     "Medistim Q2 2026",
-     "https://quartr.com/events/medistim-medi-q2-2026_3eJvUfzg"
+     "Medistim Q3 2026",
+     "https://www.inderes.fi/en/releases/medi-financial-report-and-presentation-for-third-quarter-for-medistim-asa"
     ],
     [
-     "Kurs",
-     "https://www.investing.com/equities/medistim"
+     "Resultatpresentasjon",
+     "https://www.investing.com/news/transcripts/earnings-call-transcript-medistim-posts-strong-q3-2026-growth-shares-jump-89-93CH-4968256"
+    ],
+    [
+     "Kurs (Yahoo)",
+     "https://finance.yahoo.com/quote/MEDI.OL/"
     ]
    ],
    "ai": {
     "score": 1,
     "tekst": "Fysisk måleutstyr brukt under operasjoner er vanskelig å erstatte med AI. AI-assistert bildeanalyse kan gjøre produktene bedre."
    }
+  },
+  {
+   "type": "kandidat",
+   "antall": null,
+   "gav": null,
+   "valuta": "NOK",
+   "horisont": "3 år",
+   "id": "KID",
+   "navn": "Kid ASA",
+   "anbefaling": "FØLG MED",
+   "kurs": 136,
+   "kursdato": "21.10.2026",
+   "forv_avk": 8,
+   "anbefaling_tekst": "Godt drevet, men for dyr. Kursen gir ca. 8 % i året. Kjøp under 97 kr (20 %-nivå). Q3-resultatet kommer 5. november.",
+   "kort": "Kid driver 161 interiørbutikker i Norge og 134 Hemtex-butikker i Sverige. Hemtex ble kjøpt billig i 2019 og har blitt lønnsomt. Omsetningen er tredoblet siden 2017, og Q3 2026 viste 15 % vekst. Svakheten er balansen: gjelden utenom leieavtaler har økt fra 263 til rundt 1 000 MNOK på 15 måneder, samtidig som utbyttet er nær hele resultatet. Med P/E rundt 21 betaler markedet allerede for en bedring.",
+   "nivaer": {
+    "kjop_under": 97,
+    "hold_over": 111,
+    "stress": 73,
+    "merknad": "Formel med E 8 kr (2026E), P/E ved salg 16, G 6 %, utbytte 3,7 % og n = 3. 97 kr gir 20 %, 111 kr gir 15 %. Stresstest: resultat 5,60 kr (2025) og P/E 13."
+   },
+   "nokkeltall": [
+    [
+     "Omsetning Q3",
+     "1 013 MNOK (+15,2 %)"
+    ],
+    [
+     "Resultat per aksje",
+     "5,64 kr (2025), 9,81 kr (2024)"
+    ],
+    [
+     "P/E (12 mnd)",
+     "ca. 21"
+    ],
+    [
+     "Utbytte",
+     "5,00 kr (3,7 %)"
+    ],
+    [
+     "Utdelingsgrad",
+     "81–89 % siste tre år"
+    ],
+    [
+     "Gjeld utenom IFRS 16",
+     "ca. 1 014 MNOK (2,0 × EBITDA)"
+    ],
+    [
+     "Graham-screens",
+     "ca. 4 av 10"
+    ],
+    [
+     "Fair P/E (G = 6 %)",
+     "20,5"
+    ]
+   ],
+   "scenarier": [
+    [
+     "Svak",
+     "G 2 %",
+     "P/E 13",
+     -3
+    ],
+    [
+     "Basis",
+     "G 6 %",
+     "P/E 16",
+     8
+    ],
+    [
+     "Sterk",
+     "G 10 %",
+     "P/E 19",
+     16
+    ]
+   ],
+   "buffett": [
+    [
+     "Forståelig",
+     5,
+     "Interiør og tekstiler i egne butikker"
+    ],
+    [
+     "Konkurransefortrinn",
+     3,
+     "Sterk merkevare i Norge, men lave byttekostnader"
+    ],
+    [
+     "Stabil inntjening",
+     3,
+     "Resultat per aksje mellom 5,6 og 9,8 kr siste fem år"
+    ],
+    [
+     "Balanse",
+     2,
+     "Gjelden har økt kraftig"
+    ],
+    [
+     "Ledelse",
+     3,
+     "Ny toppsjef fra mai 2025, vellykket Hemtex-kjøp"
+    ]
+   ],
+   "historikk": {
+    "tittel": "Omsetning (MNOK)",
+    "data": [
+     [
+      "2017",
+      1382
+     ],
+     [
+      "2019",
+      2342
+     ],
+     [
+      "2020",
+      2995
+     ],
+     [
+      "2021",
+      3097
+     ],
+     [
+      "2022",
+      3178
+     ],
+     [
+      "2023",
+      3414
+     ],
+     [
+      "2024",
+      3785
+     ],
+     [
+      "2025",
+      3945
+     ]
+    ]
+   },
+   "nytt": [
+    "Q3-omsetning 1 012,7 MNOK (+15,2 %), sammenlignbar vekst +14,6 %",
+    "Hemtex +17 % i SEK",
+    "Fullt Q3-resultat 5. november"
+   ],
+   "risiko": [
+    "Økende gjeld og høyt utbytte",
+    "Konkurranse fra Jysk, Temu og Shein",
+    "Svak forbruksetterspørsel ved høye renter"
+   ],
+   "kilder": [
+    [
+     "Kid Q3-omsetning",
+     "https://www.inderes.fi/en/releases/kid-asa-revenues-for-the-third-quarter-of-2026"
+    ],
+    [
+     "Kid Q2 2026",
+     "https://www.inderes.dk/releases/kid-asa-second-quarter-2026-results"
+    ],
+    [
+     "Kid Q4 2025",
+     "https://investor.kid.no/media/36606/kid-asa_quarterly_report-q4-25.pdf"
+    ],
+    [
+     "Kurs",
+     "https://www.investing.com/equities/kid-asa-historical-data"
+    ]
+   ],
+   "ai": {
+    "score": 0,
+    "tekst": "AI kan forbedre innkjøp, lager og markedsføring, men gir ikke et varig fortrinn. Fysisk butikkhandel med tekstiler påvirkes lite."
+   }
+  },
+  {
+   "type": "kandidat",
+   "antall": null,
+   "gav": null,
+   "valuta": "NOK",
+   "horisont": "3 år",
+   "id": "EPR",
+   "navn": "Europris",
+   "anbefaling": "FØLG MED",
+   "kurs": 82.8,
+   "kursdato": "23.10.2026",
+   "forv_avk": 9,
+   "anbefaling_tekst": "Sterk posisjon i Norge, men ÖoB i Sverige tynger. Kursen gir ca. 9 % i året. Kjøp under 62 kr (20 %-nivå). Q3 kommer 29. oktober.",
+   "kort": "Europris har 64 % av markedet for lavprisvarehus i Norge og har tjent penger hvert år siden børsnoteringen i 2015. Problemet er ÖoB, den svenske kjeden som ble heleid i 2024. Den taper rundt 200 MNOK i året, og driftsmarginen i konsernet har falt fra 17,5 % i 2021 til 8,9 % i 2025. Hvis ÖoB når målet om 5 % margin innen 2028, kan resultatet per aksje stige med rundt 2 kr. Det er en reell mulighet, men den er ikke bevist.",
+   "nivaer": {
+    "kjop_under": 62,
+    "hold_over": 70,
+    "stress": 54,
+    "merknad": "Formel med E 5,30 kr, P/E ved salg 15, G 6 %, utbytte 4,5 % og n = 3. 62 kr gir 20 %, 70 kr gir 15 %. Stresstest: resultat 4,50 kr og P/E 12."
+   },
+   "nokkeltall": [
+    [
+     "Driftsmargin 2025",
+     "8,9 % (17,5 % i 2021)"
+    ],
+    [
+     "Resultat per aksje",
+     "4,97 kr (2025)"
+    ],
+    [
+     "P/E (12 mnd)",
+     "ca. 15,6"
+    ],
+    [
+     "Utbytte",
+     "3,75 kr (4,5 %)"
+    ],
+    [
+     "ÖoB EBIT H1 2026",
+     "−107 MNOK (−149)"
+    ],
+    [
+     "Markedsandel Norge",
+     "64 %"
+    ],
+    [
+     "Graham-screens",
+     "ca. 5 av 10"
+    ],
+    [
+     "Fair P/E (G = 6 %)",
+     "20,5"
+    ]
+   ],
+   "scenarier": [
+    [
+     "Svak",
+     "G 2 %",
+     "P/E 12",
+     -4
+    ],
+    [
+     "Basis",
+     "G 6 %",
+     "P/E 15",
+     9
+    ],
+    [
+     "Sterk",
+     "G 12 %",
+     "P/E 17",
+     21
+    ]
+   ],
+   "buffett": [
+    [
+     "Forståelig",
+     5,
+     "Lavprisvarehus"
+    ],
+    [
+     "Konkurransefortrinn",
+     4,
+     "Skala og innkjøpsmakt i Norge"
+    ],
+    [
+     "Stabil inntjening",
+     4,
+     "Lønnsom hvert år siden 2015"
+    ],
+    [
+     "Balanse",
+     3,
+     "Netto gjeld utenom leie ca. 1,6 mrd. kr"
+    ],
+    [
+     "Ledelse",
+     3,
+     "ÖoB-kjøpet har så langt kostet mer enn ventet"
+    ]
+   ],
+   "historikk": {
+    "tittel": "Resultat per aksje (kr)",
+    "data": [
+     [
+      "2016",
+      2.5
+     ],
+     [
+      "2018",
+      2.6
+     ],
+     [
+      "2020",
+      4.86
+     ],
+     [
+      "2021",
+      6.7
+     ],
+     [
+      "2022",
+      6.34
+     ],
+     [
+      "2023",
+      5.64
+     ],
+     [
+      "2024",
+      5.15
+     ],
+     [
+      "2025",
+      4.97
+     ]
+    ]
+   },
+   "nytt": [
+    "Q3-rapport 29. oktober",
+    "Rusta har økt markedsandelen fra 13 % til 18 % siden 2020",
+    "Dollarstore forlater Norge i 2026"
+   ],
+   "risiko": [
+    "ÖoB-snuoperasjonen kan ta lengre tid",
+    "Konkurranse fra Rusta, Jula og nettbutikker",
+    "Utdelingsgrad over utbyttepolitikken (75 % mot 50–60 %)"
+   ],
+   "kilder": [
+    [
+     "Europris Q2 2026",
+     "https://www.investing.com/news/company-news/europris-q2-2026-slides-h1-profit-surges-despite-softer-quarter-93CH-4783111"
+    ],
+    [
+     "Årsrapport 2025",
+     "https://s21.q4cdn.com/815767348/files/doc_financials/2025/ar/Europris-ASA-Annual-report-2025.pdf"
+    ],
+    [
+     "Kurs",
+     "https://finance.yahoo.com/quote/EPR.OL/"
+    ]
+   ],
+   "ai": {
+    "score": 0,
+    "tekst": "AI kan gi bedre prising og lagerstyring. Lavprishandel med fysiske varer er lite utsatt for AI, men nettaktører som Temu bruker AI aggressivt."
+   }
   }
  ],
  "screening": [
-  "Kid ASA: P/E ca. 19 (TTM), egenkapitalavkastning rundt 29 %, utbytte 5 kr i året. Utbyttet er høyere enn resultatet (utdelingsgrad over 100 %), så det må sjekkes om det er bærekraftig. Ikke kjøpskandidat ennå, full analyse når årsrapportene er hentet.",
-  "Europris: følges, ingen endring.",
-  "Sparebankene er ikke screenet ennå. Det er satt opp til neste uke."
+  "Kid og Europris er analysert fullt (se egne faner). Begge er gode selskaper, men gir bare 8–9 % i året til dagens kurs.",
+  "Sparebankene: ingen gir 15 % i året til dagens priser. Sektoren handles til 1,5–1,8 × bokført verdi, som er rundt rettferdig verdi. Best er SpareBank 1 Nord-Norge (ca. 12 %, ROE 16 %) og Sparebanken Norge (ca. 11–12 %, P/E 11, utbytte 6,4 %). For 15 % må kursene ned 35–40 %, for eksempel ved et børsfall.",
+  "Bankenes Q3 kommer 29.10 (SMN, Sør-Norge, Sparebanken Norge) og 4.11 (Østlandet).",
+  "Historikk lagt til denne uken: Nekkar 2016–2022, Borgestad 2017–2025, Protector 2013–2019, Logistea 2021–2025 og Medistim 2018–2021."
  ]
 }

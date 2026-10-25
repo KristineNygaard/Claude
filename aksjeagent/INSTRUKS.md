@@ -24,10 +24,12 @@ Newsweb (newsweb.oslobors.no) for børsmeldinger, selskapenes IR-sider, Inderes,
 
 ## A. Søndagsrapport (søndag ca. 20:00)
 
-### Neste uke (18.10)
-- Full analyse av Kid ASA og Europris. Screen sparebankene.
-- Verifiser FiiZK-omsetning og Nekkars historiske marginer, og kjør NKR-modellen på nytt.
-- Finn antall aksjer og segmentgjeld for Borgestad og lag sum av delene.
+### Neste uke (1.11)
+- Europris Q3 (29.10): ÖoB-resultat og marginen i Norge. Sparebankene SMN, Sør-Norge og Sparebanken Norge (29.10).
+- Bouvet Q3 (4.11) og Nekkar og Kid Q3 (5.11) kommer etter rapporten. Ta dem med uken etter.
+- Finn ferske kurser for Nekkar og Logistea (manglet denne uken). Oppdater Logistea NAV etter Q3.
+- Hent Medistim 2010–2017 og Protector ROE og bokført verdi per aksje fra årsrapportene.
+- Medistim: varsle hvis kursen går under 212 kr (ny kjøpsgrense).
 
 ### Spesialoppdrag søndag 11.10.2026 (UTFØRT, se analyser/BOUV-dypdykk.md)
 Grundig Bouvet-analyse:
@@ -38,7 +40,7 @@ Grundig Bouvet-analyse:
 5. Konklusjon med kjøpsnivåer.
 6. Bouvet oppfyller kriteriene for dypdykk (vektet DCF-oppside ca. 28 %). Gjør hele metode.md §10, og oppdater `modeller/BOUV.json` med verifiserte tall (netto kontanter, aksjeantall, dagens kurs, norsk 10-års rente).
 7. Lag modeller for de andre aksjene: Nekkar (DCF), Protector (P/B = (ROE − g)/(kE − g)), Logistea (NAV og rentesensitivitet), Borgestad (sum av delene).
-Medistim: varsle hvis kursen går under 220 kr (20 %-nivå). Kjøpsgrense etter DCF er 191,50 kr, og ta med Q3-rapporten 22.10 når den kommer.
+Medistim: varsle hvis kursen går under 212 kr (DCF minus 20 %, oppdatert 25.10).
 
 
 ### Steg 1: Registrer svar fra forrige uke

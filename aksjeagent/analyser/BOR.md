@@ -16,3 +16,8 @@ Se ukesrapporter/2026-10-07-test.md for scenarier og konklusjon.
 
 ## 2026-10-18
 - Bjuv: eiendomsverdi 145 MSEK (60/20/20 % over 24 mnd), regnskapsmessig gevinst ca. 102 MSEK ved gjennomføring i oktober.
+
+## 2026-10-25
+- Bjuv-salget (sale-leaseback) er gjennomført, melding 14.10. 60 % av 145 MSEK betales nå, 20 % etter 12 og 24 måneder. Gevinst ca. 102 MSEK i Q4.
+- Historikk 2017–2025 i data/BOR_historikk.csv: resultat før skatt negativt 2018 og 2020–2023, positivt 2024 (82,3) og 2025 (23,9). Utbytte 0,80 (2024) og 0,50 + 0,50 (2025).
+- Kurs 16,85 (21.10). SOTP vektet ca. 18,70. HOLD.
