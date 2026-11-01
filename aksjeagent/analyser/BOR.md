@@ -21,3 +21,8 @@ Se ukesrapporter/2026-10-07-test.md for scenarier og konklusjon.
 - Bjuv-salget (sale-leaseback) er gjennomført, melding 14.10. 60 % av 145 MSEK betales nå, 20 % etter 12 og 24 måneder. Gevinst ca. 102 MSEK i Q4.
 - Historikk 2017–2025 i data/BOR_historikk.csv: resultat før skatt negativt 2018 og 2020–2023, positivt 2024 (82,3) og 2025 (23,9). Utbytte 0,80 (2024) og 0,50 + 0,50 (2025).
 - Kurs 16,85 (21.10). SOTP vektet ca. 18,70. HOLD.
+
+## 2026-11-01 Q3 2026
+- Resultat før skatt 48,1 MNOK (47,0). Höganäs Borgestad omsetning 354,1 (333,3), EBIT 56,3 (49,6). Agora Bytom EBITDA 10,8 (10,3).
+- Utbytte 1,50 kr per aksje (tilbakebetaling av innbetalt kapital), ex 3.11, utbetaling ca. 6.11. 747 kr til Kristine.
+- SOTP etter utbytte ca. 17,20 kr. HOLD.

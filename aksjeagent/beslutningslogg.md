@@ -6,10 +6,16 @@ Ved kjøp eller salg skal `portefolje.json` oppdateres i samme commit.
 
 ---
 
+## 2026-11-01 Ukesrapport uke 44
+- Ingen svar fra Kristine på rapporten 25.10.
+- Anbefaling: ingen handling. Utbytte fra Borgestad (1,50 kr, 747 kr, ex 3.11) og Protector (90 kr) kommer ca. 5.–6.11. Kontanter da ca. 2 100 kr.
+- Protector-modellen rettet: bokført verdi 100,50 kr (ikke 92), ROE 32–44 % 2020–2025. Forventet ca. 13 % i året. Hold.
+- Kristines valg: venter på svar.
+
 ## 2026-10-25 Ukesrapport uke 43
 - Ingen svar fra Kristine på rapporten 18.10. Tolket som ingen handling.
 - Anbefaling: ingen handling. Protector Q3 sterkt (EPS 10,2, premier +41 % i lokal valuta), forventet ca. 12 % i året, hold. Medistim steg til 300 kr, ny kjøpsgrense 212 kr. Kid og Europris analysert, begge for dyre (8–9 % i året). Ingen sparebank gir 15 %.
-- Kristines valg: venter på svar.
+- Kristines valg: ingen svar (ingen handling).
 
 ## 2026-10-18 Ukesrapport uke 42
 - Anbefaling: ingen handling. Protector og Medistim vurderes etter Q3 (22. og 23.10).

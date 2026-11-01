@@ -24,12 +24,12 @@ Newsweb (newsweb.oslobors.no) for børsmeldinger, selskapenes IR-sider, Inderes,
 
 ## A. Søndagsrapport (søndag ca. 20:00)
 
-### Neste uke (1.11)
-- Europris Q3 (29.10): ÖoB-resultat og marginen i Norge. Sparebankene SMN, Sør-Norge og Sparebanken Norge (29.10).
-- Bouvet Q3 (4.11) og Nekkar og Kid Q3 (5.11) kommer etter rapporten. Ta dem med uken etter.
-- Finn ferske kurser for Nekkar og Logistea (manglet denne uken). Oppdater Logistea NAV etter Q3.
-- Hent Medistim 2010–2017 og Protector ROE og bokført verdi per aksje fra årsrapportene.
-- Medistim: varsle hvis kursen går under 212 kr (ny kjøpsgrense).
+### Neste uke (8.11)
+- Bouvet Q3 (3. eller 4.11): faktureringsgrad mot 77,9 % i Q1. Kjør BOUV-modellen på nytt.
+- Nekkar Q3 (5.11): ordreinngang, Syncrolift-margin og FiiZK-andel. Kjør NKR-modellen på nytt.
+- Kid Q3 (5.11): resultat, gjeld utenom IFRS 16 og utbytte.
+- Bekreft at utbytte fra Borgestad (747 kr) og Protector (90 kr) er mottatt, og oppdater kontantbeholdningen i portefolje.json når Kristine bekrefter.
+- Medistim: varsle hvis kursen går under 212 kr.
 
 ### Spesialoppdrag søndag 11.10.2026 (UTFØRT, se analyser/BOUV-dypdykk.md)
 Grundig Bouvet-analyse:

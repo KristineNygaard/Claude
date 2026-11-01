@@ -25,3 +25,10 @@ Se ukesrapporter/2026-10-07-test.md for scenarier og konklusjon.
 - P/B = (ROE − g)/(kE − g), BV ca. 92 kr, kE 9 %, g 4 %: svak (ROE 18 %) 258, basis (28 %) 442, sterk (35 %) 570. Vektet ca. 428.
 - Historikk 2013–2019 lagt i data/PROT_historikk.csv. 2018–19 hadde combined ratio 98,6 og 103,8 %, så stresstesten er realistisk.
 - Konklusjon: HOLD. Caset styrket (veksten er tilbake), men prisen gir under 15 %. Ikke salg etter §11 (intet alternativ med +10 pp, og tap mot GAV).
+
+## 2026-11-01 Rettelse av P/B-modellen
+- Bokført verdi per aksje 30.9.2026 er 100,50 kr (83,40). Mitt anslag forrige uke (92 kr) var for lavt. Etter utbytte 5 kr ca. 95,50 kr.
+- ROE: 2020 43,7 %, 2021 35,6 %, 2022 42,9 %, 2023 37,7 %, 2024 31,6 %, 2025 42,2 %, Q3 2026 annualisert 47,9 %. 2017 19,6 %, 2019 ca. 0 %.
+- Ny modell: ROE 20/30/38 % gir 306/497/649 kr. Vektet ca. 487 kr. Basis ROE 30 % antar at dagens nivå faller noe mot bransjen (Damodaran).
+- Formel med G 10 %: ca. 13 % i året ved 448 kr. 20 %-nivå 396, 15 %-nivå 433. Analytikere 465–600 kr (snitt 537).
+- Konklusjon: HOLD.

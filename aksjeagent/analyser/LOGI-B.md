@@ -21,3 +21,7 @@ Se ukesrapporter/2026-10-07-test.md for scenarier og konklusjon.
 - Portefølje over 20 mrd. SEK etter Velux-avtalen. Nordea kursmål 17 SEK, Pareto og SB1 18 SEK.
 - Historikk 2021–2025 (NAV, belåning, rentedekning) i data/LOGI_historikk.csv. NAV per aksje 11,8 → 16,6 SEK på fire år.
 - Kurs: 12,92 SEK 14.10 (gammel). Konklusjon: HOLD.
+
+## 2026-11-01
+- EPRA NRV 18,80 SEK per aksje 30.9.2026 (+14 %). Belåningsgrad ca. 52 % (48 %). Nordika eier 22,6 % etter kjøp for 517 MSEK.
+- NAV-modell: 11,00 / 16,50 / 19,90, vektet ca. 16,00 SEK. Kjøp under 12,80. Kurs 13,58 (28.10). HOLD.

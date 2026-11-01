@@ -16,3 +16,12 @@ Metode: rettferdig P/B = (ROE − g)/(kE − g) med kE 10 %, g 3 %. Forventet av
 Kurser fra 6.–22.10, flere usikre. Bokført verdi delvis anslått.
 
 **Konklusjon:** sektoren er rettferdig priset. Avkastningen 2016–2025 kom i stor grad fra at P/B steg fra 0,8–1,0. Den medvinden er brukt opp. For 15 % i året trengs P/B ≤ (ROE − 3)/12: NONG ca. 98, SBNOR ca. 114, MING ca. 125, DNB ca. 185. Ingen kandidat nå. Q3: SMN, SB1NO, SBNOR 29.10, SPOL 4.11.
+
+## 2026-11-01 Q3 2026
+| Bank | Kurs 30.10 | ROE Q3 | Bokført verdi | P/B | Forv. avk./år |
+|---|---|---|---|---|---|
+| SMN | 216,15 | 12,4 % (9M 13,2 %) | 135,18 | 1,60 | ca. 9,7 % |
+| Sør-Norge | 231,50 | 13,2 % | ca. 138 | ca. 1,68 | ca. 10 % |
+| Sparebanken Norge | 201,50 | 12,7 % | ca. 115 | ca. 1,75 | ca. 9,5 % |
+| Nord-Norge | ca. 176 (26.10) | 9M 16 % | ca. 89 | ca. 2,0 | ca. 10 % |
+Konklusjon uendret: ingen kandidat.

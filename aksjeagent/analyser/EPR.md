@@ -12,3 +12,7 @@
 **Verdsettelse:** kurs 82,80 (23.10). P/E 12 mnd ca. 15,6, utbytte 4,5 %. Formel (E 5,30, P/E 15, G 6 %, n 3): ca. 9 % i året. 20 %-nivå 62 kr, 15 %-nivå 70 kr. Stress 54 kr. Graham ca. 5/10. Buffett 19/25. Analytikere 102–110 kr.
 
 **Konklusjon:** FØLG MED. Bedre selskap enn Kid, men ÖoB-risikoen og prisen gir under kravet. Q3 29.10.
+
+## 2026-11-01 Q3 2026
+- Salg 3 473 MNOK (−1,6 %), bruttomargin 42,0 % (+1,3 pp), EBIT 244 (256), EPS 0,79 (0,94). Kjeden LFL −0,1 %. ÖoB EBIT ca. −50 MNOK.
+- Kurs 79,60 (30.10), laveste på ett år. EPS 12 mnd ca. 5,15. Ca. 10 % i året. Kjøp under 60, 15 %-nivå 68. FØLG MED.
