@@ -1,7 +1,7 @@
 {
  "konto": "Aksjesparekonto (ASK)",
- "sist_oppdatert": "2026-10-13",
- "kilde": "Skjermbilde transaksjoner 13.10.2026",
+ "sist_oppdatert": "2026-11-08",
+ "kilde": "Kristine 8.11.2026 (kontanter etter utbytte fra Borgestad og Protector)",
  "planlagt_holdetid_eksisterende": "1-2 år",
  "investeringshorisont_nye_kjop": "2-3 år",
  "avkastningskrav_aarlig": [
@@ -9,7 +9,7 @@
   0.2
  ],
  "nytt_kapital_per_maaned_nok": 2000,
- "kontantbeholdning_nok": 1298.78,
+ "kontantbeholdning_nok": 2670.0,
  "beholdning": [
   {
    "navn": "Borgestad",

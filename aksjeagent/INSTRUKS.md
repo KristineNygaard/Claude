@@ -28,7 +28,7 @@ Newsweb (newsweb.oslobors.no) for børsmeldinger, selskapenes IR-sider, Inderes,
 - Nekkar: finn verdien på USA-kontrakten og om kunden er marinen. Sjekk kursen mot toppscenarioet 19,50 kr. Over det: anbefal å vurdere salg av en del (§11).
 - Bouvet: finn eksakt faktureringsgrad for Q3 2026.
 - Kid: netto gjeld utenom IFRS 16 etter Q3.
-- Spør Kristine om utbyttene fra Borgestad og Protector er mottatt, og oppdater kontanter i portefolje.json når hun bekrefter.
+- Kontanter bekreftet 2 670 kr (8.11). Kjøp vurderes først ved ca. 5 000 kr.
 - Medistim: varsle hvis kursen går under 212 kr.
 - Hverdagssjekk: varsle Kristine (PushNotification) hvis Nekkar lukker over 19,50 kr. Det er et §11-signal, ikke et hastesalg.
 
