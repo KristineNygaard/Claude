@@ -1,10 +1,10 @@
 {
  "ticker": "BOUV",
- "kurs": 52.0,
- "kursdato": "28.10.2026",
+ "kurs": 49.2,
+ "kursdato": "6.11.2026 (49,90 5.11 minus utbytte 0,70)",
  "kilde": "Årsresultat 2025 (13.02.2026), Q2 2026 (19.08.2026). Netto kontanter anslått: 672 MNOK ved årsskiftet minus utbytte ca. 310 MNOK og tilbakekjøp ca. 50 MNOK.",
  "omsetning": 3880,
- "margin_naa": 0.122,
+ "margin_naa": 0.115,
  "skatt": 0.22,
  "sales_to_capital": 5.0,
  "roic_terminal": 0.25,

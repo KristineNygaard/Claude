@@ -1,250 +1,250 @@
 {
  "ticker": "NKR",
- "kurs": 16.45,
+ "kurs": 18.45,
  "wacc": 9.7,
  "ke": 9.7,
  "scenarier": {
   "Svak": {
    "per_aksje": 6.1,
-   "oppside_pct": -62.8,
-   "sannsynlighet": 0.3,
+   "oppside_pct": -66.9,
+   "sannsynlighet": 0.2,
    "andel_terminal_pct": 54,
-   "beskrivelse": "Syncrolift-nybygg uteblir, Techano og FiiZK går i null. EBIT-margin 8 %.",
+   "beskrivelse": "USA-kontrakten gir lav margin, og resten av Syncrolift og Techano går i null. EBIT-margin 8 %.",
    "rader": [
     {
      "aar": 1,
-     "omsetning": 711,
+     "omsetning": 742,
      "vekst": 3.0,
      "margin": 3.5,
-     "fcff": 11
+     "fcff": 12
     },
     {
      "aar": 2,
-     "omsetning": 732,
+     "omsetning": 764,
      "vekst": 3.0,
      "margin": 5.0,
-     "fcff": 20
+     "fcff": 21
     },
     {
      "aar": 3,
-     "omsetning": 754,
+     "omsetning": 787,
      "vekst": 3.0,
      "margin": 6.5,
-     "fcff": 29
+     "fcff": 31
     },
     {
      "aar": 4,
-     "omsetning": 777,
-     "vekst": 3.0,
-     "margin": 8.0,
-     "fcff": 39
-    },
-    {
-     "aar": 5,
-     "omsetning": 800,
+     "omsetning": 810,
      "vekst": 3.0,
      "margin": 8.0,
      "fcff": 41
     },
     {
-     "aar": 6,
-     "omsetning": 822,
-     "vekst": 2.8,
+     "aar": 5,
+     "omsetning": 835,
+     "vekst": 3.0,
      "margin": 8.0,
      "fcff": 42
     },
     {
-     "aar": 7,
-     "omsetning": 844,
-     "vekst": 2.6,
+     "aar": 6,
+     "omsetning": 858,
+     "vekst": 2.8,
      "margin": 8.0,
      "fcff": 44
     },
     {
-     "aar": 8,
-     "omsetning": 864,
-     "vekst": 2.4,
+     "aar": 7,
+     "omsetning": 880,
+     "vekst": 2.6,
      "margin": 8.0,
      "fcff": 46
     },
     {
+     "aar": 8,
+     "omsetning": 901,
+     "vekst": 2.4,
+     "margin": 8.0,
+     "fcff": 48
+    },
+    {
      "aar": 9,
-     "omsetning": 883,
+     "omsetning": 921,
      "vekst": 2.2,
      "margin": 8.0,
-     "fcff": 47
+     "fcff": 50
     },
     {
      "aar": 10,
-     "omsetning": 901,
+     "omsetning": 940,
      "vekst": 2.0,
      "margin": 8.0,
-     "fcff": 49
+     "fcff": 51
     }
    ]
   },
   "Basis": {
-   "per_aksje": 11.7,
-   "oppside_pct": -29.0,
+   "per_aksje": 12.0,
+   "oppside_pct": -35.1,
    "sannsynlighet": 0.5,
    "andel_terminal_pct": 58,
    "beskrivelse": "Tilbake til 2023–2024-nivå: EBIT-margin ca. 14 % (EBITDA 17–18 %). Ordrereserven gir vekst.",
    "rader": [
     {
      "aar": 1,
-     "omsetning": 773,
-     "vekst": 12.0,
+     "omsetning": 828,
+     "vekst": 15.0,
      "margin": 5.0,
-     "fcff": -3
+     "fcff": -11
     },
     {
      "aar": 2,
-     "omsetning": 850,
-     "vekst": 10.0,
+     "omsetning": 927,
+     "vekst": 12.0,
      "margin": 8.0,
-     "fcff": 22
+     "fcff": 18
     },
     {
      "aar": 3,
-     "omsetning": 918,
+     "omsetning": 1002,
      "vekst": 8.0,
      "margin": 11.0,
-     "fcff": 52
+     "fcff": 56
     },
     {
      "aar": 4,
-     "omsetning": 973,
+     "omsetning": 1062,
      "vekst": 6.0,
-     "margin": 14.0,
-     "fcff": 84
-    },
-    {
-     "aar": 5,
-     "omsetning": 1022,
-     "vekst": 5.0,
      "margin": 14.0,
      "fcff": 92
     },
     {
+     "aar": 5,
+     "omsetning": 1115,
+     "vekst": 5.0,
+     "margin": 14.0,
+     "fcff": 100
+    },
+    {
      "aar": 6,
-     "omsetning": 1068,
+     "omsetning": 1165,
      "vekst": 4.5,
      "margin": 14.0,
-     "fcff": 98
+     "fcff": 107
     },
     {
      "aar": 7,
-     "omsetning": 1111,
+     "omsetning": 1211,
      "vekst": 4.0,
      "margin": 14.0,
-     "fcff": 104
+     "fcff": 114
     },
     {
      "aar": 8,
-     "omsetning": 1149,
+     "omsetning": 1254,
      "vekst": 3.5,
      "margin": 14.0,
-     "fcff": 110
+     "fcff": 120
     },
     {
      "aar": 9,
-     "omsetning": 1184,
+     "omsetning": 1292,
      "vekst": 3.0,
      "margin": 14.0,
-     "fcff": 115
+     "fcff": 126
     },
     {
      "aar": 10,
-     "omsetning": 1213,
+     "omsetning": 1324,
      "vekst": 2.5,
      "margin": 14.0,
-     "fcff": 121
+     "fcff": 132
     }
    ]
   },
   "Sterk": {
-   "per_aksje": 19.6,
-   "oppside_pct": 19.0,
-   "sannsynlighet": 0.2,
+   "per_aksje": 19.5,
+   "oppside_pct": 5.6,
+   "sannsynlighet": 0.3,
    "andel_terminal_pct": 59,
    "beskrivelse": "Ny toppsyklus for Syncrolift som i de beste årene (EBITDA ca. 25–30 %). EBIT-margin 20 %.",
    "rader": [
     {
      "aar": 1,
-     "omsetning": 828,
+     "omsetning": 864,
      "vekst": 20.0,
      "margin": 6.5,
-     "fcff": -13
+     "fcff": -14
     },
     {
      "aar": 2,
-     "omsetning": 960,
+     "omsetning": 1002,
      "vekst": 16.0,
      "margin": 11.0,
-     "fcff": 29
+     "fcff": 31
     },
     {
      "aar": 3,
-     "omsetning": 1076,
+     "omsetning": 1123,
      "vekst": 12.0,
      "margin": 15.5,
-     "fcff": 84
+     "fcff": 88
     },
     {
      "aar": 4,
-     "omsetning": 1162,
+     "omsetning": 1212,
      "vekst": 8.0,
      "margin": 20.0,
-     "fcff": 147
+     "fcff": 153
     },
     {
      "aar": 5,
-     "omsetning": 1232,
+     "omsetning": 1285,
      "vekst": 6.0,
      "margin": 20.0,
-     "fcff": 164
+     "fcff": 171
     },
     {
      "aar": 6,
-     "omsetning": 1298,
+     "omsetning": 1354,
      "vekst": 5.4,
      "margin": 20.0,
-     "fcff": 176
+     "fcff": 184
     },
     {
      "aar": 7,
-     "omsetning": 1360,
+     "omsetning": 1419,
      "vekst": 4.8,
      "margin": 20.0,
-     "fcff": 187
+     "fcff": 195
     },
     {
      "aar": 8,
-     "omsetning": 1417,
+     "omsetning": 1479,
      "vekst": 4.2,
      "margin": 20.0,
-     "fcff": 198
+     "fcff": 207
     },
     {
      "aar": 9,
-     "omsetning": 1468,
+     "omsetning": 1532,
      "vekst": 3.6,
      "margin": 20.0,
-     "fcff": 209
+     "fcff": 218
     },
     {
      "aar": 10,
-     "omsetning": 1513,
+     "omsetning": 1578,
      "vekst": 3.0,
      "margin": 20.0,
-     "fcff": 218
+     "fcff": 228
     }
    ]
   }
  },
- "vektet_verdi": 11.6,
- "vektet_oppside_pct": -29.5,
- "kjop_under_mos": 8.1,
+ "vektet_verdi": 13.1,
+ "vektet_oppside_pct": -29.2,
+ "kjop_under_mos": 9.1,
  "sikkerhetsmargin_pct": 30,
  "sensitivitet": {
   "wacc": [
@@ -261,27 +261,27 @@
   ],
   "verdi": [
    [
-    13.1,
-    12.2,
-    11.4,
-    10.8,
-    10.2
-   ],
-   [
-    13.5,
+    13.4,
     12.5,
     11.7,
-    10.9,
-    10.3
+    11.0,
+    10.4
    ],
    [
-    14.1,
+    13.9,
     12.9,
     12.0,
-    11.1,
-    10.4
+    11.2,
+    10.5
+   ],
+   [
+    14.5,
+    13.3,
+    12.3,
+    11.4,
+    10.7
    ]
   ]
  },
- "omvendt_dcf_vekst_pct": 16.0
+ "omvendt_dcf_vekst_pct": 18.8
 }

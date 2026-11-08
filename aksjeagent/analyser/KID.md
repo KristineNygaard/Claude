@@ -16,3 +16,7 @@
 **Verdsettelse:** kurs 136 (21.10). P/E 12 mnd ca. 21. Formel (E 8 kr 2026E, P/E 16, G 6 %, utbytte 3,7 %, n 3): ca. 8 % i året. 20 %-nivå 97 kr, 15 %-nivå 111 kr. Stress 73 kr. Graham ca. 4/10. Buffett 16/25.
 
 **Konklusjon:** FØLG MED. Godt drevet, men for dyr og økende gjeld.
+
+## 2026-11-08 Q3 2026
+- Omsetning 1 012,7 MNOK, bruttomargin 62,3 %, EBITDA 283,5 (204,7), EPS 2,35 (0,98), over konsensus ca. 1,75. Fjorårets kvartal hadde ca. 50 MNOK engangskostnader. Halvårsutbytte 2,75 kr. Nettsalg −4 %.
+- Kurs 137 (5.11). EPS 12 mnd ca. 7,70, P/E ca. 17,7. Ca. 8 % i året. Kjøp under 97. FØLG MED.

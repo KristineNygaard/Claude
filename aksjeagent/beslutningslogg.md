@@ -6,11 +6,17 @@ Ved kjøp eller salg skal `portefolje.json` oppdateres i samme commit.
 
 ---
 
+## 2026-11-08 Ukesrapport uke 45
+- Ingen svar fra Kristine på rapporten 1.11.
+- Anbefaling: ingen handling. Nekkar: rekordkontrakt for Syncrolift i USA (over 800 MNOK), kurs ca. 18,45 nær toppscenarioet 19,50. Vurder å selge en del over 19,50 (§11).
+- Utbytte fra Borgestad (747 kr) og Protector (90 kr) skal være utbetalt. Kontanter ca. 2 136 kr, venter på bekreftelse fra Kristine før portefolje.json oppdateres.
+- Kristines valg: venter på svar.
+
 ## 2026-11-01 Ukesrapport uke 44
 - Ingen svar fra Kristine på rapporten 25.10.
 - Anbefaling: ingen handling. Utbytte fra Borgestad (1,50 kr, 747 kr, ex 3.11) og Protector (90 kr) kommer ca. 5.–6.11. Kontanter da ca. 2 100 kr.
 - Protector-modellen rettet: bokført verdi 100,50 kr (ikke 92), ROE 32–44 % 2020–2025. Forventet ca. 13 % i året. Hold.
-- Kristines valg: venter på svar.
+- Kristines valg: ingen svar (ingen handling).
 
 ## 2026-10-25 Ukesrapport uke 43
 - Ingen svar fra Kristine på rapporten 18.10. Tolket som ingen handling.

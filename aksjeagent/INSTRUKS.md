@@ -24,12 +24,13 @@ Newsweb (newsweb.oslobors.no) for børsmeldinger, selskapenes IR-sider, Inderes,
 
 ## A. Søndagsrapport (søndag ca. 20:00)
 
-### Neste uke (8.11)
-- Bouvet Q3 (3. eller 4.11): faktureringsgrad mot 77,9 % i Q1. Kjør BOUV-modellen på nytt.
-- Nekkar Q3 (5.11): ordreinngang, Syncrolift-margin og FiiZK-andel. Kjør NKR-modellen på nytt.
-- Kid Q3 (5.11): resultat, gjeld utenom IFRS 16 og utbytte.
-- Bekreft at utbytte fra Borgestad (747 kr) og Protector (90 kr) er mottatt, og oppdater kontantbeholdningen i portefolje.json når Kristine bekrefter.
+### Neste uke (15.11)
+- Nekkar: finn verdien på USA-kontrakten og om kunden er marinen. Sjekk kursen mot toppscenarioet 19,50 kr. Over det: anbefal å vurdere salg av en del (§11).
+- Bouvet: finn eksakt faktureringsgrad for Q3 2026.
+- Kid: netto gjeld utenom IFRS 16 etter Q3.
+- Spør Kristine om utbyttene fra Borgestad og Protector er mottatt, og oppdater kontanter i portefolje.json når hun bekrefter.
 - Medistim: varsle hvis kursen går under 212 kr.
+- Hverdagssjekk: varsle Kristine (PushNotification) hvis Nekkar lukker over 19,50 kr. Det er et §11-signal, ikke et hastesalg.
 
 ### Spesialoppdrag søndag 11.10.2026 (UTFØRT, se analyser/BOUV-dypdykk.md)
 Grundig Bouvet-analyse:
