@@ -6,6 +6,11 @@ Ved kjøp eller salg skal `portefolje.json` oppdateres i samme commit.
 
 ---
 
+## 2026-11-11 Nekkar over toppscenarioet
+- Kristine: Nekkar koster 19,70 kr. Det er over toppscenarioet i DCF (19,50 kr), så §11 sier at salg av en del bør vurderes.
+- Anbefaling: selg ca. en tredjedel (215 av 646 aksjer) med kursgrense 19,50 kr, behold resten for USA-kontrakten. Ca. 4 200 kr frigjøres, kontanter da ca. 6 900 kr.
+- Kristines valg: venter på svar.
+
 ## 2026-11-08 Ukesrapport uke 45
 - Ingen svar fra Kristine på rapporten 1.11.
 - Anbefaling: ingen handling. Nekkar: rekordkontrakt for Syncrolift i USA (over 800 MNOK), kurs ca. 18,45 nær toppscenarioet 19,50. Vurder å selge en del over 19,50 (§11).
